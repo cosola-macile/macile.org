@@ -11,6 +11,8 @@ export const config = {
     views: [
       {tpl: `home`, name: `home`},
       {tpl: `example`, name: `example`},
+      {tpl: `programs`, name: `programs`},
+
     ],
   },
   es: {
@@ -20,6 +22,8 @@ export const config = {
     views: [
       {tpl: `home`, name: `inicio`},
       {tpl: `example`, name: `ejemplo`},
+      {tpl: `programs`, name: `programas`},
+
     ],
   },
 };

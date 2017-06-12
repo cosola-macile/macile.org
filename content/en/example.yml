@@ -1,0 +1,40 @@
+en:
+  example:
+    -
+      event: CSSCONF EU 2015
+      event_url: "http://2015.cssconf.eu/"
+      date:
+      title: "The Front-End Revolution"
+      lead_image: "/assets/img/cs-speaking.jpg"
+      lead_caption: "By Great Amazing Photographer"
+      type:
+      media_type:
+      media_url: "https://www.youtube.com/watch?v=0gpraHLQ0L0"
+    -
+      event: CSSCONF AU 2015
+      event_url: ""
+      date:
+      title: "It's about Systems"
+      lead_image: "/assets/img/cs-speaking.jpg"
+      lead_caption: "By Great Amazing Photographer"
+      type: talk
+      media_type:
+      media_url: "https://www.youtube.com/watch?v=AcpdBjTW9xc"
+    -
+      event: CSSCONF Oakland
+      event_url: ""
+      date:
+      title: "The Front-End Revolution"
+      lead_image: "/assets/img/cs-speaking.jpg"
+      lead_caption: "By Great Amazing Photographer"
+      type:
+      media_type:
+      media_url: "https://www.youtube.com/watch?v=UbIQgDLXzII"
+    -
+      event: DjangoCon EU
+      event_url: "https://2016.djangocon.eu/speakers/25"
+      date: 30 March 2016
+      title: "Keynote: The Front-End Revolution"
+      type:
+      media_type:
+      media_url: "http://pyvideo.org/djangocon-europe-2016/the-front-end-revolution.html"

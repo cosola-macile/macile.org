@@ -1,0 +1,23 @@
+.site-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-nav {
+  border-bottom: 1px solid lightgrey;
+  padding: 1em 0.5em;
+}
+
+.site-main {
+  flex: 1;
+}
+
+.constrainer {
+  width: 60em;
+  margin: 0 auto;
+}
+
+.section-hero {
+  background: lightgrey;
+  padding: 10rem 5rem;
+}

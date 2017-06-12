@@ -1,0 +1,21 @@
+/**
+ * @file Footer
+ * @module Footer
+ * @overview Standard site footer
+ */
+
+.site-footer {
+  color: color(background);
+  background-color: color(primary);
+  overflow: hidden; // Remove space below footer in IE 10/11
+}
+
+.site-footer-top {
+  padding: ms(5) ms(4) ms(1);
+  background-color: color(primary);
+}
+
+.site-footer-bottom {
+  background-color: color(dark-blue);
+  padding: 0 ms(5) ms(-2);
+}

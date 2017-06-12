@@ -1,0 +1,11 @@
+# Content for site
+# Content appears in the order of page layout
+
+en:
+  home:
+    page_title: "MACILE"
+    page_description: "MACILE en Español"
+    meta_social_image:
+
+    headline: Hello, World :)
+    intro: Homepage

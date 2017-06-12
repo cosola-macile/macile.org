@@ -1,0 +1,15 @@
+{% macro example_item(data, class=null, id=null) %}
+  <article class="event block-item{% if class %} {{ class }}{% endif %}"{% if id %} id="{{ id }}"{% endif %}>
+    <figure>
+      <img src="{{ data.lead_image}}">
+      <!-- <figcapiton>{{ data.lead_caption }}</figcapiton> -->
+    </figure>
+    <h3 class="event-heading">
+      <a href="{{ data.event_url }}">
+        {{ data.event }}
+      </a>
+    </h3>
+    <h4 class="event-title">{{ data.title }}</h4>
+    <p class="event-date">{{ data.date }}</p>
+  </article>
+{% endmacro %}

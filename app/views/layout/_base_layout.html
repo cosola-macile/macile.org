@@ -1,0 +1,48 @@
+{% set page_title = data.page_title or page_title %}
+{% set page_description = data.page_description or page_description %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <title>{% block title %}{{ page_title }} | MACILE{% endblock %}</title>
+
+  {# All Preconnect assets #}
+  <link rel="preconnect" href="//s3.amazonaws.com/" crossorigin>
+
+  <meta name="description" content="{{ page_description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% if meta_noindex %}
+    <meta name="robots" content="noindex">
+  {% endif %}
+
+  {% if meta_social_image %}
+    <meta content="{{ data.meta_social_image }}" property="og:image">
+    <meta content="{{ data.meta_social_image }}" property="og:image:secure_url">
+  {% endif %}
+
+  {% block meta_tags %}{% endblock %}
+
+  <script src="//cdn.polyfill.io/v2/polyfill.min.js?features=default,matchMedia,Symbol,Symbol.iterator,Symbol.species&flags=gated"></script>
+
+  {% if favicon_path %}
+  <link rel="icon" type="image/x-icon" href="{{ favicon_path }}">
+  {% endif %}
+
+  {% block base_styles %}
+    <link href="/assets/css/site.css" media="screen" rel="stylesheet">
+  {% endblock %}
+
+  {% block page_styles %}{% endblock %}
+
+</head>
+
+  <body class="{{ body_classes }}">
+    <div class="site-container">
+      {% block body_content %}{% endblock %}
+    </div>
+    {% block scripts %}{% endblock %}
+  </body>
+
+</html>

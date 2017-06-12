@@ -1,0 +1,26 @@
+{% extends "layout/_base_layout.html" %}
+
+{% set meta_noindex = true %}
+
+{% block body_content %}
+<nav class="site-nav">
+  <div class="nav-wrapper container-wrapper">
+    <a href="/es/es/inicio">ES</a>
+    <a href="/en/en/home">EN</a>
+  </div>
+</nav>
+
+<main role="main"  class="site-main">
+  <header class="section-hero">
+    <h1>{{ data.headline }}</h1>
+  </header>
+
+  {% block page_content %}
+  {% endblock %}
+</main>
+
+<footer class="site-footer">
+  <p>&copy; COSOLA MACILE</p>
+</footer>
+
+{% endblock %}

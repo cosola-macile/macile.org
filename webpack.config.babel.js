@@ -29,12 +29,8 @@ export default {
     modules: [
       `./node_modules`,
       `./app/assets/js`,
-      `./node_modules/@casper/nightshade-core/src`,
-      `./node_modules/@casper/nightshade-icons/dist`,
     ],
     alias: {
-      waypoints: `waypoints/lib/noframework.waypoints.min.js`,
-      imgix: `imgix.js`,
       feature: `feature/index.js`,
     },
   },

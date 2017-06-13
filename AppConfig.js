@@ -12,6 +12,7 @@ export const config = {
       {tpl: `home`, name: `home`},
       {tpl: `example`, name: `example`},
       {tpl: `donate`, name: `donate`}
+      {tpl: `programs`, name: `example`},
     ],
   },
   es: {
@@ -22,6 +23,7 @@ export const config = {
       {tpl: `home`, name: `inicio`},
       {tpl: `example`, name: `ejemplo`},
       {tpl: `donate`, name: `donar`}
+      {tpl: `programs`, name: `programas`},
     ],
   },
 };

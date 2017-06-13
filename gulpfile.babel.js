@@ -271,7 +271,7 @@ gulp.task(`serve`, () => {
       res.setHeader(`Access-Control-Allow-Origin`, `*`);
 
       if (req.url === '/') {
-        req.url = '/en/en/home.html';
+        req.url = '/en/home/index.html';
       };
 
       return next();

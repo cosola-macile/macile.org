@@ -103,39 +103,56 @@ gulp.task(`images`, () => {
 });
 
 /**
- * Compiles Sass to CSS. Applies vendor prefixes with autoprefixer.
- * If build, minifies and revisions CSS files.
- * @see browserslist
+ * Convert PostCSS to CSS
  *
 */
-// gulp.task(`styles`, () => {
-//   return gulp.src([
-//     `app/assets/styles/**/*.scss`,
-//     `app/views/**/*.scss`,
-//   ])
-//     .pipe($.rename({dirname: ``}))
-//     .pipe($.sourcemaps.init())
-//     .pipe($.sass().on(`error`, $.sass.logError))
-//     .pipe($.autoprefixer())
-//     .pipe($.if(!build, $.sourcemaps.write(`maps`)))
-//     .pipe($.size({
-//       title: `styles`,
-//       showFiles: true,
-//     }))
-//     .pipe(gulp.dest(paths.css))
+const postimport = require(`postcss-import`)({
+  path: [`./app/assets`, `./app/`]
+});
+const postcustom = require(`postcss-custom-properties`);
+const postcalc = require(`postcss-calc`);
+const postmedia = require(`postcss-custom-media`);
+const postmodular = require(`postcss-modular-scale`);
+const postnested = require(`postcss-nested`);
+const autoprefixer = require(`autoprefixer`);
 
-//     .pipe($.if(build, pumpify.obj(
-//       $.cssnano(),
-//       $.size({
-//         title: `styles:optimized`,
-//         showFiles: true,
-//       }),
-//       $.rev(),
-//       gulp.dest(paths.cssDist),
-//       $.rev.manifest(`rev-manifest-css.json`),
-//       gulp.dest(paths.manifests)
-//     )));
-// });
+const postplugins = [
+  postimport,
+  postcustom,
+  postcalc,
+  postmedia,
+  postmodular,
+  postnested,
+  autoprefixer
+];
+
+gulp.task(`styles`, () => {
+  return gulp.src([
+    `app/assets/styles/**/*.css`,
+    `app/views/**/*.css`,
+  ])
+    .pipe($.rename({dirname: ``}))
+    .pipe($.sourcemaps.init())
+    .pipe($.postcss(postplugins))
+    .pipe($.if(!build, $.sourcemaps.write(`maps`)))
+    .pipe($.size({
+      title: `styles`,
+      showFiles: true,
+    }))
+    .pipe(gulp.dest(paths.css))
+
+    .pipe($.if(build, pumpify.obj(
+      $.cssnano(),
+      $.size({
+        title: `styles:optimized`,
+        showFiles: true,
+      }),
+      $.rev(),
+      gulp.dest(paths.cssDist),
+      $.rev.manifest(`rev-manifest-css.json`),
+      gulp.dest(paths.manifests)
+    )));
+});
 
 /**
  * Transpile ES and bundle scripts

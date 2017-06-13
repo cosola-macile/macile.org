@@ -10,6 +10,7 @@ export const i18n = {
       {view: `programs`, path: `/programs`},
       {view: `about`, path: `/about`},
       {view: `becas`, path: `/scholarships`},
+      {view: `news`, path: `/news`},
     ],
   },
   es: {
@@ -23,6 +24,7 @@ export const i18n = {
       {view: `programs`, path: `/programas`},
       {view: `about`, path: `/sobre`},
       {view: `becas`, path: `/becas`},
+      {view: `news`, path: `/noticias`},
     ],
   },
 };

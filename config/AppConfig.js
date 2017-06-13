@@ -1,6 +1,5 @@
 export const debug = {
   appName: `macile.org`,
-}
 };
 
 export const paths = {

@@ -1,6 +1,15 @@
+/**
+ * @file Site Layout
+ * @module site
+ * @overview Simple site layout
+ * @todo Normalize naming site vs page
+ */
+
+
 .site-container {
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 
 .site-nav {

@@ -246,6 +246,17 @@ gulp.task(`html:optimize`, () => {
   .pipe(gulp.dest(`dist`));
 });
 
+gulp.task(`html:update`, (cb) => {
+  $.runSequence(
+    `data`,
+    `html`,
+     cb);
+});
+
+gulp.task(`html:watch`, [`html`], (cb) => {
+  browserSync.reload();
+  cb();
+});
 
 gulp.task(`serve`, () => {
   browserSync.init({
@@ -280,11 +291,11 @@ gulp.task(`serve`, () => {
   gulp.watch([
     `app/views/**/*.{html,md}`,
     `app/modules/**/*.{html,md}`,
-  ], [`html`]).on(`change`, reload);
+  ], [`html:watch`]);
 
   gulp.watch([
     `content/**/*.yml`,
-  ], [`data`]);
+  ], [`data-update`]).on(`change`, reload);
 });
 
 gulp.task(`serve:dist`, () => {

@@ -11,7 +11,8 @@ import pngquant from 'imagemin-pngquant';
 import pumpify from 'pumpify';
 import webpack from 'webpack';
 
-import { paths, config, servers, debug } from './AppConfig.js';
+import { paths, servers, debug } from './config/AppConfig.js';
+import { i18n } from './config/i18n.js';
 import webpackConfig from './webpack.config.babel.js';
 
 const $ = require(`gulp-load-plugins`)({
@@ -103,39 +104,56 @@ gulp.task(`images`, () => {
 });
 
 /**
- * Compiles Sass to CSS. Applies vendor prefixes with autoprefixer.
- * If build, minifies and revisions CSS files.
- * @see browserslist
+ * Convert PostCSS to CSS
  *
 */
-// gulp.task(`styles`, () => {
-//   return gulp.src([
-//     `app/assets/styles/**/*.scss`,
-//     `app/views/**/*.scss`,
-//   ])
-//     .pipe($.rename({dirname: ``}))
-//     .pipe($.sourcemaps.init())
-//     .pipe($.sass().on(`error`, $.sass.logError))
-//     .pipe($.autoprefixer())
-//     .pipe($.if(!build, $.sourcemaps.write(`maps`)))
-//     .pipe($.size({
-//       title: `styles`,
-//       showFiles: true,
-//     }))
-//     .pipe(gulp.dest(paths.css))
+const postimport = require(`postcss-import`)({
+  path: [`./app/assets`, `./app/`]
+});
+const postcustom = require(`postcss-custom-properties`);
+const postcalc = require(`postcss-calc`);
+const postmedia = require(`postcss-custom-media`);
+const postmodular = require(`postcss-modular-scale`);
+const postnested = require(`postcss-nested`);
+const autoprefixer = require(`autoprefixer`);
 
-//     .pipe($.if(build, pumpify.obj(
-//       $.cssnano(),
-//       $.size({
-//         title: `styles:optimized`,
-//         showFiles: true,
-//       }),
-//       $.rev(),
-//       gulp.dest(paths.cssDist),
-//       $.rev.manifest(`rev-manifest-css.json`),
-//       gulp.dest(paths.manifests)
-//     )));
-// });
+const postplugins = [
+  postimport,
+  postcustom,
+  postcalc,
+  postmedia,
+  postmodular,
+  postnested,
+  autoprefixer
+];
+
+gulp.task(`styles`, () => {
+  return gulp.src([
+    `app/assets/styles/**/*.css`,
+    `app/views/**/*.css`,
+  ])
+    .pipe($.rename({dirname: ``}))
+    .pipe($.sourcemaps.init())
+    .pipe($.postcss(postplugins))
+    .pipe($.if(!build, $.sourcemaps.write(`maps`)))
+    .pipe($.size({
+      title: `styles`,
+      showFiles: true,
+    }))
+    .pipe(gulp.dest(paths.css))
+
+    .pipe($.if(build, pumpify.obj(
+      $.cssnano(),
+      $.size({
+        title: `styles:optimized`,
+        showFiles: true,
+      }),
+      $.rev(),
+      gulp.dest(paths.cssDist),
+      $.rev.manifest(`rev-manifest-css.json`),
+      gulp.dest(paths.manifests)
+    )));
+});
 
 /**
  * Transpile ES and bundle scripts
@@ -163,18 +181,18 @@ gulp.task(`scripts`, () => {
 /**
  * Compile Nunjucks to HTML.
  * If build, replace assets with rev versions
- *
+ * @todo Use default language if data is not available
 */
 gulp.task(`html`, () => {
-  const locales = Object.keys(config);
+  const locales = Object.keys(i18n);
   const data = JSON.parse(fs.readFileSync(`${paths.tmp}/data.json`));
 
   for (const locale of locales) {
-    const localeData = config[locale];
+    const localeData = i18n[locale];
 
-    for (const view of localeData.views) {
+    for (const route of localeData.routes) {
       gulp.src([
-        `app/views/${view.tpl}/[^_]*.html`,
+        `app/views/${route.view}/[^_]*.html`,
         `app/views/*.html`,
       ])
       .pipe($.plumber())
@@ -183,14 +201,14 @@ gulp.task(`html`, () => {
       }))
       .pipe($.nunjucks.compile(
         {
-          lang: localeData.langtag,
+          lang: `${localeData.lang}_${localeData.country}`,
           dir: localeData.dir
         },
         {
           env: njkEnv,
         }
       ))
-      .pipe(gulp.dest(`.tmp/${locale}/${localeData.lang}/${view.name}`));
+      .pipe(gulp.dest(`.tmp/${localeData.lang}${route.path}`));
     }
   }
 });
@@ -228,6 +246,17 @@ gulp.task(`html:optimize`, () => {
   .pipe(gulp.dest(`dist`));
 });
 
+gulp.task(`html:update`, (cb) => {
+  $.runSequence(
+    `data`,
+    `html`,
+     cb);
+});
+
+gulp.task(`html:watch`, [`html`], (cb) => {
+  browserSync.reload();
+  cb();
+});
 
 gulp.task(`serve`, () => {
   browserSync.init({
@@ -235,13 +264,14 @@ gulp.task(`serve`, () => {
       baseDir: [ `.tmp`]
     },
     port: 8000,
+    open: false,
     notify: false,
     logPrefix: `${debug.appName}`,
     middleware(req, res, next) {
       res.setHeader(`Access-Control-Allow-Origin`, `*`);
 
       if (req.url === '/') {
-        req.url = '/en/en/home.html';
+        req.url = '/en/home/index.html';
       };
 
       return next();
@@ -262,16 +292,16 @@ gulp.task(`serve`, () => {
   gulp.watch([
     `app/views/**/*.{html,md}`,
     `app/modules/**/*.{html,md}`,
-  ], [`html`]).on(`change`, reload);
+  ], [`html:watch`]);
 
   gulp.watch([
     `content/**/*.yml`,
-  ], [`data`]);
+  ], [`data-update`]).on(`change`, reload);
 });
 
 gulp.task(`serve:dist`, () => {
   browserSync.init({
-    logPrefix: `MACILE.ORG Preview`,
+    logPrefix: `${debug.appName} Preview`,
     server: [`dist`],
     port: 9000,
     middleware(req, res, next) {
@@ -339,7 +369,8 @@ gulp.task(`publish`, () => {
 });
 
 /**
- * Task to build applicaiton files. Does not start server.
+ * Task to build application files.
+ * Does not start server.
  */
 gulp.task(`build`, (cb) => {
   $.runSequence(
@@ -353,7 +384,8 @@ gulp.task(`build`, (cb) => {
 });
 
 /**
- * Task to start the application (gulp)
+ * Task to start the application.
+ * Mapped to script `start`
  */
 gulp.task(`default`, (cb) => {
   $.runSequence(
@@ -367,7 +399,7 @@ gulp.task(`default`, (cb) => {
 });
 
 /**
- * Task to deploy
+ * Builds site with production optimization. Publishes site.
  */
 gulp.task(`deploy`, (cb) => {
   $.runSequence(
@@ -382,7 +414,7 @@ gulp.task(`deploy`, (cb) => {
 });
 
 /**
- * Task to build and preview application.
+ * Build and preview application.
  * gulp preview [--staging | --production]
  */
 gulp.task(`preview`, (cb) => {

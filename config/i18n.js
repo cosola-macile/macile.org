@@ -6,8 +6,8 @@ export const i18n = {
     routes: [
       {view: `home`, path: `/home`},
       {view: `example`, path: `/example`},
-      {tpl: `donate`, name: `donate`},
-      {tpl: `programs`, name: `programs`},
+      {view: `donate`, path: `/donate`},
+      {view: `programs`, path: `/programs`},
     ],
   },
   es: {
@@ -17,8 +17,8 @@ export const i18n = {
     routes: [
       {view: `home`, path: `/inicio`},
       {view: `example`, path: `/ejemplo`},
-      {tpl: `donate`, name: `donar`},
-      {tpl: `programs`, name: `programas`},
+      {view: `donate`, path: `/donar`},
+      {view: `programs`, path: `/programas`},
     ],
   },
 };

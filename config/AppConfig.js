@@ -3,32 +3,6 @@ export const debug = {
 }
 };
 
-<<<<<<< HEAD:AppConfig.js
-
-export const config = {
-  en: {
-    langtag: `en_US`,
-    dir: `ltr`,
-    lang: `en`,
-    views: [
-      {tpl: `home`, name: `home`},
-      {tpl: `example`, name: `example`},
-    ],
-  },
-  es: {
-    langtag: `en_ES`,
-    dir: `ltr`,
-    lang: `es`,
-    views: [
-
-      {tpl: `home`, name: `inicio`},
-      {tpl: `example`, name: `ejemplo`},
-    ],
-  },
-};
-
-=======
->>>>>>> 91b26334ee489dccc8ebce88c3c745828e8fce6c:config/AppConfig.js
 export const paths = {
   css: `./.tmp/assets/css/`,
   cssDist: `./dist/assets/css`,

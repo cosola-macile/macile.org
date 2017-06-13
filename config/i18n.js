@@ -9,7 +9,7 @@ export const i18n = {
       {view: `donate`, path: `/donate`},
       {view: `programs`, path: `/programs`},
       {view: `about`, path: `/about`},
-      {view: `becas`, path: `/becas`},
+      {view: `becas`, path: `/scholarships`},
     ],
   },
   es: {

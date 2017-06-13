@@ -21,14 +21,14 @@
 
 html {
   box-sizing: border-box;
-  background: color(background);
-  color: color(gray);
+  background: blue;
+  color: darkgrey;
   max-width: 100%;
   min-height: 100%; // [4]
-  font-size: $base-font-size / 16px * 1em; // [2]
+  /* font-size: $base-font-size / 16px * 1em; // [2]
   line-height: $base-line-height; // [2]
   letter-spacing: size(smaller-tracking);
-  overflow-x: hidden;
+   */overflow-x: hidden;
   overflow-y: scroll; // [3]
   text-rendering: optimizeLegibility; // [6]
   -webkit-font-smoothing: antialiased; // [5]

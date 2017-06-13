@@ -9,6 +9,7 @@ export const i18n = {
       {view: `donate`, path: `/donate`},
       {view: `programs`, path: `/programs`},
       {view: `about`, path: `/about`},
+      {view: `becas`, path: `/scholarships`},
     ],
   },
   es: {
@@ -21,6 +22,7 @@ export const i18n = {
       {view: `donate`, path: `/donar`},
       {view: `programs`, path: `/programas`},
       {view: `about`, path: `/sobre`},
+      {view: `becas`, path: `/becas`},
     ],
   },
 };

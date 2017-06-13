@@ -264,6 +264,7 @@ gulp.task(`serve`, () => {
       baseDir: [ `.tmp`]
     },
     port: 8000,
+    open: false,
     notify: false,
     logPrefix: `${debug.appName}`,
     middleware(req, res, next) {

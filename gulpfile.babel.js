@@ -11,7 +11,8 @@ import pngquant from 'imagemin-pngquant';
 import pumpify from 'pumpify';
 import webpack from 'webpack';
 
-import { paths, config, servers, debug } from './AppConfig.js';
+import { paths, servers, debug } from './config/AppConfig.js';
+import { i18n } from './config/i18n.js';
 import webpackConfig from './webpack.config.babel.js';
 
 const $ = require(`gulp-load-plugins`)({
@@ -180,18 +181,18 @@ gulp.task(`scripts`, () => {
 /**
  * Compile Nunjucks to HTML.
  * If build, replace assets with rev versions
- *
+ * @todo Use default language if data is not available
 */
 gulp.task(`html`, () => {
-  const locales = Object.keys(config);
+  const locales = Object.keys(i18n);
   const data = JSON.parse(fs.readFileSync(`${paths.tmp}/data.json`));
 
   for (const locale of locales) {
-    const localeData = config[locale];
+    const localeData = i18n[locale];
 
-    for (const view of localeData.views) {
+    for (const route of localeData.routes) {
       gulp.src([
-        `app/views/${view.tpl}/[^_]*.html`,
+        `app/views/${route.view}/[^_]*.html`,
         `app/views/*.html`,
       ])
       .pipe($.plumber())
@@ -200,14 +201,14 @@ gulp.task(`html`, () => {
       }))
       .pipe($.nunjucks.compile(
         {
-          lang: localeData.langtag,
+          lang: `${localeData.lang}_${localeData.country}`,
           dir: localeData.dir
         },
         {
           env: njkEnv,
         }
       ))
-      .pipe(gulp.dest(`.tmp/${locale}/${localeData.lang}/${view.name}`));
+      .pipe(gulp.dest(`.tmp/${localeData.lang}${route.path}`));
     }
   }
 });

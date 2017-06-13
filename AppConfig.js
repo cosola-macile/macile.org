@@ -12,7 +12,7 @@ export const config = {
       {tpl: `home`, name: `home`},
       {tpl: `example`, name: `example`},
       {tpl: `donate`, name: `donate`}
-      {tpl: `programs`, name: `example`},
+      {tpl: `programs`, name: `programs`},
     ],
   },
   es: {

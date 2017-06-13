@@ -392,6 +392,7 @@ gulp.task(`default`, (cb) => {
     `clean:tmp`,
     `data`,
     `images`,
+    `styles`,
     `scripts`,
     `html`,
     `serve`,
@@ -405,6 +406,7 @@ gulp.task(`deploy`, (cb) => {
   $.runSequence(
     `clean:dist`,
     `data`,
+    `styles`,
     `scripts`,
     `images`,
     `html`,
@@ -422,6 +424,7 @@ gulp.task(`preview`, (cb) => {
     `clean:dist`,
     `data`,
     `images`,
+    `styles`,
     `scripts`,
     `html`,
     `html:optimize`,

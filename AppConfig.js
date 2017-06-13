@@ -1,5 +1,6 @@
 export const debug = {
   appName: `macile.org`,
+}
 };
 
 
@@ -18,6 +19,7 @@ export const config = {
     dir: `ltr`,
     lang: `es`,
     views: [
+
       {tpl: `home`, name: `inicio`},
       {tpl: `example`, name: `ejemplo`},
     ],

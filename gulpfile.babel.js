@@ -155,6 +155,12 @@ gulp.task(`styles`, () => {
     )));
 });
 
+gulp.task(`styles:watch`, [`styles`], (cb) => {
+  browserSync.reload();
+  cb();
+});
+
+
 /**
  * Transpile ES and bundle scripts
  *
@@ -284,10 +290,10 @@ gulp.task(`serve`, () => {
   ], [`scripts`]).on(`change`, reload);
 
   gulp.watch([
-    `app/assets/styles/**/*.{css}`,
-    `app/views/**/*.{css}`,
-    `app/modules/**/*.{css}`,
-  ], [`styles`]);
+    `app/assets/styles/**/*.css`,
+    `app/views/**/*.css`,
+    `app/modules/**/*.css`,
+  ], [`styles:watch`])
 
   gulp.watch([
     `app/views/**/*.{html,md}`,

@@ -1,0 +1,11 @@
+# Content for site
+# Content appears in the order of page layout
+
+es:
+  about:
+    page_title: "Sorbre"
+    page_description: "Sobre en Español"
+    meta_social_image:
+
+    headline: Sobre
+

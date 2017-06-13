@@ -356,7 +356,8 @@ gulp.task(`publish`, () => {
 });
 
 /**
- * Task to build applicaiton files. Does not start server.
+ * Task to build application files.
+ * Does not start server.
  */
 gulp.task(`build`, (cb) => {
   $.runSequence(
@@ -370,7 +371,8 @@ gulp.task(`build`, (cb) => {
 });
 
 /**
- * Task to start the application (gulp)
+ * Task to start the application.
+ * Mapped to script `start`
  */
 gulp.task(`default`, (cb) => {
   $.runSequence(
@@ -384,7 +386,7 @@ gulp.task(`default`, (cb) => {
 });
 
 /**
- * Task to deploy
+ * Builds site with production optimization. Publishes site.
  */
 gulp.task(`deploy`, (cb) => {
   $.runSequence(
@@ -399,7 +401,7 @@ gulp.task(`deploy`, (cb) => {
 });
 
 /**
- * Task to build and preview application.
+ * Build and preview application.
  * gulp preview [--staging | --production]
  */
 gulp.task(`preview`, (cb) => {

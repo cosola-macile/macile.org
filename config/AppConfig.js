@@ -3,6 +3,7 @@ export const debug = {
 }
 };
 
+<<<<<<< HEAD:AppConfig.js
 
 export const config = {
   en: {
@@ -26,6 +27,8 @@ export const config = {
   },
 };
 
+=======
+>>>>>>> 91b26334ee489dccc8ebce88c3c745828e8fce6c:config/AppConfig.js
 export const paths = {
   css: `./.tmp/assets/css/`,
   cssDist: `./dist/assets/css`,

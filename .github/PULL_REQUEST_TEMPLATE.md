@@ -1,16 +1,17 @@
 ### Issues
 
-What issues are being solved?
+_¿Qué se está resolviendo?_
 
 ### Todos
 
-What's outstanding?
+_¿Qué queda por hacer?_
 
-### Impacted Areas
+### Áreas impactadas
 
-What components will be affected?
+_¿Qué páginas o componentes están afectados?_
 
-### Steps to Reproduce
+### Pasos para reproducir
 
-What do we need to run, or what do we need to do to test this?
+_¿Qué necesitamos hacer para probar?_
+
 

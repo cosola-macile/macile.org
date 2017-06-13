@@ -301,7 +301,7 @@ gulp.task(`serve`, () => {
 
 gulp.task(`serve:dist`, () => {
   browserSync.init({
-    logPrefix: `MACILE.ORG Preview`,
+    logPrefix: `${debug.appName} Preview`,
     server: [`dist`],
     port: 9000,
     middleware(req, res, next) {

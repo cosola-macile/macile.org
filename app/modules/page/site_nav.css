@@ -29,10 +29,11 @@ nav {
         background-color: lightblue;
         width: 100%;
         height: auto;
+        flex-direction: column;
     }
 }
 
-@media only screen and (max-width: 730px) {
+@media only screen and (min-width: 730px) {
     .nav-wrapper {
         background-color: red;
         width: 100%;

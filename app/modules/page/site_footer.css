@@ -5,17 +5,9 @@
  */
 
 .site-footer {
-  color: color(background);
-  background-color: color(primary);
-  overflow: hidden; // Remove space below footer in IE 10/11
-}
-
-.site-footer-top {
-  padding: ms(5) ms(4) ms(1);
-  background-color: color(primary);
-}
-
-.site-footer-bottom {
-  background-color: color(dark-blue);
-  padding: 0 ms(5) ms(-2);
+  color: #fff;
+  padding: 0.75em 0.5em;
+  background-color: darkblue;
+  overflow: hidden;
+  text-align: center;
 }

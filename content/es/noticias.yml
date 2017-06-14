@@ -9,7 +9,7 @@ es:
 
   teaser:
     title: "Estudiantes de MACILE"
-    image: "/assets/img/news-foto.jpg"
+    image: "/assets/img/news-foto.JPG"
     image_alt: "Estudiantes"
     description: Son estudiantes de MACILE
     href_path: "/news"

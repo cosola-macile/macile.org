@@ -11,6 +11,7 @@ export const i18n = {
       {view: `about`, path: `/about`},
       {view: `scholarships`, path: `/scholarships`},
       {view: `news`, path: `/news`},
+      {view: `teaser`, path: `/news`},
     ],
   },
   es: {
@@ -25,6 +26,7 @@ export const i18n = {
       {view: `about`, path: `/sobre`},
       {view: `scholarships`, path: `/becas`},
       {view: `news`, path: `/noticias`},
+      {view: `teaser`, path: `/noticias`},
     ],
   },
 };

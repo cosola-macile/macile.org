@@ -51,3 +51,8 @@ body {
 .no-touch-delay {
   touch-action: manipulation;
 }
+
+img {
+  width: 100%;
+  height: auto;
+}

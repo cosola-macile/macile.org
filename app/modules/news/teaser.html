@@ -1,14 +1,14 @@
 <article class="teaser-block">
     <figure>
-      <img src="{{ }}">
+      <img src="{{ teaser.image }}" alt="{{ teaser.alt }}">
     </figure>
     <hgroup>
       <h3 class="teaser-title">
-        <a href="{{  }}">
-          {{  }}
+        <a href="{{ teaser.href_path }}">
+          {{ taser.title }}
         </a>
       </h3>
-        <p class="teaser-date">{{  }}</p>
+        <p class="teaser-date">{{ teaser.date }}</p>
     </hgroup>
-    <p class="teaser-description">{{ }}}</p>
+    <p class="teaser-description">{{ teaser.description }}</p>
 </article>

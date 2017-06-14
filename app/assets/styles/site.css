@@ -1,6 +1,14 @@
 /**
  * @file Site
- * @overview Imports files required to build Storefront pages
+ * @overview Importaciones de CSS para macile.org
  */
 
+
+/* Resets */
+
+/* Normalize está instaldo en /node_modules */
+@import 'normalize.css/normalize.css';
+
+
+/* Módulos Locales  */
 @import 'modules/page';

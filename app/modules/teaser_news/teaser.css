@@ -1,9 +1,21 @@
 .teaser-block {
   display: flex;
   background-color: pink;
+  width: 50vh;
+  flex-direction: column;
 
 }
 
-.hgroup {
-  display: block;
+@media only screen and (min-width: 400px) {
+  .teaser-block {
+    flex-direction: row;
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 645px) {
+  .teaser-block {
+    flex-direction: row;
+    width: 100vh;
+  }
 }

@@ -50,6 +50,7 @@
     "imagemin-pngquant": "^5.0.0",
     "marked": "^0.3.5",
     "modularscale-sass": "^2.1.1",
+    "normalize.css": "^7.0.0",
     "nunjucks-markdown": "^2.0.1",
     "postcss-import": "^10.0.0",
     "postcss-modular-scale": "^2.5.2",

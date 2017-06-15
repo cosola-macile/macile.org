@@ -2,7 +2,8 @@
     <figure>
       <img src="{{ teaser.image }}" alt="{{ teaser.alt }}" />
     </figure>
-        <a href="{{ teaser.href_path }}">{{ teaser.title }}</a>
-        <!-- <p class="teaser-date">{{ teaser.date }}</p>
-        <p class="teaser-description">{{ teaser.description }}</p> -->
+    <div class="teaser_content">
+        <a href="{{ teaser.href_path }}"><h2>{{ teaser.title }}</h2></a>
+        <p class="teaser-date">{{ teaser.date }}</p>
+        <p class="teaser-description">{{ teaser.description }}</p>
 </article>

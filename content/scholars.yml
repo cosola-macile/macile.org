@@ -1,0 +1,53 @@
+scholars:
+  -
+    name: Alabania Yamile Martínez
+    pre_college:
+      photo: null
+      schools:
+        -
+          year_start: 2008
+          year_end: 2011
+          name: Instituto Politécnico Loyola
+          location: San Cristóbal
+    college:
+      photo: null
+      schools:
+        -
+          year_start: 2011
+          year_end:
+          name: Instituto Tecnológico de Santo Domingo
+          location: Santo Domingo
+          majors: Mechanical Engineering
+  -
+    name: Luz Blaidy Pinales
+    pre_college:
+      photo: null
+      schools:
+        -
+          year_start: 2008
+          year_end:
+          name: Instituto Politécnico Loyola
+          location: San Cristóbal
+    college:
+      photo: null
+      schools:
+        -
+          year_start: 2014
+          year_end:
+          name: Instituto Tecnológico de Santo Domingo
+          location: Santo Domingo
+          majors: Chemical Engineering
+  -
+    name: Luís Manuel Alburquerque
+    pre_college:
+      photo: null
+      schools:
+        -
+          year_start: 2008
+          year_end: 2009
+          name: Centro Técnico Educativo Padre Zegrí
+          location: San Gregorio de Nigua
+    college: null
+
+
+

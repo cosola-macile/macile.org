@@ -13,4 +13,5 @@
 /* Módulos Locales  */
 @import 'modules/page';
 @import 'modules/teaser_news/teaser.css';
+@import 'modules/content_panel/content_panel.css';
 

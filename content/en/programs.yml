@@ -3,9 +3,17 @@
 
 en:
   programs:
-    page_title: "MACILE Programs"
+    page_title: "MACILE programs"
     page_description: "Here we are going to present the programs of MACILE."
     meta_social_image:
 
     headline: Programs
     intro: Scholarship programs, savatinos and summer programs. :)
+
+  panel:
+    title: "summer MACILE"
+    description: "Content panel to contain title and descrptions for the
+    MACILE programs."
+    image: "/assets/content-panel-foto.JPG"
+    imagen_alt: sorry, your picture do can't load!!
+    href_path: "/programs"

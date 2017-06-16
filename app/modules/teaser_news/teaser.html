@@ -1,10 +1,10 @@
 <article class="teaser-block">
   {% if teaser.image %}
-    <figure class="figure">
+    <figure class="teaser-figure">
       <img src="{{ teaser.image }}" alt="{{ teaser.image_alt }}" />
     </figure>
   {% endif %}
-    <div class="teaser_content">
+    <div class="teaser-content">
         <a href="{{ teaser.href_path }}"><h2>{{ teaser.title }}</h2></a>
         <p class="teaser-date">{{ teaser.date }}</p>
         <p class="teaser-description">{{ teaser.description }}</p>

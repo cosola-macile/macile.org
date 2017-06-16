@@ -11,12 +11,12 @@ es:
     intro: Incio
 
 
-  Panel:
-      title: "MACILE verano"
-      description: "El panel de contenido contiene un texto y una descripcion
-      de los programas de MACILE"
-      image: "/assets/img/content-panel-foto.JPG"
-      image_alt: Lo sentimos, su imagen no puede ser cargada!!
-      href_path: "/programs"
+  panel:
+    title: "MACILE verano"
+    description: "El panel de contenido contiene un texto y una descripcion
+    de los programas de MACILE"
+    image: "/assets/img/content-panel-foto.JPG"
+    image_alt: Lo sentimos, su imagen no puede ser cargada!!
+    href_path: "/programs"
 
 

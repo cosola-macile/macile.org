@@ -13,6 +13,7 @@ import webpack from 'webpack';
 
 import { paths, servers, debug } from './config/AppConfig.js';
 import { i18n } from './config/i18n.js';
+import { routes } from './config/routes.js';
 import webpackConfig from './webpack.config.babel.js';
 
 const $ = require(`gulp-load-plugins`)({
@@ -188,6 +189,7 @@ gulp.task(`scripts`, () => {
  * Compile Nunjucks to HTML.
  * If build, replace assets with rev versions
  * @todo Use default language if data is not available
+ * @todo Cleanup/Streamline/Make more gulpy with functions
 */
 gulp.task(`html`, () => {
   const locales = Object.keys(i18n);
@@ -196,7 +198,7 @@ gulp.task(`html`, () => {
   for (const locale of locales) {
     const localeData = i18n[locale];
 
-    for (const route of localeData.routes) {
+    for (const route of routes[locale]) {
       gulp.src([
         `app/views/${route.view}/[^_]*.html`,
         `app/views/*.html`,
@@ -207,8 +209,9 @@ gulp.task(`html`, () => {
       }))
       .pipe($.nunjucks.compile(
         {
-          lang: `${localeData.lang}_${localeData.country}`,
-          dir: localeData.dir
+          locales: locales,
+          i18n: i18n[locale],
+          routes: routes[locale]
         },
         {
           env: njkEnv,
@@ -276,8 +279,10 @@ gulp.task(`serve`, () => {
     middleware(req, res, next) {
       res.setHeader(`Access-Control-Allow-Origin`, `*`);
 
-      if (req.url === '/') {
+      if (req.url === '/' || req.url == '/en') {
         req.url = '/en/home/index.html';
+      } else if (req.url === '/es') {
+        req.url = '/es/inicio/index.html';
       };
 
       return next();
@@ -302,7 +307,7 @@ gulp.task(`serve`, () => {
 
   gulp.watch([
     `content/**/*.yml`,
-  ], [`html:watch`]).on(`change`, reload);
+  ], [`html:update`]).on(`change`, reload);
 });
 
 gulp.task(`serve:dist`, () => {

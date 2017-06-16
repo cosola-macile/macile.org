@@ -1,17 +1,16 @@
-.section-hero{
+.section-hero {
   position: relative;
   height: 300px;
   overflow: hidden;
 }
 
-.background-header {
+.hero-image {
   position: absolute;
   left: 0;
   top: 0;
-  z-index: 100;
 }
 
-.text-header{
+.hero-text {
   font-size: 16px;
   position: relative;
   z-index: 1500;

@@ -4,12 +4,22 @@
 
 {% block body_content %}
 <nav class="site-nav">
-  <div class="nav-wrapper container-wrapper">
-      <a class="site-nav-link home-link" href="/en/en/site-nav.css">Home</a>
-      <a class="site-nav-link" href="/en/en/site-nav.css">Programs</a>
-      <a class="site-nav-link" href="/en/en/site-nav.css">Scholarships</a>
-      <a class="site-nav-link" href="/en/en/site-nav.css">News</a>
-      <a class="site-nav-link" href="/en/en/site-nav.css">Donate</a>
+  <div class="lang-nav">
+    {% for locale in locales %}
+      <a class="site-nav-link" href="/{{ locale }}">
+        {{ locale | upper }}
+      </a>
+    {% endfor %}
+  </div>
+  <div class="main-nav">
+      {% for route in routes %}
+        {% set home = "home" %}
+        <a
+          class="site-nav-link {% if route.view == home %}home-link{% endif %}"
+          href="/{{ i18n.lang }}{{ route.path }}">
+          {{ route.name }}
+        </a>
+      {% endfor %}
   </div>
 </nav>
 <main role="main"  class="site-main">

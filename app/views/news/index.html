@@ -7,6 +7,10 @@
 
 <p>{{ news.headline }}</p>
 
+{% set teaser = teaser %}
+{% include "teaser_news/teaser.html"%}
+
+{% set teaser = teaser_2 %}
 {% include "teaser_news/teaser.html"%}
 
 {% endblock %}

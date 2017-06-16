@@ -1,0 +1,20 @@
+.teaser-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.teaser-figure {
+ flex: 0 0 100px;
+}
+
+@media only screen and (min-width: 500px) {
+  .teaser-block {
+    flex-direction: row;
+  }
+
+  .teaser-figure{
+    flex: 0 0 300px;
+  }
+}
+
+

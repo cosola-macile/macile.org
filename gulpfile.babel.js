@@ -3,6 +3,7 @@ import browsersync from 'browser-sync';
 import del from 'del';
 import dotenv from 'dotenv';
 import fs from 'fs';
+import path from 'path';
 import gulp from 'gulp';
 import markdown from 'nunjucks-markdown';
 import marked from 'marked';
@@ -48,12 +49,66 @@ marked.setOptions({
 
 markdown.register(njkEnv, marked);
 
+// Function that returns correct direction for supplied language
+function getLangDir(locale) {
+  const lang = i18n[locale];
+  const langDir = lang.dir;
+
+  return langDir;
+}
+
+function applyTemplate(templateFile) {
+  return through.obj(function (file, enc, cb) {
+    const locale = path.dirname(file.path).split("/").pop();
+    const data = {
+        page: file.page,
+        content: file.contents.toString(),
+        file: file,
+        lang: locale,
+        dir: getLangDir(locale)
+    }
+
+    file.contents = new Buffer(
+      njkEnv.render(path.join(__dirname, templateFile), data),
+      'utf8'
+    )
+    this.push(file)
+    cb()
+  })
+}
+
+const rePostName   = /(\d{4})-(\d{1,2})-(\d{1,2})-(.*)/;
+
 /* Flags for gulp cli */
 const production = argv.production;
 const staging = argv.staging;
 
 /* Internal flag not for use with gulp cli */
 const build = production || staging;
+
+
+gulp.task('news', function() {
+  gulp.src('content/news/**/*.md')
+    .pipe($.frontMatter({
+      property: 'page',
+      remove: true
+    }))
+    .pipe($.markdown())
+    .pipe(applyTemplate('app/views/_layout/_news_layout.html'))
+    .pipe($.rename(function (path) {
+        const match = rePostName.exec(path.basename);
+
+        if (match) {
+            const year = match[1];
+            const month = match[2];
+            const day = match[3];
+
+            path.dirname = `${path.dirname}/news/${year}/${month}`;
+            path.basename = match[4];
+        }
+    }))
+    .pipe(gulp.dest('.tmp/'));
+});
 
 /**
  * Compiles yaml content files into one json files
@@ -406,6 +461,7 @@ gulp.task(`default`, (cb) => {
     `styles`,
     `scripts`,
     `html`,
+    `news`,
     `serve`,
      cb);
 });

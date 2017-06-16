@@ -279,8 +279,10 @@ gulp.task(`serve`, () => {
     middleware(req, res, next) {
       res.setHeader(`Access-Control-Allow-Origin`, `*`);
 
-      if (req.url === '/') {
+      if (req.url === '/' || req.url == '/en') {
         req.url = '/en/home/index.html';
+      } else if (req.url === '/es') {
+        req.url = '/es/inicio/index.html';
       };
 
       return next();

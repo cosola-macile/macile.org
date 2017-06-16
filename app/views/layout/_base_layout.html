@@ -1,10 +1,7 @@
-{% set page_title = data.page_title or page_title %}
-{% set page_description = data.page_description or page_description %}
-
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="{{ i18n.lang }}" dir="{{ i18n.dir }}">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="{{ i18n.charset }}" />
   <title>{% block title %}{{ page_title }} | MACILE{% endblock %}</title>
 
   {# All Preconnect assets #}

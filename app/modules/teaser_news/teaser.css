@@ -1,20 +1,20 @@
 .teaser-block {
   display: flex;
-  width: 50vh;
   flex-direction: column;
-
 }
 
-@media only screen and (min-width: 400px) {
+.figure {
+ flex: 0 0 100px;
+}
+
+@media only screen and (min-width: 500px) {
   .teaser-block {
     flex-direction: row;
-    width: 90%;
+  }
+
+  .figure{
+    flex: 0 0 300px;
   }
 }
 
-@media only screen and (min-width: 645px) {
-  .teaser-block {
-    flex-direction: row;
-    width: 100vh;
-  }
-}
+

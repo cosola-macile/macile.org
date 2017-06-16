@@ -68,7 +68,7 @@ gulp.task(`data`, () => {
 
 gulp.task(`copy-images`, () =>{
   return gulp.src([
-    `app/assets/img/*.jpg`,
+    `app/assets/img/*`,
   ])
   .pipe(gulp.dest(`.tmp/assets/img`));
 });
@@ -302,7 +302,7 @@ gulp.task(`serve`, () => {
 
   gulp.watch([
     `content/**/*.yml`,
-  ], [`data-update`]).on(`change`, reload);
+  ], [`html:watch`]).on(`change`, reload);
 });
 
 gulp.task(`serve:dist`, () => {
@@ -398,6 +398,7 @@ gulp.task(`default`, (cb) => {
     `clean:tmp`,
     `data`,
     `images`,
+    `copy-images`,
     `styles`,
     `scripts`,
     `html`,

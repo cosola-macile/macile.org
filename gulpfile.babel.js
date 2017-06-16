@@ -33,18 +33,20 @@ const njkEnv = new nunjucks.Environment(
   { autoescape: true }
 );
 
-// Markdown plugin configuration. Used in compile task
-markdown.register(njkEnv, marked);
 
+// Markdown plugin configuration. Used in compile task
 marked.setOptions({
+  renderer: new marked.Renderer(),
   gfm: true,
   tables: true,
   breaks: false,
   pendantic: false,
   sanitize: true,
   smartLists: true,
-  smartypants: false,
+  smartypants: false
 });
+
+markdown.register(njkEnv, marked);
 
 /* Flags for gulp cli */
 const production = argv.production;

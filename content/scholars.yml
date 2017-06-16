@@ -268,53 +268,12 @@ scholars:
           location: San Gregorio de Nigua
     college: null
   -
-    name: Laydi Celeste Cuevas Muñoz
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2010
-          year_end: 2011
-          name: Instituto Politécnico de Haina
-          location: Km. 18, Bajos de Haina
-    college: null
-  -
-    name: Luz Blaidy Pinales
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2010
-          year_end: 2011
-          name: Instituto Politécnico de Haina
-          location: Km. 18, Bajos de Haina
-    college: null
-  -
-    name: Jeltssin Aquino
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 20
-          year_end:
-          name: Instituto Politécnico Loyola
-          location: San Cristóbal
-    college:
-      photo: null
-      schools:
-        -
-          year_start: 2011
-          year_end: 2012
-          name: Instituto Tecnológico de Las Américas
-          location: Santo Domingo
-          majors: Sofware Engineering
-  -
     name: Leydi Celeste Cuevas Muñoz
     pre_college:
       photo: null
       schools:
         -
-          year_start: 2011
+          year_start: 2010
           year_end: 2013
           name: Instituto Politécnico de Haina
           location: Km. 18, Bajos de Haina
@@ -328,6 +287,29 @@ scholars:
           location: Santo Domingo
           majors: Undeclared
   -
+    name: Luz Blaidy Pinales
+    pre_college:
+      photo: null
+      schools:
+        -
+          year_start: 2010
+          year_end: 2011
+          name: Instituto Politécnico de Haina
+          location: Km. 18, Bajos de Haina
+    college: null
+  -
+    name: Jeltssin Aquino
+    pre_college: null
+    college: 
+      photo: null
+      schools:
+        -
+          year_start: 2011
+          year_end: 2012
+          name: Instituto Tecnológico de Las Américas
+          location: Santo Domingo
+          majors: Sofware Engineering
+  -
     name: Moisés Cuevas Muñoz
     pre_college:
       photo: null
@@ -340,14 +322,7 @@ scholars:
     college: null
   -
     name: Claudio Heredia Germán
-    pre_college:
-      photo: null
-      schools:
-     -
-          year_start: 
-          year_end:
-          name: Instituto Politécnico Loyola
-          location: San Cristóbal
+    pre_college: null
     college:
       photo: null
       schools:
@@ -424,20 +399,9 @@ scholars:
       schools:
         -
           year_start: 2014
-          year_end:
+          year_end: 2015
           name: Centro Técnico Educativo Padre Zegrí
           location: San Gregorio de Nigua
-    college: null
-  -
-    name: Patricia Michel de Jesús de Oleo
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2014
-          year_end:
-          name: Colegio San Marcos
-          location: Haina
     college: null
   -
     name: Rocio Asencio
@@ -449,5 +413,4 @@ scholars:
           year_end: 2015
           name: Colegio San Marcos
           location: Haina
-    college: null
-    
+    college: null 

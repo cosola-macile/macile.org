@@ -1,11 +1,35 @@
+/*
+ * Site Nav
+ * Define la navegación principal del site.
+ */
+
+/*
+ * Contenedor para .main-nav & .lang-nav
+ */
 .site-nav {
   max-width: 100%;
   font-size: 16px;
+  border-bottom: 1px solid lightgrey;
 }
 
-.nav-wrapper {
+/* Clase general para todos los links en .site-nav */
+.site-nav-link {
+   margin: 0 5px;
+}
+
+/*
+ * Navegación principal. Contiene .site-nav-link & .home-link
+*/
+.main-nav {
   display: flex;
   flex-direction: column;
+  padding: 1em 0;
+}
+
+@media only screen and (min-width: 400px) {
+  .main-nav {
+    flex-direction: row;
+  }
 }
 
 .home-link {
@@ -13,12 +37,14 @@
   flex: 1;
 }
 
-.site-nav-link {
-   margin: 5px;
+/* Elemento que contiene los idiomas disponibles */
+.lang-nav {
+  background: darkblue;
+  padding: 0.45em 0;
+  text-align: right;
+
+  .site-nav-link {
+    color: #fff;
+  }
 }
 
-@media only screen and (min-width: 400px) {
-    .nav-wrapper {
-        flex-direction: row;
-    }
-}

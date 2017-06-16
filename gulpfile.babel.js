@@ -10,8 +10,9 @@ import nunjucks from 'nunjucks';
 import pngquant from 'imagemin-pngquant';
 import pumpify from 'pumpify';
 import webpack from 'webpack';
+import through from 'through2';
 
-import { paths, servers, debug } from './config/AppConfig.js';
+import { paths, servers, debug, config } from './config/AppConfig.js';
 import { i18n } from './config/i18n.js';
 import webpackConfig from './webpack.config.babel.js';
 
@@ -27,7 +28,10 @@ const browserSync = browsersync.create();
 const reload = browserSync.reload;
 
 const env = dotenv.config();
-const njkEnv = new nunjucks.Environment(new nunjucks.FileSystemLoader([ `app/views/`, `app/modules/` ]));
+const njkEnv = new nunjucks.Environment(
+  new nunjucks.FileSystemLoader(config.tpls),
+  { autoescape: true }
+);
 
 // Markdown plugin configuration. Used in compile task
 markdown.register(njkEnv, marked);

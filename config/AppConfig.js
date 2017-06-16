@@ -2,6 +2,10 @@ export const debug = {
   appName: `macile.org`,
 };
 
+export const config = {
+  tpls: [ `app/views/`, `app/modules/` ]
+}
+
 export const paths = {
   css: `./.tmp/assets/css/`,
   cssDist: `./dist/assets/css`,

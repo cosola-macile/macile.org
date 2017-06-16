@@ -189,6 +189,7 @@ gulp.task(`scripts`, () => {
  * Compile Nunjucks to HTML.
  * If build, replace assets with rev versions
  * @todo Use default language if data is not available
+ * @todo Cleanup/Streamline/Make more gulpy with functions
 */
 gulp.task(`html`, () => {
   const locales = Object.keys(i18n);
@@ -304,7 +305,7 @@ gulp.task(`serve`, () => {
 
   gulp.watch([
     `content/**/*.yml`,
-  ], [`html:watch`]).on(`change`, reload);
+  ], [`html:update`]).on(`change`, reload);
 });
 
 gulp.task(`serve:dist`, () => {

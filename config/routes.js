@@ -16,7 +16,7 @@ export const routes = {
       path: `/programs`
     },
     {
-      view: `becas`,
+      view: `scholarships`,
       name: `Scholarships`,
       path: `/scholarships`
     },
@@ -48,7 +48,7 @@ export const routes = {
       path: `/programas`
     },
     {
-      view: `becas`,
+      view: `scholarships`,
       name: `Becas`,
       path: `/becas`
     },

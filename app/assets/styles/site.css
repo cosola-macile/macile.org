@@ -12,5 +12,7 @@
 
 /* Módulos Locales  */
 @import 'modules/page';
+@import 'modules/header/header.css';
 @import 'modules/teaser_news/teaser.css';
+
 

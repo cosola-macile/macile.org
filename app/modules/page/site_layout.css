@@ -12,11 +12,6 @@
   height: 100vh;
 }
 
-.site-nav {
-  border-bottom: 1px solid lightgrey;
-  padding: 1em 0.5em;
-}
-
 .site-main {
   flex: 1;
 }

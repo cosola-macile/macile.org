@@ -267,7 +267,7 @@ gulp.task(`html`, () => {
       }))
       .pipe($.nunjucks.compile(
         {
-          lang: `${localeData.lang}_${localeData.country}`,
+          lang: localeData.lang,
           dir: localeData.dir
         },
         {

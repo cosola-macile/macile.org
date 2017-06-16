@@ -1,11 +1,10 @@
 {% extends "_layout/_simple_site_layout.html" %}
 
-{% set data = home %}
-
 {% block page_content %}
 
-<h1>{{ home.intro }}</h1>
-<p>{{ home.headline }}</p>
+{{ page.title }}
+{{ page.news }}
 
-</article>
+{{ content | safe }}
+
 {% endblock %}

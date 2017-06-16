@@ -198,8 +198,7 @@ gulp.task(`html`, () => {
 
     for (const route of localeData.routes) {
       gulp.src([
-        `app/views/${route.view}/[^_]*.html`,
-        `app/views/*.html`,
+        `app/views/[^_]*/[^_]*.html`
       ])
       .pipe($.plumber())
       .pipe($.data(function() {

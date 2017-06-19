@@ -2,7 +2,7 @@
 <html lang="{{ i18n.lang }}" dir="{{ i18n.dir }}">
 <head>
   <meta charset="{{ i18n.charset }}" />
-  <title>{% block title %}{{ page_title }} | MACILE{% endblock %}</title>
+  <title>{% block title %}{{ data.page_title }} | MACILE{% endblock %}</title>
 
   {# All Preconnect assets #}
   <link rel="preconnect" href="//s3.amazonaws.com/" crossorigin>
@@ -10,11 +10,11 @@
   <meta name="description" content="{{ page_description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {% if meta_noindex %}
+  {% if data.meta_noindex %}
     <meta name="robots" content="noindex">
   {% endif %}
 
-  {% if meta_social_image %}
+  {% if data.meta_social_image %}
     <meta content="{{ data.meta_social_image }}" property="og:image">
     <meta content="{{ data.meta_social_image }}" property="og:image:secure_url">
   {% endif %}

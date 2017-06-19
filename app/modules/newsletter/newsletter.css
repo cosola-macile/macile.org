@@ -1,5 +1,11 @@
 .newsletter-wrapper {
-  border: 1px solid black;
-  color: rgb(100,100,90);
-  float: left;
+  border: 2px solid black;
+  float: right;
+  padding: 10px;
+  margin: 15px;
+  color: black;
+}
+
+.newsletter-title {
+  text-align: center;
 }

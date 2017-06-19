@@ -7,5 +7,7 @@ es:
     page_description: "Sobre en Español"
     meta_social_image:
 
-    headline: Sobre
+    hero:
+      headline: Sobre
+      image: /assets/img/header-foto.jpg
 

@@ -4,5 +4,8 @@ en:
     page_description: "Donate en English"
     meta_social_image:
 
-    headline: Donate
+    hero:
+      headline: Donate
+      image: /assets/img/header-foto.jpg
 
+    intro: Support our mission of service and education

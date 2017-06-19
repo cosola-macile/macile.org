@@ -1,8 +1,9 @@
 {% extends "layout/_simple_site_layout.html" %}
 
+{% set data = about %}
+
 {% block page_content %}
 
-<h1>{{ about.headline }}</h1>
-<p>{{ about.description }}</p>
+<p>{{ about.intro }}</p>
 
 {% endblock %}

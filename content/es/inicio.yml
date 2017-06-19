@@ -7,5 +7,8 @@ es:
     page_description: "MACILE en Español"
     meta_social_image:
 
-    headline: Hola, Mundo :)
-    intro: Vamos!!!!!
+    hero:
+      headline: MACILE
+      byline: Matematias Ciencias Ingeneria Lengua
+      image: /assets/img/header-foto.jpg
+      image_alt: MACILE students working on programming

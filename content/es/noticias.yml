@@ -4,8 +4,10 @@ es:
     page_description: "Noticias en español"
     meta_social_image:
 
-    headline: Noticias
-    intro: Inicio
+    hero:
+      headline: Noticias
+      byline: Manténgase informado con lo que sucede en MACILE
+      image: /assets/img/content-panel-foto.JPG
 
   teaser:
     title: "Estudiantes de MACILE"

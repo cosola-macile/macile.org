@@ -23,18 +23,27 @@
   </div>
 </nav>
 <main role="main"  class="site-main">
+
+  {% if data.hero %}
   <header class="section-hero">
     <div class="hero-text">
-      <h1>MACILE</h1>
-      <p>Summer academy</p>
+      <h1 class="hero-headline">{{ data.hero.headline }}</h1>
+      {% if data.hero.byline %}
+        <p class="hero-byline">{{ data.hero.byline }}</p>
+      {% endif %}
     </div>
-    <div class="hero-image">
-      <img src="/assets/img/header-foto.jpg">
-    </div>
+    {% if data.hero.image %}
+      <div class="hero-image">
+        <img src="{{ data.hero.image }}" alt="{{ data.hero.image_alt }}">
+      </div>
+    {% endif %}
   </header>
+  {% endif %}
 
-  {% block page_content %}
-  {% endblock %}
+  <section class="constrainer">
+    {% block page_content %}
+    {% endblock %}
+  </section>
 </main>
 
 <footer class="site-footer">

@@ -4,5 +4,8 @@ es:
     page_description: "Becas en Español"
     meta_social_image:
 
-    headline: Estudia y gana una beca
-    intro: Inicio
+    hero:
+      headline: Becas
+      byline: Estudia y gana una beca
+      image: /assets/img/content-panel-foto.JPG
+

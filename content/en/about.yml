@@ -7,5 +7,8 @@ en:
     page_description: "About page"
     meta_social_image:
 
-    headline: About
-    description: This is a description of the about page
+    hero:
+      headline: About
+      image: /assets/img/header-foto.jpg
+
+    intro: This is an introduction on the about page

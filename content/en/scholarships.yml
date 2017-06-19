@@ -4,4 +4,6 @@ en:
     page_description: "Scholarships en English"
     meta_social_image:
 
-    headline: Scholarships
+    hero:
+      headline: Scholarships
+      image: /assets/img/content-panel-foto.JPG

@@ -1,7 +1,9 @@
 .section-hero {
+  background: lightgrey;
   position: relative;
   height: 40vh;
   overflow: hidden;
+  padding: 10rem 5rem;
 }
 
 .hero-image {
@@ -11,11 +13,20 @@
 }
 
 .hero-text {
-  color: white;
   font-size: 16px;
   position: relative;
   z-index: 1;
   text-align: center;
   height: 200px;
-  bottom: 50px;
+  color: #fff;
+}
+
+.hero-headline {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.hero-byline {
+  font-weight: bold;
+  font-size: 20px;
 }

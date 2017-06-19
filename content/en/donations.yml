@@ -3,4 +3,5 @@ en:
     description: "Donate for admission"
     image: "/assets"
     image_alt: "This is an icon"
+    href_button: "/donate"
 

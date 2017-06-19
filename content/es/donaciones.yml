@@ -1,0 +1,5 @@
+es:
+  donations:
+    description: "Donar para admision"
+    image: "/assets"
+    image_alt: "Este es un icono"

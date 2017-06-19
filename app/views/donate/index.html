@@ -1,7 +1,9 @@
 {% extends "layout/_simple_site_layout.html" %}
 
+{% set data = donate %}
+
 {% block page_content %}
 
-<h1>{{ donate.headline }}</h1>
+<p>{{ donate.intro }}</p>
 
 {% endblock %}

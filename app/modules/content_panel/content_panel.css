@@ -1,7 +1,3 @@
-.panel-img {
-  height: 100%;
-}
-
 .content-panel {
   display: flex;
 }
@@ -9,9 +5,14 @@
 .panel-information {
   padding: 30px;
 }
+
 .panel-figure {
   flex: 1 0 400px;
   margin: 0;
+}
+
+.panel-img {
+  height: 100%;
 }
 
 @media only screen and (max-width: 900px) {

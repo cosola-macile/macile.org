@@ -11,3 +11,26 @@ es:
       headline: Sobre
       image: /assets/img/header-foto.jpg
 
+    web_team:
+      members:
+        -
+          name: YaArias
+          image: /assets/img/team-foto.jpg
+        -
+          name: Morban15
+          image: /assets/img/team-foto.jpg
+        -
+          name: Clarissa0512
+          image: /assets/img/team-foto.jpg
+        -
+          name: Mariaa122
+          image: /assets/img/team-foto.jpg
+        -
+          name: Kemsen
+          image: /assets/img/team-foto.jpg
+        -
+          name: misscs
+          image: /assets/img/team-foto.jpg
+
+
+

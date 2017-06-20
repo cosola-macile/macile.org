@@ -7,9 +7,10 @@ es:
     page_description: "Aquí vamos a presentar los programas de MACILE."
     meta_social_image:
 
-    headline: Programas de becas, savatinos y de verano. :)
-    intro: Incio
-
+    hero:
+      headline: Programas
+      byline: Programas de becas y verano
+      image: /assets/img/header-foto.jpg
 
   panel:
     title: "MACILE verano"
@@ -18,5 +19,3 @@ es:
     image: "/assets/img/content-panel-foto.JPG"
     image_alt: Lo sentimos, su imagen no puede ser cargada!!
     href_path: "/programs"
-
-

@@ -1,7 +1,8 @@
 {% extends "layout/_simple_site_layout.html" %}
 
+{% set data = programs %}
+
 {% block page_content %}
-<h1>{{ programs.headline }}</h1>
 <p>{{ programs.intro }}</p>
 
 {% include "content_panel/content_panel.html" %}

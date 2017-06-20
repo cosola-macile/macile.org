@@ -7,8 +7,10 @@ en:
     page_description: "Here we are going to present the programs of MACILE."
     meta_social_image:
 
-    headline: Programs
-    intro: Scholarship programs, savatinos and summer programs. :)
+    hero:
+      headline: Programs
+      byline: Scholarship programs, savatinos and summer programs. :)
+      image: /assets/img/header-foto.jpg
 
   panel:
     title: "Summer MACILE"

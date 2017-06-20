@@ -4,8 +4,10 @@ en:
     page_description: "News en English"
     meta_social_image:
 
-    headline: News :)
-    intro: Homepage
+    hero:
+      headline: News :)
+      byline: Keep informed with what happens at MACILE
+      image: /assets/img/content-panel-foto.JPG
 
   teaser:
     title: "Students of MACILE"

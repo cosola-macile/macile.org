@@ -1,17 +1,18 @@
 {% extends "layout/_simple_site_layout.html" %}
 
+{% set data = news %}
 
 {% block page_content %}
 
-<h1>{{ news.intro }}</h1>
-
-<p>{{ news.headline }}</p>
+<p>{{ news.intro }}</p>
 
 {% set teaser = teaser %}
 {% include "teaser_news/teaser.html"%}
 
 {% set teaser = teaser_2 %}
 {% include "teaser_news/teaser.html"%}
+
+{% include "newsletter/newsletter.html"%}
 
 {% endblock %}
 

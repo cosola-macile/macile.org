@@ -1,10 +1,14 @@
 {% extends "layout/_simple_site_layout.html" %}
 
+{% from "content_panel/content_panel.macros.html" import content_panel %}
+
 {% set data = programs %}
 
 {% block page_content %}
 <p>{{ programs.intro }}</p>
 
-{% include "content_panel/content_panel.html" %}
+{% for year in programs.section_session.years %}
+  {{ content_panel(year) }}
+{% endfor %}
 
 {% endblock %}

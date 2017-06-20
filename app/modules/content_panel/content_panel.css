@@ -1,27 +1,20 @@
 .content-panel {
   display: flex;
+  flex-direction: column;
 }
 
 .panel-information {
   padding: 30px;
 }
 
-.panel-figure {
-  flex: 1 0 400px;
-  margin: 0;
-}
-
-.panel-img {
-  height: 100%;
-}
-
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 920px) {
   .content-panel {
-    flex-direction: column;
-  }
-
-  .panel-figure{
-    flex: 0 0 auto;
+    flex-direction: row;
   }
 }
+
+
+
+
+
 

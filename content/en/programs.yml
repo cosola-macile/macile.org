@@ -12,15 +12,6 @@ en:
       byline: Scholarship programs, savatinos and summer programs. :)
       image: /assets/img/header-foto.jpg
 
-  # Delete me
-  panel:
-    title: "Summer MACILE"
-    description: "Content panel to contain title and descrptions for the
-    MACILE programs."
-    image: "/assets/img/content-panel-foto.JPG"
-    image_alt: sorry, your picture do can't load!!
-    href_path: "/programs"
-
     section_overview:
       intro: MACILE Summer Academy provides a friendly and respectful classroom atmosphere where students engage actively in class discussion with peers, think critically, present their work, and learn to work effectively in teams.
       items:

@@ -1,0 +1,20 @@
+.scholarship-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.scholarship-figure {
+ flex: 0 0 100px;
+}
+
+@media only screen and (min-width: 500px) {
+  .scholarship-block {
+    flex-direction: row;
+  }
+
+  .scholarship-figure{
+    flex: 0 0 300px;
+  }
+}
+
+

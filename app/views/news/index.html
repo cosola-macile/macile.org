@@ -3,9 +3,8 @@
 {% set data = news %}
 
 {% block page_content %}
-
 <p>{{ news.intro }}</p>
-{$ for teaser in teasers %}
+{% for teaser in teasers %}
 	<article class="teaser-block">
 	  {% if teaser.image %}
 	    <figure class="teaser-figure">
@@ -19,5 +18,6 @@
 	    </div>
 	</article>
 {% endfor %}
+{% endblock %}
 
 

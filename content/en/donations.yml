@@ -1,7 +1,8 @@
 en:
   donations:
+    title: "Donate"
     description: "Donate for admission"
-    image: "/assets"
+    image: ""
     image_alt: "This is an icon"
     href_button: "/donate"
 

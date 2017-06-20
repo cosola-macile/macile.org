@@ -1,0 +1,21 @@
+.donate-block {
+  display: flex;
+  border: 3px solid pink;
+  padding: 20px;
+}
+
+.icon-block {
+  border: 3px solid red;
+  height: 65px;
+  width: 65px;
+}
+
+.donate-button {
+  border: 3px solid black;
+}
+
+.donate-content {
+  flex: 1;
+  display: flex;
+}
+

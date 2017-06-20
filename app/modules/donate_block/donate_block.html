@@ -1,8 +1,13 @@
 <div class="donate-block">
-  <span class="icon-block">
-    {{ donations.image }}
-  </span>
-  <a class="donate-button" href="{{ donations.href_button}}">
-  </a>
-  <h2>{{ donations.description }}</h2>
+  <div class="donate-content">
+    <span class="icon-block">
+      <img src="{{ donations.image }}"  alt="{{ donations.image_alt }}"/>
+    </span>
+    <h2>{{ donations.description }}</h2>
+  </div>
+  <div class="button-right">
+    <a class="donate-button" href="{{ donations.href_button }}">
+      {{ donations.title }}
+    </a>
+  </div>
 </div>

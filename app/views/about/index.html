@@ -4,9 +4,13 @@
 
 {% block page_content %}
 
-
 <p>{{ about.intro }}</p>
 
+{% for members in web_team %}
+  <img {{members.members.image}}>
+  <h2>{{members.members.name}</h2>
+
+{% endfor %}
 {% include "team-block/team-block.html"%}
 
 {% endblock %}

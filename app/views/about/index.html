@@ -6,13 +6,17 @@
 
 <p>{{ about.intro }}</p>
 
-{% for members in web_team %}
+{% for member in about.web_team.members %}
 
-  <img src='{{ members.members.image }}'>
-  <h2>{{ members.members.name }}</h2>
+<section class="team-content">
+
+  <img src="{{ member.image }}">
+  <h2 class="team-name">{{ member.name }}</h2>
+
+  <img src="{{ team_block.image }}">
+
+</section>
 
 {% endfor %}
-
-{% include "team-block/team-block.html"%}
 
 {% endblock %}

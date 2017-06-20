@@ -1,23 +1,17 @@
 {% extends "layout/_simple_site_layout.html" %}
 
+{% from "teaser_news/teaser.macro.html" import teaser %}
+
 {% set data = news %}
 
 {% block page_content %}
 <p>{{ news.intro }}</p>
-{% for teaser in teasers %}
-	<article class="teaser-block">
-	  {% if teaser.image %}
-	    <figure class="teaser-figure">
-	      <img src="{{ teaser.image }}" alt="{{ teaser.image_alt }}" />
-	    </figure>
-	  {% endif %}
-	    <div class="teaser-content">
-	        <a href="{{ teaser.href_path }}"><h2>{{ teaser.title }}</h2></a>
-	        <p class="teaser-date">{{ teaser.date }}</p>
-	        <p class="teaser-description">{{ teaser.description }}</p>
-	    </div>
-	</article>
+
+{% for teaser in news.teasers %}
+    {{ teaser(teaser) }}
 {% endfor %}
+
 {% endblock %}
+
 
 

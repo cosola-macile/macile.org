@@ -4,7 +4,6 @@ export const i18n = {
     country: `US`,
     dir: `ltr`,
     charset: `utf-8`
-
   },
   es: {
     lang: `es`,

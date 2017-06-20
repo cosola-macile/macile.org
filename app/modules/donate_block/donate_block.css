@@ -2,20 +2,27 @@
   display: flex;
   border: 3px solid pink;
   padding: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.donate-content {
+  max-width: 20em;
+  flex-direction: column;
+  margin-left: 10px;
 }
 
 .icon-block {
-  border: 3px solid red;
   height: 65px;
   width: 65px;
 }
 
-.donate-button {
-  border: 3px solid black;
-}
-
-.donate-content {
-  flex: 1;
-  display: flex;
+@media only screen and (min-width: 720px) {
+  .donate-block {
+    flex-direction: row;
+  }
+  .button-right {
+    margin-left: auto;
+  }
 }
 

@@ -1,13 +1,12 @@
 <div class="donate-block">
+  <span class="icon-block">
+    <img src="{{ donations.image }}"  alt="{{ donations.image_alt }}"/>
+  </span>
   <div class="donate-content">
-    <span class="icon-block">
-      <img src="{{ donations.image }}"  alt="{{ donations.image_alt }}"/>
-    </span>
     <h2>{{ donations.description }}</h2>
+    <p>Este es un parrafo para probar en donate</p>
   </div>
   <div class="button-right">
-    <a class="donate-button" href="{{ donations.href_button }}">
-      {{ donations.title }}
-    </a>
+    <a href="{{ donations.href_button }}">{{ donations.title }}</a>
   </div>
 </div>

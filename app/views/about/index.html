@@ -1,5 +1,7 @@
 {% extends "layout/_simple_site_layout.html" %}
 
+{% from "team-block/team_block.macros.html" import example %}
+
 {% set data = about %}
 
 {% block page_content %}
@@ -7,16 +9,8 @@
 <p>{{ about.intro }}</p>
 
 {% for member in about.web_team.members %}
-
-<section class="team-content">
-
-  <img src="{{ member.image }}">
-  <h2 class="team-name">{{ member.name }}</h2>
-
-  <img src="{{ team_block.image }}">
-
-</section>
-
+  {{ example(member) }}
 {% endfor %}
 
 {% endblock %}
+

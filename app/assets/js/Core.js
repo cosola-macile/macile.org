@@ -7,6 +7,7 @@
 
 import feature from 'feature';
 import attachFastClick from 'fastclick';
+import { SpriteFetcher } from 'icons/SpriteFetcher';
 
 export const Core = {
 
@@ -31,5 +32,11 @@ export const Core = {
     } else {
       document.documentElement.classList.add(`no-touch`);
     }
+
+
+    /**
+     * Adds svg sprite symbols to DOM
+     */
+    SpriteFetcher.init(`/assets/img/sprite.symbol.svg`);
   },
 };

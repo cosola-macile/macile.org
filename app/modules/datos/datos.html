@@ -1,10 +1,8 @@
-<section fact-content>
-  <header fact-header>
-    <p>Aquí podremos ver la cantidad de becas que MACILE ha otorgado a los estudiantes y otras cosas más.</p>
-  </header>
-  <section class="fact-"></section>
-  <section class=""></section>
-  <section class=""></section>
+{% macro datos(data) %}
+<section class="fact-content">
 
+  <h1 class="fact-title">{{ data.result }}</h1>
+  <p class="fact-text">{{ data.description }}</p>
 
 </section>
+{% endmacro %}

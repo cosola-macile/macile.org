@@ -1,9 +1,25 @@
 {% extends "layout/_simple_site_layout.html" %}
 
+{% from "datos/datos.html" import datos %}
+
+
 {% set data = scholarships %}
 
 {% block page_content %}
+
   <h1>{{ scholarships.intro }}</h1>
+
+  <header class="fact-header">
+    <p>En esta sección se enterarán de diversas cosas como por ejemplo la cantidad de becas que MACILE la ha otorgado a los estudiantes.</p>
+  </header>
+
+<section class="overview-section">
+
+{% for fact in scholarships.overview_section.facts %}
+    {{ datos(fact) }}
+{% endfor  %}
+
+</section>
 
   {% include "scholarship/scholarship-item.html"%}
 {% endblock %}

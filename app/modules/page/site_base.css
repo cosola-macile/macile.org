@@ -71,3 +71,8 @@ svg {
 video {
   outline: 0;
 }
+
+figure {
+  margin: 0;
+  padding: 0;
+}

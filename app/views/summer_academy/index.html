@@ -2,12 +2,17 @@
 
 {% from "content_panel/content_panel.macros.html" import content_panel %}
 
+{% from "overview/media_object.macro.html" import media_object %}
+
 {% set data = summer_academy %}
 
 {% block page_content %}
 
-{% for year in summer_academy.section_session.years %}
-  {{ content_panel(year) }}
-{% endfor %}
+  {% for year in summer_academy.section_session.years %}
+    {{ content_panel(year) }}
+  {% endfor %}
 
+  {% for items in summer_academy.overview_section.items %}
+    {{ media_object(items) }}
+  {% endfor %}
 {% endblock %}

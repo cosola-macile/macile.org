@@ -2,14 +2,19 @@
 
 {% from "content_panel/content_panel.macros.html" import content_panel %}
 
+{% from "overview/media_object.macro.html" import media_object %}
+
 {% set data = prep_academy %}
 
 {% block page_content %}
+  <p>{{ prep_academy.intro }}</p>
 
-<p>{{ prep_academy.intro }}</p>
+  {% for year in prep_academy.section_session.years %}
+    {{ content_panel(year) }}
+  {% endfor %}
 
-{% for year in prep_academy.section_session.years %}
-  {{ content_panel(year) }}
-{% endfor %}
+    {% for object in prep_academy.section_overview.items %}
+      {{ media_object(object) }}
+    {% endfor %}
 
 {% endblock %}

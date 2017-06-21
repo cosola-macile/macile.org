@@ -56,7 +56,18 @@ a {
   text-decoration: none;
 }
 
-img {
-  width: 100%;
+figure,
+img,
+svg {
+  max-width: 100%;
   height: auto;
+  vertical-align: middle;
+}
+
+svg {
+  pointer-events: none;
+}
+
+video {
+  outline: 0;
 }

@@ -105,6 +105,31 @@ gulp.task(`images`, () => {
 });
 
 /**
+ * Task to create icon sprite.
+ * This task must run each time a new icon is added
+ */
+gulp.task(`icons`, () => {
+  gulp.src(`./app/assets/icons/*.svg`)
+    .pipe($.plumber())
+    .pipe($.svgSprite({
+      svg: {
+        xmlDeclaration: false,
+        doctypeDeclaration: false
+      },
+      mode: {
+        symbol: true
+      },
+      log: 'debug'
+    }))
+    .on('error', (error) => {
+      console.log(error);
+    })
+    .pipe($.rename('sprite.symbol.svg'))
+    .pipe(gulp.dest('./app/assets/img'))
+});
+
+
+/**
  * Convert PostCSS to CSS
  *
 */
@@ -117,12 +142,14 @@ const postmedia = require(`postcss-custom-media`);
 const postmodular = require(`postcss-modular-scale`);
 const postnested = require(`postcss-nested`);
 const autoprefixer = require(`autoprefixer`);
+const postmixins = require('postcss-sassy-mixins');
 
 const postplugins = [
   postimport,
   postcustom,
   postcalc,
   postmedia,
+  postmixins,
   postmodular,
   postnested,
   autoprefixer

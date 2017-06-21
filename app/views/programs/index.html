@@ -5,10 +5,11 @@
 {% set data = programs %}
 
 {% block page_content %}
+
 <p>{{ programs.intro }}</p>
 
-{% for year in programs.section_session.years %}
-  {{ content_panel(year) }}
+{% for program in programs.items %}
+  {{ content_panel(program) }}
 {% endfor %}
 
 {% endblock %}

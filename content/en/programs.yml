@@ -9,91 +9,20 @@ en:
 
     hero:
       headline: Programs
-      byline: Scholarship programs, savatinos and summer programs. :)
       image: /assets/img/header-foto.jpg
 
-    section_overview:
-      intro: MACILE Summer Academy provides a friendly and respectful classroom atmosphere where students engage actively in class discussion with peers, think critically, present their work, and learn to work effectively in teams.
-      items:
-        -
-          headline: Immersive Learning
-          description: Immerse students in a learning environment that enlarges their thoughts and stimulates their creativity and imagination.
-          image: /assets/img/header-foto.jpg
-        -
-          headline: Develop Reasoning
-          description: Improve analytical and logical reasoning and experimental and communication skills through problem-solving and exercises.
-          image: /assets/img/header-foto.jpg
-        -
-          headline: Teamwork and Collaboration
-          description: Improve teamwork and peer collaboration, build good work ethics, and promote the virtue of perseverance.
-          image: /assets/img/header-foto.jpg
-        -
-          headline: Digital Literacy
-          description: Increase the students’ technological literacy
-          image: /assets/img/header-foto.jpg
-        -
-          headline: Strengthen Skill
-          description: Strengthen and further the students’ skills in mathematics, science, and Spanish
-          image: /assets/img/header-foto.jpg
-        -
-          headline: STEM
-          description: Advance understanding of the engineering design process and the scientific method, infusing enthusiasm about engineering, mathematics, and science.
-          image: /assets/img/header-foto.jpg
-        -
+    intro: MACILE offers programs for students.
 
-    section_session:
-      headline: 10 years of developing creative minds
-      byline: MACILE Summer Academy has operated in Itabo-Nigua for 10 years. We’ve served over 500 students.
-
-      years:
-        -
-          title: "2014 Academy"
-          description: "Content panel to contain title and descrptions for the
-          MACILE programs."
-          image: "/assets/img/content-panel-foto.JPG"
-          image_alt: sorry, your picture do can't load!!
-          href_path:
-        -
-          title: "2013 Academy"
-          description: "Content panel to contain title and descrptions for the
-          MACILE programs."
-          image: "/assets/img/content-panel-foto.JPG"
-          image_alt: sorry, your picture do can't load!!
-          href_path:
-        -
-          title: "2012 Academy"
-          description: "Content panel to contain title and descrptions for the
-          MACILE programs."
-          image: "/assets/img/content-panel-foto.JPG"
-          image_alt: sorry, your picture do can't load!!
-          href_path:
-        -
-          title: "2010 Academy"
-          description: "Content panel to contain title and descrptions for the
-          MACILE programs."
-          image: "/assets/img/content-panel-foto.JPG"
-          image_alt: sorry, your picture do can't load!!
-          href_path:
-        -
-          title: "2009 Academy"
-          description: "Content panel to contain title and descrptions for the
-          MACILE programs."
-          image: "/assets/img/content-panel-foto.JPG"
-          image_alt: sorry, your picture do can't load!!
-          href_path:
-        -
-          title: "2008 Academy"
-          description: "Content panel to contain title and descrptions for the
-          MACILE programs."
-          image: "/assets/img/content-panel-foto.JPG"
-          image_alt: sorry, your picture do can't load!!
-          href_path:
-        -
-          title: "2007 Academy"
-          description: "Content panel to contain title and descrptions for the
-          MACILE programs."
-          image: "/assets/img/content-panel-foto.JPG"
-          image_alt: sorry, your picture do can't load!!
-          href_path:
-
-
+    items:
+      -
+        title: "Summer Academy"
+        description: "A rigorous  and challenging summer program to immerse students in a learning environment that enlarges their thoughts and stimulates their creativity and imagination."
+        image: "/assets/img/content-panel-foto.JPG"
+        image_alt: A picture of students in 2014 MACILE Summer Academy
+        href_path: /en/programs/summer-academy
+      -
+        title: "Preparatory School"
+        description: "A rigorous  and challenging summer program to immerse students in a learning environment that enlarges their thoughts and stimulates their creativity and imagination."
+        image: "/assets/img/content-panel-foto.JPG"
+        image_alt: Prep School programming class working on the new site
+        href_path: /en/programs/prep-school

@@ -7,3 +7,28 @@ en:
     hero:
       headline: Scholarships
       image: /assets/img/content-panel-foto.JPG
+
+    overview_section:
+      intro: 100% Merit Based Scholarship provided to allow students to advance their learning at technical and preparatory schools in the Dominican Republic. We provide pre-college and university merit based scholarships to inspires students to advance their learning.
+      facts:
+        -
+          result: 79
+          description: scholarships awarded
+        -
+          result: 79
+          description: scholarships awarded
+        -
+          result: 79
+          description: scholarships awarded
+        -
+          result: 79
+          description: scholarships awarded
+        -
+          result: 79
+          description: scholarships awarded
+        -
+          result: 79
+          description: scholarships awarded
+
+
+

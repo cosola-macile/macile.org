@@ -11,6 +11,7 @@
 
 
 /* Módulos Locales  */
+@import 'modules/icons';
 @import 'modules/page';
 @import 'modules/hero/hero.css';
 @import 'modules/teaser_news/teaser.css';

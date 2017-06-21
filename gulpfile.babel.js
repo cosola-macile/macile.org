@@ -225,10 +225,8 @@ gulp.task(`html`, () => {
   for (const locale of locales) {
     const localeData = i18n[locale];
 
-    for (const route of routes[locale]) {
       gulp.src([
-        `app/views/${route.view}/[^_]*.html`,
-        `app/views/*.html`,
+        `app/views/*/[^_]*.html`
       ])
       .pipe($.plumber())
       .pipe($.data(function() {
@@ -244,9 +242,20 @@ gulp.task(`html`, () => {
           env: njkEnv,
         }
       ))
-      .pipe(gulp.dest(`.tmp/${localeData.lang}${route.path}`));
+     .pipe($.rename(function (path) {
+        const route = routes[locale]
+        const routePath = route.filter((obj) => {
+
+          return obj.view === path.dirname;
+        });
+
+        const ruta = routePath[0];
+
+        path.dirname = `${locale}${ruta.path}`
+
+      }))
+      .pipe(gulp.dest(`./.tmp`));
     }
-  }
 });
 
 gulp.task(`html:optimize`, () => {

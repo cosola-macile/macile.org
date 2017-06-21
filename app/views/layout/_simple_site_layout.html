@@ -13,9 +13,8 @@
   </div>
   <div class="main-nav">
       {% for route in routes %}
-        {% set home = "home" %}
         <a
-          class="site-nav-link {% if route.view == home %}home-link{% endif %}"
+          class="site-nav-link link-{{ route.view }}"
           href="/{{ i18n.lang }}{{ route.path }}">
           {{ route.name }}
         </a>

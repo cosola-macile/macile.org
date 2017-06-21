@@ -1,7 +1,5 @@
 .team-content {
-  border: 2px solid rgb(100,100,90);
-  width: 390px;
-  height: 360px;
+background: blue;
 }
 
 .team-name {

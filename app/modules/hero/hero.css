@@ -1,8 +1,11 @@
 .section-hero {
-  background: lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   height: 40vh;
   overflow: hidden;
+  background: lightgrey;
   padding: 10rem 5rem;
 }
 
@@ -17,7 +20,6 @@
   position: relative;
   z-index: 1;
   text-align: center;
-  height: 200px;
   color: #fff;
 }
 

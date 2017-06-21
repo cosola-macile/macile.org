@@ -27,6 +27,13 @@
   padding: 1em 0;
 }
 
+/* @todo Arreglar esto */
+.link-summer_academy,
+.link-prep_academy {
+  display: none;
+}
+
+
 @media only screen and (min-width: 400px) {
   .main-nav {
     flex-direction: row;

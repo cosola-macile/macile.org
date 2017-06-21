@@ -9,28 +9,28 @@ en:
       byline: Keep informed with what happens at MACILE
       image: /assets/img/content-panel-foto.JPG
 
-  teasers:
-    -
-      title: "Students of MACILE"
-      image: "/assets/img/news-foto.JPG"
-      image_alt: "Students"
-      description: They are students of MACILE
-      href_path: "/news"
-      date: "14-06-2017"
-    -
-      title: "Summer MACILE"
-      description: Start 4 of july at 7am
-      href_path: "/news"
-      date: "16-06-2017"
-    -
-      title: "Students of MACILE"
-      image: "/assets/img/news-foto.JPG"
-      image_alt: "Students"
-      description: They are students of MACILE
-      href_path: "/news"
-      date: "14-06-2017"
-    -
-      title: "Summer MACILE"
-      description: Start 4 of july at 7am
-      href_path: "/news"
-      date: "16-06-2017"
+    teasers:
+      -
+        title: "Students of MACILE"
+        image: "/assets/img/news-foto.JPG"
+        image_alt: "Students"
+        description: They are students of MACILE
+        href_path: "/news"
+        date: "14-06-2017"
+      -
+        title: "Summer MACILE"
+        description: Start 4 of july at 7am
+        href_path: "/news"
+        date: "16-06-2017"
+      -
+        title: "Students of MACILE"
+        image: "/assets/img/news-foto.JPG"
+        image_alt: "Students"
+        description: They are students of MACILE
+        href_path: "/news"
+        date: "14-06-2017"
+      -
+        title: "Summer MACILE"
+        description: Start 4 of july at 7am
+        href_path: "/news"
+        date: "16-06-2017"

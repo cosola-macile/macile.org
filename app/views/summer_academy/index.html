@@ -6,8 +6,16 @@
 
 {% block page_content %}
 
-{% for year in summer_academy.section_session.years %}
-  {{ content_panel(year) }}
-{% endfor %}
+   <section>
+     <header>
+
+        {% for year in summer_academy.section_session.years %}
+		  {{ content_panel(year) }}
+		{% endfor %}
+         <h1>{{ summer_academy.section_session.headline }}</h1>
+         <p>{{ summer_academy.section_session.byline }}</p>
+
+     </header>
+   </section>
 
 {% endblock %}

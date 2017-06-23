@@ -1,6 +1,7 @@
-<nav class="content-nav">
-  <a class="intern-nav-link scholarships-link" href="#"></a>
-  <a class="intern-nav-link" href="#"></a>
-  <a class="intern-nav-link" href="#"></a>
-  <a class="intern-nav-link" href="#"></a>
-</nav>
+{% macro intern_nav(data) %}
+  <nav class="content-nav">
+    {% for item in data %}
+      <a class="intern-nav-link" href="{{ item.link}}">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
+{% endmacro %}

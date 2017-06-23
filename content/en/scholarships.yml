@@ -30,5 +30,18 @@ en:
           result: 79
           description: scholarships awarded
 
+    nav:
+      -
+        name: Scholarships
+        link: "/"
+      -
+        name: Overview Scholars
+        link: "#overview-scholars"
+      -
+        name: Curretnt Scholars
+        link: "#curretnt-scholars"
+      -
+        name: Past Scholars
+        link: "#past-scholars"
 
 

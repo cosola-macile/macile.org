@@ -2,9 +2,13 @@
 
 {% from "content_panel/content_panel.macros.html" import content_panel %}
 
+{% from "intern_nav/intern_nav.macros.html" import intern_nav %}
+
 {% set data = summer_academy %}
 
 {% block page_content %}
+
+{{ intern_nav(summer_academy.nav) }}
 
 {% for year in summer_academy.section_session.years %}
   {{ content_panel(year) }}

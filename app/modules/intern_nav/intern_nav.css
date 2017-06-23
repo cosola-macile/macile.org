@@ -1,4 +1,15 @@
 .content-nav {
   background-color: pink;
-  position: relative;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+}
+
+.intern-nav-link {
+  margin-left: 20px;
+}
+
+.intern-nav-link:nth-child(3,2) {
+  color: black;
 }

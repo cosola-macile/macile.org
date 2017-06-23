@@ -6,7 +6,6 @@
 }
 
 .donate-content {
-  flex-direction: column;
   max-width: 20em;
   margin-left: 10px;
 }
@@ -20,7 +19,7 @@
   .donate-block {
     flex-direction: row;
   }
-  .button-right {
+  .push-button-donate {
     margin-left: auto;
   }
 }

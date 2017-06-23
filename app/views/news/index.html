@@ -1,5 +1,6 @@
 {% extends "layout/_simple_site_layout.html" %}
 
+{% from "donate_block/donate_block.macros.html" import donate_block %}
 
 {% block page_content %}
 
@@ -13,8 +14,9 @@
 {% set teaser = teaser_2 %}
 {% include "teaser_news/teaser.html"%}
 
-{% include "donate_block/donate_block.html"%}
-
+{# {% if donate_block(data) %}
+  {{ donate_block() }}
+{% endif %} #}
 
 {% endblock %}
 

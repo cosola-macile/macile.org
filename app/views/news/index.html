@@ -1,18 +1,16 @@
 {% extends "layout/_simple_site_layout.html" %}
 
+{% from "teaser_news/teaser.macro.html" import teaser_item %}
+
 {% set data = news %}
 
 {% block page_content %}
+	<p>{{ news.intro }}</p>
 
-<p>{{ news.intro }}</p>
-
-{% set teaser = teaser %}
-{% include "teaser_news/teaser.html"%}
-
-{% set teaser = teaser_2 %}
-{% include "teaser_news/teaser.html"%}
-
-{% include "newsletter/newsletter.html"%}
-
+	{% for teaser in news.teasers %}
+	   {{ teaser_item(teaser) }}
+	{% endfor %}
 {% endblock %}
+
+
 

@@ -5,9 +5,15 @@
 {% set data = summer_academy %}
 
 {% block page_content %}
+   <section>
+       <header>
+           <h1>{{ summer_academy.section_session.headline }}</h1>
+           <p>{{ summer_academy.section_session.byline }}</p>
 
-{% for year in summer_academy.section_session.years %}
-  {{ content_panel(year) }}
-{% endfor %}
+          {% for year in summer_academy.section_session.years %}
+            {{ content_panel(year) }}
+          {% endfor %}
 
+       </header>
+   </section>
 {% endblock %}

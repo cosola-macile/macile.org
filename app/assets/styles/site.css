@@ -20,4 +20,14 @@
 @import 'modules/team-block/team-block.css';
 @import 'modules/scholarship/scholarship-item.css';
 @import 'modules/datos/datos.css';
+
+
+
+/*
+ * Páginas
+ * Estilos para todas secciones de macile.org
+ */
+
+ /* Scholarships/Becas */
 @import 'views/scholarships/overview.css';
+

@@ -6,8 +6,8 @@
 }
 
 .donate-content {
-  max-width: 20em;
   flex-direction: column;
+  max-width: 20em;
   margin-left: 10px;
 }
 

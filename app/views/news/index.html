@@ -14,9 +14,7 @@
 {% set teaser = teaser_2 %}
 {% include "teaser_news/teaser.html"%}
 
-{# {% if donate_block(data) %}
-  {{ donate_block() }}
-{% endif %} #}
+{{ donate_block(donations) }}
 
 {% endblock %}
 

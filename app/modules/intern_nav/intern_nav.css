@@ -4,12 +4,13 @@
   left: 0;
   right: 0;
   display: flex;
-}
+/*  justify-content: flex-end;
+*/}
 
 .intern-nav-link {
   margin-left: 20px;
 }
 
-.intern-nav-link:nth-child(3,2) {
+.intern-nav-link:nth-child(n+2) {
   color: black;
 }

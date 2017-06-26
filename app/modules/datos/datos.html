@@ -1,9 +1,11 @@
 {% macro fact(data) %}
-  <section class="datos-content">
+  <section class="fact-content">
 
-<h1 class="fact-title">{{ data.result }}</h1>
-<p class="fact-text">{{ data.description }}</p>
+    <p class="fact-text">
+      <span class="fact-title">{{ data.result }}</span>{{ data.description }}
+    </p>
 
   </section>
 
 {% endmacro %}
+

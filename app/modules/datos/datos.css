@@ -4,4 +4,8 @@
   margin: 0 70px 105px 65px;
 }
 
-
+.fact-title {
+  display: flex;
+  font-size: 30px;
+  flex-direction: column;
+}

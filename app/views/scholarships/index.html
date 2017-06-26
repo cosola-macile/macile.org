@@ -1,6 +1,6 @@
 {% extends "layout/_simple_site_layout.html" %}
 
-{% from "datos/datos.html" import datos %}
+{% from "datos/datos.html" import fact %}
 
 
 {% set data = scholarships %}
@@ -15,8 +15,8 @@
 
 <section class="overview-section">
 
-{% for fact in scholarships.overview_section.facts %}
-    {{ fact(fact) }}
+{% for dato in scholarships.overview_section.facts %}
+    {{ fact(dato) }}
 {% endfor  %}
 
 </section>

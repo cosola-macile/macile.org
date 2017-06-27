@@ -1,9 +1,6 @@
 .content-nav {
   display: flex;
   justify-content: flex-end;
-  position: absolute;
-  left: 0;
-  right: 0;
   overflow: scroll;
   background-color: pink;
   padding: 20px;

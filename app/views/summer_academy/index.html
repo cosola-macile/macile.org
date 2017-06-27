@@ -2,6 +2,7 @@
 
 {% from "content_panel/content_panel.macros.html" import content_panel %}
 {#{% from "icons/icons.macros.html" import icon %}#}
+{% from "curriculum/curriculum.macros.html" import curriculum %}
 
 {% set data = summer_academy %}
 
@@ -10,8 +11,7 @@
 {% for year in summer_academy.section_session.years %}
   {{ content_panel(year) }}
 {% endfor %}
-{% for subject in summer_academy.curriculum_section.subjects %}
-  {{curriculum(subject)}}
-{% endfor %}
+
+{{ curriculum(summer_academy.curriculum_section.subjects) }}
 
 {% endblock %}

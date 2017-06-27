@@ -1,11 +1,10 @@
  {% macro curriculum(data) %}
-
   <section class="data-icon">
-
+    {% for item in data %}
+      <span class="icons">{{ item.icon }}</span>
+      <p>{{ item.name }}</p>
+    {% endfor %}
   </section>
-}
-
-
 {% endmacro %}
 
 

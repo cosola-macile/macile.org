@@ -1,6 +1,13 @@
 .data-icon {
   display: flex;
-  flex-direction: column;
-  background-color: pink;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
+.icons {
+  flex-direction: column;
+  margin-right: 20px;
+  height: 100px;
+  width: 100px;
+  margin-top: 20px;
+}

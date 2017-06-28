@@ -1,16 +1,30 @@
 {% macro becas(data) %}
 
 <div class="scholarship-block">
+
+
+  {% if scholars.pre_college %}
     <figure class="scholarship-figure">
-      <img src="/assets/img/team-foto.jpg" alt="imagen of member">
+      <img scr="{{ scholars.photo }}">
     </figure>
-  <div class="scholarship-content">
-      <h2>Sujey Vargas</h2>
-      <p>9th grade at Instituto Politécnico Padre Zegri, Nigua DR</p>
-      <h2>Biografía</h2>
-      <p>Sujey tiene 14 años, es estudiante en el
-      Instituto Politécnico Padre Zegri en Nigua, San Cristóbal </p>
+    <div class="scholarship-content">
+      <h2>{{ data.scholars.name }}</h2>
+      <p>{{ data.scholars.schools.year_start }}</p>
+      <p>{{ data.scholars.schools.year_end }}</p>
+      <p>{{ data.scholars.schools.name }}</p>
+      <p>{{ data.scholars.schools.location }}</p>
+  {% endif %}
+
+  {% if scholars.college %}
+      <figure class="scholarship-figure">
+        <img scr="{{ scholars.photo }}">
+      </figure>
+        <p>{{ data.scholars.schools.year_start }}</p>
+        <p>{{ data.scholars.schools.year_end }}</p>
+        <p>{{ data.scholars.schools.name }}</p>
+        <p>{{ data.scholars.schools.location }}</p>
+        <p>{{ data.scholars.schools.majors }}</p>}
+  {% endif %}
+
   </div>
 </div>
-
-{% endmacro %}

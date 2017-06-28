@@ -69,14 +69,14 @@ scholars:
           majors: Industrial Engineering
         -
           year_start: 2013
-          year_end: 
+          year_end:
           name: Universidad APEC
           location: Santo Domingo
           majors: Software Engineering
 
   -
     name: Elizabeth Ramírez
-    pre_college: 
+    pre_college:
       photo: null
       schools:
         -
@@ -299,7 +299,7 @@ scholars:
   -
     name: Jeltssin Aquino
     pre_college: null
-    college: 
+    college:
       photo: null
       schools:
         -
@@ -330,7 +330,7 @@ scholars:
           year_end: 2013
           name: Instituto Tecnológico de Santo Domingo
           location: Santo Domingo
-          majors: Mechatronics Engineering  
+          majors: Mechatronics Engineering
   -
     name: Anthony Hendrich Morrobel
     pre_college:
@@ -412,4 +412,4 @@ scholars:
           year_end: 2015
           name: Colegio San Marcos
           location: Haina
-    college: null 
+    college: null

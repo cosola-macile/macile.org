@@ -1,19 +1,16 @@
 {% extends "layout/_simple_site_layout.html" %}
 
-{% from "scholarchip/scholarship-item.html" import becas %}
+{% from "scholarship/scholarship-item.html" import becas %}
 
 {% set data = scholarships %}
 
 {% block page_content %}
+
   <h1>{{ scholarships.intro }}</h1>
 
-{% for becados in scholars.pre_college.schools %}
-{{ becas(becados) }}
-{% endfor %}
+  {{ becas(scholars.schools) }}
 
-{% for scholarship in scholars.college.schools %}
-{{ becas(scholarship) }}
-{% endfor %}
+  {{ becas(scholars.schools) }}
 
 
 {% endblock %}

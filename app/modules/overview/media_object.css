@@ -1,0 +1,20 @@
+.media_object {
+float: left;
+height: 400px;
+width: 300px;
+margin: 20px 0 0 20px;
+}
+
+@media only screen and (min-width: 350px) {
+  .media_object {
+  flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .media_object {
+    flex-direction: row;
+  }
+}
+
+

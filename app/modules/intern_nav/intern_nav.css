@@ -2,7 +2,6 @@
   display: flex;
   justify-content: flex-end;
   overflow: scroll;
-  background-color: pink;
   padding: 20px;
 }
 

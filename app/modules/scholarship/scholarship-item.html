@@ -1,29 +1,9 @@
-{% macro becas(data) %}
-
+<section class="scholarship-block">
 <div class="scholarship-block">
 
-  {% if scholars.pre_college %}
-    <figure class="scholarship-figure">
-      <img scr="{{ scholars.photo }}">
-    </figure>
-    <div class="scholarship-content">
-      <h2>{{ data.name }}</h2>
-      <p>{{ data.year_start }}</p>
-      <p>{{ data.year_end }}</p>
-      <p>{{ data.name }}</p>
-      <p>{{ data.location }}</p>
-  {% endif %}
-
-  {% if scholars.college %}
-      <figure class="scholarship-figure">
-        <img scr="{{ scholars.photo }}">
-      </figure>
-        <p>{{ data.year_start }}</p>
-        <p>{{ data.year_end }}</p>
-        <p>{{ data.name }}</p>
-        <p>{{ data.location }}</p>
-        <p>{{ data.majors }}</p>}
-  {% endif %}
-
-  </div>
+{% for item in scholars %}
+  <p>{{ item.name }}</p>
+{% endfor %}
+</section>
 </div>
+

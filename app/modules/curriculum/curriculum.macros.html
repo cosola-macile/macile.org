@@ -1,4 +1,5 @@
- {% macro curriculum(data) %}
+{% from "icons/icons.macros.html" import icon %}
+{% macro curriculum(data) %}
   <div class="data-icon">
     {% for item in data %}
       <span class="icons">
@@ -8,6 +9,8 @@
     {% endfor %}
   </div>
 {% endmacro %}
+
+
 
 
 

@@ -7,11 +7,12 @@
 {% set data = summer_academy %}
 
 {% block page_content %}
+<section class="curriculum-section">
+  {{ curriculum(summer_academy.curriculum_section.subjects) }}
+</section>
 
 {% for year in summer_academy.section_session.years %}
   {{ content_panel(year) }}
 {% endfor %}
-
-{{ curriculum(summer_academy.curriculum_section.subjects) }}
 
 {% endblock %}

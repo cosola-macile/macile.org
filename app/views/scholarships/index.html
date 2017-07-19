@@ -10,7 +10,18 @@
 
   {% for scholar in scholars %}
     <h3>{{ scholar.name }}</h3>
+
+    {% for school in scholar.pre_college.schools  %}
+      <h4>{{ school.name }}</h4>
+    {% endfor %}
+
+    {% for school in scholar.college.schools %}
+      <h4>{{ school.name }}</h4>
+      <p>{{ school.majors }}</p>
+    {% endfor %}
+  
   {% endfor %}
+
 
 
 {% endblock %}

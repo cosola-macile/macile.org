@@ -1,13 +1,9 @@
-.data-icon {
+.curriculum-section {
   display: flex;
-  justify-content: space-around;
+   justify-content: space-around; 
   flex-wrap: wrap;
-}
 
-.icons {
-  flex-direction: column;
-  margin-right: 20px;
-  height: 100px;
-  width: 100px;
-  margin-top: 20px;
+  svg {
+    height: 100%;
+  }
 }

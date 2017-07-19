@@ -1,6 +1,6 @@
 {% extends "layout/_simple_site_layout.html" %}
 
-{% from "scholarship/scholarship-item.html" import becas %}
+{% from "scholarship/scholarship_item.html" import becas %}
 
 {% set data = scholarships %}
 
@@ -8,9 +8,9 @@
 
   <h1>{{ scholarships.intro }}</h1>
 
-  {{ becas(scholars.schools) }}
-
-  {{ becas(scholars.schools) }}
+  {% for scholar in scholars %}
+    <h3>{{ scholar.name }}</h3>
+  {% endfor %}
 
 
 {% endblock %}

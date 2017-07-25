@@ -1,9 +1,8 @@
 .media_object {
-float: left;
-height: 400px;
 width: 300px;
+display: flex;
+flex-wrap: wrap;
 margin: 20px 0 0 20px;
-text-align: center;
 }
 
 @media only screen and (min-width: 350px) {

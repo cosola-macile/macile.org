@@ -1,14 +1,15 @@
 {% extends "layout/_simple_site_layout.html" %}
 
-{% from "scholarship/scholarship_item.html" import becas %}
+{% block page_content %}
 
   <h1>{{ scholarships.intro }}</h1>
 
   {% for scholar in scholars %}
     <h3>{{ scholar.name }}</h3>
 
-    {% for school in scholar.pre_college.schools  %}
+    {% for school in scholar.pre_college.schools %}
       <h4>{{ school.name }}</h4>
+      <h4>{{ school.year_start }}</h4>
     {% endfor %}
 
     {% for school in scholar.college.schools %}

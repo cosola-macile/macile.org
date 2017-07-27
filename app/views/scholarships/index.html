@@ -1,27 +1,16 @@
 {% extends "layout/_simple_site_layout.html" %}
 
+{% from "scholar/scholar.macro.html" import scholar_block %}
+
+{% set data = scholarships %}
+
 {% block page_content %}
 
   <h1>{{ scholarships.intro }}</h1>
 
   {% for scholar in scholars %}
 
-    <h3>{{ scholar.name }}</h3>
-
-    {% for school in scholar.pre_college.schools %}
-      <p>{{ school.name }}</p>
-      <p>{{ school.year_start }}</p>
-      <p>{{ school.year_end }}</p>
-      <p>{{ school.location }}</p>
-    {% endfor %}
-
-    {% for school in scholar.college.schools %}
-      <p>{{ school.name }}</p>
-      <p>{{ school.majors }}</p>
-      <p>{{ school.year_start }}</p>
-      <p>{{ school.year_end }}</p>
-      <p>{{ school.location }}</p>
-    {% endfor %}
+    {{ scholar_block(scholar) }}
 
   {% endfor %}
 

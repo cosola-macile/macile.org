@@ -1,4 +1,4 @@
-.media_object {
+.media-object {
   width: 300px;
   display: flex;
   flex-wrap: wrap;
@@ -6,13 +6,13 @@
 }
 
 @media only screen and (min-width: 350px) {
-  .media_object {
+  .media-object {
     flex-direction: column;
   }
 }
 
 @media only screen and (max-width: 350px) {
-  .media_object {
+  .media-object {
     flex-direction: row;
   }
 }

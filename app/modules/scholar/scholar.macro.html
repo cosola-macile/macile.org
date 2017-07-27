@@ -1,0 +1,31 @@
+{% macro scholar_block(data) %}
+<article class="scholarship-block">
+    <figure class="scholarship-figure">
+      <img src="/assets/img/team-foto.jpg" alt="imagen of member">
+    </figre>
+
+  <div class="scholarship-content">
+      <h2>{{ data.name }}</h2>
+
+      {% for school in data.pre_college.schools %}
+      <p>
+        {{ school.name }}, {{ school.location }}
+        <em>{{ school.year_start }}-{{ school.year_end }}</em>
+      </p>
+      {% endfor %}
+
+      {% for school in data.college.schools %}
+      <p>
+        {{ school.year_start }}-{{ school.year_end }}
+        {{ school.name }}, {{ school.location }}
+      </p>
+      {% endfor %}
+
+      <h2>Biografía</h2>
+      <p>Sujey tiene 14 años, es estudiante en el
+      Instituto Politécnico Padre Zegri en Nigua, San Cristóbal </p>
+  </div>
+</article>
+{% endmacro %}
+
+

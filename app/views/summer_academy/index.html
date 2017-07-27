@@ -8,6 +8,9 @@
 
 {% block page_content %}
 <section class="curriculum-section">
+  <h1>{{ summer_academy.curriculum_section.headline }}</h1>
+  <p>{{ summer_academy.curriculum_section.byline}}</p>
+
   {{ curriculum(summer_academy.curriculum_section.subjects) }}
 </section>
 

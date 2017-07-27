@@ -7,14 +7,21 @@
 {% set data = prep_academy %}
 
 {% block page_content %}
+
+<section class="overview-section">
+  <h1>{{  summer_academy.overview_section.intro }}</h1>
+
+  <div class="overview-section-items">
+    {% for object in prep_academy.section_overview.items %}
+      {{ media_object(object) }}
+    {% endfor %}
+  </div>
+</section>
   <p>{{ prep_academy.intro }}</p>
 
   {% for year in prep_academy.section_session.years %}
     {{ content_panel(year) }}
   {% endfor %}
 
-    {% for object in prep_academy.section_overview.items %}
-      {{ media_object(object) }}
-    {% endfor %}
 
 {% endblock %}

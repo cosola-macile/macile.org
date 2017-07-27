@@ -8,11 +8,18 @@
 
 {% block page_content %}
 
+<section class="overview-section">
+  <h1>{{  summer_academy.overview_section.intro }}</h1>
+
+  <div class="overview-section-items">
+    {% for items in summer_academy.overview_section.items %}
+     {{ media_object(items) }}
+   {% endfor %}
+  </div>
+</section>
+
   {% for year in summer_academy.section_session.years %}
     {{ content_panel(year) }}
   {% endfor %}
 
-  {% for items in summer_academy.overview_section.items %}
-    {{ media_object(items) }}
-  {% endfor %}
 {% endblock %}

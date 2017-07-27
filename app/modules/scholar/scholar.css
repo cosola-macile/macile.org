@@ -1,0 +1,20 @@
+.scholar-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.scholar-figure {
+ flex: 0 0 100px;
+}
+
+@media only screen and (min-width: 500px) {
+  .scholar-block {
+    flex-direction: row;
+  }
+
+  .scholar-figure {
+    flex: 0 0 300px;
+  }
+}
+
+

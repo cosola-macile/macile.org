@@ -1,13 +1,13 @@
 .media_object {
-width: 300px;
-display: flex;
-flex-wrap: wrap;
-margin: 20px 0 0 20px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0 0 20px;
 }
 
 @media only screen and (min-width: 350px) {
   .media_object {
-  flex-direction: column;
+    flex-direction: column;
   }
 }
 

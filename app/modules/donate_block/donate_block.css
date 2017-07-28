@@ -14,7 +14,8 @@
   .donate-block {
     flex-direction: row;
   }
-  .push-button-donate {
+
+  .donate-button {
     margin-left: auto;
   }
 }

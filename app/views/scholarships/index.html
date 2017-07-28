@@ -13,9 +13,13 @@
       <p>{{ scholarships.overview_section.intro }}</p>
     </header>
 
-    {% for dato in scholarships.overview_section.facts %}
-      {{ fact(dato) }}
-    {% endfor %}
+    <div class="overview-facts">
+
+      {% for dato in scholarships.overview_section.facts %}
+        {{ fact(dato) }}
+      {% endfor %}
+
+    </div>
 
   </section>
 

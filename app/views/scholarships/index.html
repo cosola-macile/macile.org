@@ -1,5 +1,6 @@
 {% extends "layout/_simple_site_layout.html" %}
 
+{% from "scholar/scholar.macro.html" import scholar_block %}
 {% from "datos/datos.html" import fact %}
 {% from "intern_nav/intern_nav.macros.html" import intern_nav %}
 
@@ -25,7 +26,14 @@
 
   </section>
 
-  {% include "scholarship/scholarship-item.html"%}
+  <section>
 
+    {% for scholar in scholars %}
+
+      {{ scholar_block(scholar) }}
+
+    {% endfor %}
+
+  </section>
 {% endblock %}
 

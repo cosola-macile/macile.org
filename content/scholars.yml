@@ -1,415 +1,453 @@
-scholars:
-  -
-    name: Alabania Yamile Martínez
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2008
-          year_end: 2011
-          name: Instituto Politécnico Loyola
-          location: San Cristóbal
-    college:
-      photo: null
-      schools:
-        -
-          year_start: 2011
-          year_end:
-          name: Instituto Tecnológico de Santo Domingo
-          location: Santo Domingo
-          majors: Mechanical Engineering
-  -
-    name: Luz Blaidy Pinales
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2008
-          year_end:
-          name: Instituto Politécnico Loyola
-          location: San Cristóbal
-    college:
-      photo: null
-      schools:
-        -
-          year_start: 2014
-          year_end:
-          name: Instituto Tecnológico de Santo Domingo
-          location: Santo Domingo
-          majors: Chemical Engineering
-  -
-    name: Luís Manuel Alburquerque
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2008
-          year_end: 2009
-          name: Centro Técnico Educativo Padre Zegrí
-          location: San Gregorio de Nigua
-    college: null
-  -
-    name: Andreina de Jesús Troncoso
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2008
-          year_end: 2010
-          name: Centro Técnico Educativo Padre Zegrí
-          location: San Gregorio de Nigua
-    college:
-      photo: null
-      schools:
-        -
-          year_start: 2012
-          year_end: 2013
-          name: Instituto Tecnológico de Santo Domingo
-          location: Santo Domingo
-          majors: Industrial Engineering
-        -
-          year_start: 2013
-          year_end: 
-          name: Universidad APEC
-          location: Santo Domingo
-          majors: Software Engineering
+en:
+  scholars:
+    -
+      name: Alabania Yamile Martínez
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2008
+            year_end: 2011
+            name: Instituto Politécnico Loyola
+            location: San Cristóbal
+      college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2011
+            year_end:
+            name: Instituto Tecnológico de Santo Domingo
+            location: Santo Domingo
+            majors: Mechanical Engineering
+    -
+      name: Luz Blaidy Pinales
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2008
+            year_end:
+            name: Instituto Politécnico Loyola
+            location: San Cristóbal
+      college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2014
+            year_end:
+            name: Instituto Tecnológico de Santo Domingo
+            location: Santo Domingo
+            majors: Chemical Engineering
+    -
+      name: Luís Manuel Alburquerque
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2008
+            year_end: 2009
+            name: Centro Técnico Educativo Padre Zegrí
+            location: San Gregorio de Nigua
+      college: null
+    -
+      name: Andreina de Jesús Troncoso
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2008
+            year_end: 2010
+            name: Centro Técnico Educativo Padre Zegrí
+            location: San Gregorio de Nigua
+      college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2012
+            year_end: 2013
+            name: Instituto Tecnológico de Santo Domingo
+            location: Santo Domingo
+            majors: Industrial Engineering
+          -
+            year_start: 2013
+            year_end:
+            name: Universidad APEC
+            location: Santo Domingo
+            majors: Software Engineering
 
-  -
-    name: Elizabeth Ramírez
-    pre_college: 
-      photo: null
-      schools:
-        -
-          year_start: 2008
-          year_end: 2010
-          name: Centro Técnico Educativo Padre Zegrí
-          location: San Gregorio de Nigua
-    college: null
-  -
-    name: Juana Mercedes García Castillo
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2009
-          year_end: 2010
-          name: Centro Técnico Educativo Padre Zegrí
-          location: San Gregorio de Nigua
-        -
-          year_start: 2010
-          year_end: 2013
-          name: Instituto Politécnico Loyola
-          location: San Cristóbal
-    college: null
-  -
-    name: Moisés de Jesús Cuevas
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2009
-          year_end: 2010
-          name: Centro Técnico Educativo Padre Zegrí
-          location: San Gregorio de Nigua
-    college: null
-  -
-    name: Yulissa Esther de Jesús
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2009
-          year_end: 2012
-          name: Centro Técnico Educativo Padre Zegrí
-          location: San Gregorio de Nigua
-    college: null
-  -
-    name: Yairin Rodríguez
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2009
-          year_end: 2012
-          name: Centro Técnico Educativo Padre Zegrí
-          location: San Gregorio de Nigua
-    college: null
-  -
-    name: Dairy Pichardo Soriano
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2009
-          year_end: 2010
-          name: Centro Técnico Educativo Padre Zegrí
-          location: San Gregorio de Nigua
-    college: null
-  -
-    name: Victoria Aldhair Cruz Silvestre
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2010
-          year_end: 2013
-          name: Instituto Politécnico Loyola
-          location: San Cristóbal
-    college: null
-  -
-    name: Julio César Nero
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2010
-          year_end: 2012
-          name: Instituto Politécnico Loyola
-          location: San Cristóbal
-    college: null
-  -
-    name: Albania Yamile Martínez
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2012
-          year_end: 2011
-          name: Instituto Politécnico Loyola
-          location: San Cristóbal
-    college: null
-  -
-    name: Abel Beltrán Vázquez
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2010
-          year_end: 2012
-          name: Instituto Politécnico Loyola
-          location: San Cristóbal
-    college: null
-  -
-    name: Graciela Peña Sarante
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2010
-          year_end: 2011
-          name: Centro Técnico Educativo Padre Zegrí
-          location: San Gregorio de Nigua
-    college: null
-  -
-    name: Carolyn Miosoti Vicente Muñoz
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2010
-          year_end: 2012
-          name: Centro Técnico Educativo Padre Zegrí
-          location: San Gregorio de Nigua
-    college: 2012
-  -
-    name: Daniel Ignacio Montero
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2010
-          year_end: 2011
-          name: Centro Técnico Educativo Padre Zegrí
-          location: San Gregorio de Nigua
-    college: null
-  -
-    name: Freidy Esteban Cuevas
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2010
-          year_end: 2011
-          name: Centro Técnico Educativo Padre Zegrí
-          location: San Gregorio de Nigua
-    college: null
-  -
-    name: Romny Manuel Arias
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2010
-          year_end: 2011
-          name: Centro Técnico Educativo Padre Zegrí
-          location: San Gregorio de Nigua
-    college: null
-  -
-    name: Mabeladia Pérez
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2010
-          year_end: 2011
-          name: Centro Técnico Educativo Padre Zegrí
-          location: San Gregorio de Nigua
-    college: null
-  -
-    name: Arnold Nataniel Santana
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2010
-          year_end: 2011
-          name: Centro Técnico Educativo Padre Zegrí
-          location: San Gregorio de Nigua
-    college: null
-  -
-    name: Leydi Celeste Cuevas Muñoz
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2010
-          year_end: 2013
-          name: Instituto Politécnico de Haina
-          location: Km. 18, Bajos de Haina
-    college:
-      photo: null
-      schools:
-        -
-          year_start: 2015
-          year_end:
-          name: Instituto Tecnológico de Santo Domingo
-          location: Santo Domingo
-          majors: Undeclared
-  -
-    name: Luz Blaidy Pinales
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2010
-          year_end: 2011
-          name: Instituto Politécnico de Haina
-          location: Km. 18, Bajos de Haina
-    college: null
-  -
-    name: Jeltssin Aquino
-    pre_college: null
-    college: 
-      photo: null
-      schools:
-        -
-          year_start: 2011
-          year_end: 2012
-          name: Instituto Tecnológico de Las Américas
-          location: Santo Domingo
-          majors: Sofware Engineering
-  -
-    name: Moisés Cuevas Muñoz
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2011
-          year_end: 2012
-          name: Instituto Politécnico de Haina
-          location: Km. 18, Bajos de Haina
-    college: null
-  -
-    name: Claudio Heredia Germán
-    pre_college: null
-    college:
-      photo: null
-      schools:
-        -
-          year_start: 2012
-          year_end: 2013
-          name: Instituto Tecnológico de Santo Domingo
-          location: Santo Domingo
-          majors: Mechatronics Engineering  
-  -
-    name: Anthony Hendrich Morrobel
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2012
-          year_end: 2013
-          name: Instituto Politécnico Loyola
-          location: San Cristóbal
-    college: null
-  -
-    name: Patricia Michel de Jesús Oleo
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2012
-          year_end: 2013
-          name: Centro Técnico Educativo Padre Zegrí
-          location: San Gregorio de Nigua
-        -
-          year_start: 2013
-          year_end: 2014
-          name: Instituto Politécnico Loyola
-          location: San Cristóbal
-    college: null
-  -
-    name: Anthony José Rufino Díaz
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2012
-          year_end: 2013
-          name: Centro Técnico Educativo Padre Zegrí
-          location: San Gregorio de Nigua
-    college: null
-  -
-    name: Wander Brito
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2013
-          year_end: 2014
-          name: Colegio Parroquial San Agustín
-          location: Haina
-    college: null
-  -
-    name: Nicol Mari Pinales
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2014
-          year_end: 2015
-          name: Instituto Politécnico Loyola
-          location: San Cristóbal
-    college: null
-  -
-    name: Yisel Corporán Beltre
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2014
-          year_end: 2015
-          name: Centro Técnico Educativo Padre Zegrí
-          location: San Gregorio de Nigua
-    college: null
-  -
-    name: Rocio Asencio
-    pre_college:
-      photo: null
-      schools:
-        -
-          year_start: 2014
-          year_end: 2015
-          name: Colegio San Marcos
-          location: Haina
-    college: null 
+    -
+      name: Elizabeth Ramírez
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2008
+            year_end: 2010
+            name: Centro Técnico Educativo Padre Zegrí
+            location: San Gregorio de Nigua
+      college: null
+    -
+      name: Juana Mercedes García Castillo
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2009
+            year_end: 2010
+            name: Centro Técnico Educativo Padre Zegrí
+            location: San Gregorio de Nigua
+          -
+            year_start: 2010
+            year_end: 2013
+            name: Instituto Politécnico Loyola
+            location: San Cristóbal
+      college: null
+    -
+      name: Moisés de Jesús Cuevas
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2009
+            year_end: 2010
+            name: Centro Técnico Educativo Padre Zegrí
+            location: San Gregorio de Nigua
+      college: null
+    -
+      name: Yulissa Esther de Jesús
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2009
+            year_end: 2012
+            name: Centro Técnico Educativo Padre Zegrí
+            location: San Gregorio de Nigua
+      college: null
+    -
+      name: Yairin Rodríguez
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2009
+            year_end: 2012
+            name: Centro Técnico Educativo Padre Zegrí
+            location: San Gregorio de Nigua
+      college: null
+    -
+      name: Dairy Pichardo Soriano
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2009
+            year_end: 2010
+            name: Centro Técnico Educativo Padre Zegrí
+            location: San Gregorio de Nigua
+      college: null
+    -
+      name: Victoria Aldhair Cruz Silvestre
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2010
+            year_end: 2013
+            name: Instituto Politécnico Loyola
+            location: San Cristóbal
+      college: null
+    -
+      name: Julio César Nero
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2010
+            year_end: 2012
+            name: Instituto Politécnico Loyola
+            location: San Cristóbal
+      college: null
+    -
+      name: Albania Yamile Martínez
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2012
+            year_end: 2011
+            name: Instituto Politécnico Loyola
+            location: San Cristóbal
+      college: null
+    -
+      name: Abel Beltrán Vázquez
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2010
+            year_end: 2012
+            name: Instituto Politécnico Loyola
+            location: San Cristóbal
+      college: null
+    -
+      name: Graciela Peña Sarante
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2010
+            year_end: 2011
+            name: Centro Técnico Educativo Padre Zegrí
+            location: San Gregorio de Nigua
+      college: null
+    -
+      name: Carolyn Miosoti Vicente Muñoz
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2010
+            year_end: 2012
+            name: Centro Técnico Educativo Padre Zegrí
+            location: San Gregorio de Nigua
+      college: 2012
+    -
+      name: Daniel Ignacio Montero
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2010
+            year_end: 2011
+            name: Centro Técnico Educativo Padre Zegrí
+            location: San Gregorio de Nigua
+      college: null
+    -
+      name: Freidy Esteban Cuevas
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2010
+            year_end: 2011
+            name: Centro Técnico Educativo Padre Zegrí
+            location: San Gregorio de Nigua
+      college: null
+    -
+      name: Romny Manuel Arias
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2010
+            year_end: 2011
+            name: Centro Técnico Educativo Padre Zegrí
+            location: San Gregorio de Nigua
+      college: null
+    -
+      name: Mabeladia Pérez
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2010
+            year_end: 2011
+            name: Centro Técnico Educativo Padre Zegrí
+            location: San Gregorio de Nigua
+      college: null
+    -
+      name: Arnold Nataniel Santana
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2010
+            year_end: 2011
+            name: Centro Técnico Educativo Padre Zegrí
+            location: San Gregorio de Nigua
+      college: null
+    -
+      name: Leydi Celeste Cuevas Muñoz
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2010
+            year_end: 2013
+            name: Instituto Politécnico de Haina
+            location: Km. 18, Bajos de Haina
+      college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2015
+            year_end:
+            name: Instituto Tecnológico de Santo Domingo
+            location: Santo Domingo
+            majors: Undeclared
+    -
+      name: Luz Blaidy Pinales
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2010
+            year_end: 2011
+            name: Instituto Politécnico de Haina
+            location: Km. 18, Bajos de Haina
+      college: null
+    -
+      name: Jeltssin Aquino
+      pre_college: null
+      college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2011
+            year_end: 2012
+            name: Instituto Tecnológico de Las Américas
+            location: Santo Domingo
+            majors: Sofware Engineering
+    -
+      name: Moisés Cuevas Muñoz
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2011
+            year_end: 2012
+            name: Instituto Politécnico de Haina
+            location: Km. 18, Bajos de Haina
+      college: null
+    -
+      name: Claudio Heredia Germán
+      pre_college: null
+      college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2012
+            year_end: 2013
+            name: Instituto Tecnológico de Santo Domingo
+            location: Santo Domingo
+            majors: Mechatronics Engineering
+    -
+      name: Anthony Hendrich Morrobel
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2012
+            year_end: 2013
+            name: Instituto Politécnico Loyola
+            location: San Cristóbal
+      college: null
+    -
+      name: Patricia Michel de Jesús Oleo
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2012
+            year_end: 2013
+            name: Centro Técnico Educativo Padre Zegrí
+            location: San Gregorio de Nigua
+          -
+            year_start: 2013
+            year_end: 2014
+            name: Instituto Politécnico Loyola
+            location: San Cristóbal
+      college: null
+    -
+      name: Anthony José Rufino Díaz
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2012
+            year_end: 2013
+            name: Centro Técnico Educativo Padre Zegrí
+            location: San Gregorio de Nigua
+      college: null
+    -
+      name: Wander Brito
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2013
+            year_end: 2014
+            name: Colegio Parroquial San Agustín
+            location: Haina
+      college: null
+    -
+      name: Nicol Mari Pinales
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2014
+            year_end: 2015
+            name: Instituto Politécnico Loyola
+            location: San Cristóbal
+      college: null
+    -
+      name: Yisel Corporán Beltre
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2014
+            year_end: 2015
+            name: Centro Técnico Educativo Padre Zegrí
+            location: San Gregorio de Nigua
+      college: null
+    -
+      name: Rocio Asencio
+      pre_college:
+        image: null
+        image_alt: null
+        schools:
+          -
+            year_start: 2014
+            year_end: 2015
+            name: Colegio San Marcos
+            location: Haina
+      college: null

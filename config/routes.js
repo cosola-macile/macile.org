@@ -60,12 +60,12 @@ export const routes = {
     {
       view: `summer_academy`,
       name: `Academia de Verano`,
-      path: `/programs/academia-verano`
+      path: `/programas/academia-verano`
     },
     {
       view: `prep_academy`,
       name: `Academia Preparatoria`,
-      path: `/programs/academia-preparatoria`
+      path: `/programas/academia-preparatoria`
     },
     {
       view: `scholarships`,

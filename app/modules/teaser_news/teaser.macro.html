@@ -1,14 +1,14 @@
-{% macro teaser(data) %}
-<article class="teaser-block">
-  {% if teaser.image %}
-    <figure class="teaser-figure">
-      <img src="{{ data.image }}" alt="{{ data.image_alt }}" />
-    </figure>
-  {% endif %}
-    <div class="teaser-content">
+{% macro teaser_item(data) %}
+  <article class="teaser-block">
+    {% if data.image %}
+      <figure class="teaser-figure">
+        <img src="{{ data.image }}" alt="{{ data.image_alt }}" />
+      </figure>
+    {% endif %}
+      <div class="teaser-content">
         <a href="{{ data.href_path }}"><h2>{{ data.title }}</h2></a>
         <p class="teaser-date">{{ data.date }}</p>
         <p class="teaser-description">{{ data.description }}</p>
-    </div>
-</article>
+      </div>
+  </article>
 {% endmacro %}

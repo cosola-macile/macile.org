@@ -15,6 +15,7 @@
 @import 'modules/page';
 @import 'modules/hero/hero.css';
 @import 'modules/teaser_news/teaser.css';
+@import 'modules/donate_block/donate_block.css';
 @import 'modules/content_panel/content_panel.css';
 @import 'modules/newsletter/newsletter.css';
 @import 'modules/team-block/team-block.css';
@@ -30,4 +31,3 @@
 
  /* Scholarships/Becas */
 @import 'views/scholarships/overview.css';
-

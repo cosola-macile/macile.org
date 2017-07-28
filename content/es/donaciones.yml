@@ -1,0 +1,6 @@
+es:
+  donations:
+    title: "Donar"
+    description: "Donar para admision"
+    icon: icon-donate
+    href_button: "/donate"

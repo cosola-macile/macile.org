@@ -11,9 +11,9 @@
            <p>{{ summer_academy.section_session.byline }}</p>
        </header>
 
-          {% for year in summer_academy.section_session.years %}
-            {{ content_panel(year) }}
-          {% endfor %}
+        {% for year in summer_academy.section_session.years %}
+          {{ content_panel(year) }}
+        {% endfor %}
 
    </section>
 {% endblock %}

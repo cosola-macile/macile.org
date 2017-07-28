@@ -47,7 +47,7 @@ body {
   }
 }
 
-// Disable 300ms delay on touch devices
+/* Disable 300ms delay on touch devices */
 .no-touch-delay {
   touch-action: manipulation;
 }
@@ -66,6 +66,7 @@ svg {
 
 svg {
   pointer-events: none;
+  height: 100%;
 }
 
 video {

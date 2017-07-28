@@ -1,11 +1,13 @@
 {% extends "layout/_simple_site_layout.html" %}
 
 {% from "datos/datos.html" import fact %}
-
+{% from "intern_nav/intern_nav.macros.html" import intern_nav %}
 
 {% set data = scholarships %}
 
 {% block page_content %}
+
+  {{ intern_nav(scholarships.nav) }}
 
   <section class="overview-section">
 
@@ -24,4 +26,6 @@
   </section>
 
   {% include "scholarship/scholarship-item.html"%}
+
 {% endblock %}
+

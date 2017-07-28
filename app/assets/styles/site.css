@@ -21,7 +21,7 @@
 @import 'modules/team-block/team-block.css';
 @import 'modules/scholarship/scholarship-item.css';
 @import 'modules/datos/datos.css';
-
+@import 'modules/intern_nav/intern_nav.css';
 
 
 /*
@@ -31,3 +31,4 @@
 
  /* Scholarships/Becas */
 @import 'views/scholarships/overview.css';
+

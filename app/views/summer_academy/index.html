@@ -2,18 +2,21 @@
 
 {% from "content_panel/content_panel.macros.html" import content_panel %}
 
+{% from "intern_nav/intern_nav.macros.html" import intern_nav %}
+
 {% set data = summer_academy %}
 
 {% block page_content %}
-   <section>
-       <header>
-           <h1>{{ summer_academy.section_session.headline }}</h1>
-           <p>{{ summer_academy.section_session.byline }}</p>
-       </header>
+  {{ intern_nav(summer_academy.nav) }}
 
-        {% for year in summer_academy.section_session.years %}
-          {{ content_panel(year) }}
-        {% endfor %}
+  <section>
+    <header>
+      <h1>{{ summer_academy.section_session.headline }}</h1>
+      <p>{{ summer_academy.section_session.byline }}</p>
+    </header>
 
-   </section>
+    {% for year in summer_academy.section_session.years %}
+      {{ content_panel(year) }}
+    {% endfor %}
+  </section>
 {% endblock %}

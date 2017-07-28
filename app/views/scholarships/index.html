@@ -7,19 +7,17 @@
 
 {% block page_content %}
 
-  <h1>{{ scholarships.intro }}</h1>
+  <section class="overview-section">
 
-<header class="fact-header">
-    <p>{{ scholarships.overview_section.intro }}</p>
-</header>
+    <header class="overview-header">
+      <p>{{ scholarships.overview_section.intro }}</p>
+    </header>
 
-<section class="overview-section">
+    {% for dato in scholarships.overview_section.facts %}
+      {{ fact(dato) }}
+    {% endfor %}
 
-{% for dato in scholarships.overview_section.facts %}
-    {{ fact(dato) }}
-{% endfor %}
-
-</section>
+  </section>
 
   {% include "scholarship/scholarship-item.html"%}
 {% endblock %}

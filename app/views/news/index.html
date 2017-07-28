@@ -1,20 +1,18 @@
 {% extends "layout/_simple_site_layout.html" %}
 
 {% from "donate_block/donate_block.macros.html" import donate_block %}
+{% from "teaser_news/teaser.macro.html" import teaser_item %}
+
+{% set data = news %}
 
 {% block page_content %}
+	<p>{{ news.intro }}</p>
 
-<h1>{{ news.intro }}</h1>
+	{% for teaser in news.teasers %}
+	   {{ teaser_item(teaser) }}
+	{% endfor %}
 
-<p>{{ news.headline }}</p>
-
-{% set teaser = teaser %}
-{% include "teaser_news/teaser.html"%}
-
-{% set teaser = teaser_2 %}
-{% include "teaser_news/teaser.html"%}
-
-{{ donate_block(donations) }}
-
+  {{ donate_block(donations) }}
 {% endblock %}
+
 

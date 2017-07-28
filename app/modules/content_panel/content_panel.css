@@ -1,0 +1,25 @@
+.content-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-figure {
+  flex: 0 0 50%;
+}
+
+.panel-information {
+  padding: 30px;
+  flex: 0 0 50%;
+}
+
+@media only screen and (min-width: 920px) {
+  .content-panel {
+    flex-direction: row;
+  }
+}
+
+
+
+
+
+

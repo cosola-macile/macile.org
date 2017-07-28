@@ -3,7 +3,7 @@ import path from 'path';
 export default {
   context: path.resolve(__dirname, `./app`),
   entry: {
-    core: `./assets/js/Core.js`,
+    app: `./assets/js/App.js`,
   },
   output: {
     path: path.resolve(__dirname, `./.tmp/assets/js`),
@@ -29,9 +29,10 @@ export default {
     modules: [
       `./node_modules`,
       `./app/assets/js`,
+      `./app/modules`
     ],
     alias: {
-      feature: `feature/index.js`,
+      feature: `feature/index.js`
     },
   },
 };

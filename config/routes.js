@@ -16,6 +16,16 @@ export const routes = {
       path: `/programs`
     },
     {
+      view: `summer_academy`,
+      name: `Summer Academy`,
+      path: `/programs/summer-academy`
+    },
+    {
+      view: `prep_academy`,
+      name: `Prep Academy`,
+      path: `/programs/preparatory-academy`
+    },
+    {
       view: `scholarships`,
       name: `Scholarships`,
       path: `/scholarships`
@@ -46,6 +56,16 @@ export const routes = {
       view: `programs`,
       name: `Programas`,
       path: `/programas`
+    },
+    {
+      view: `summer_academy`,
+      name: `Academia de Verano`,
+      path: `/programas/academia-verano`
+    },
+    {
+      view: `prep_academy`,
+      name: `Academia Preparatoria`,
+      path: `/programas/academia-preparatoria`
     },
     {
       view: `scholarships`,

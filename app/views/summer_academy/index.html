@@ -1,0 +1,13 @@
+{% extends "layout/_simple_site_layout.html" %}
+
+{% from "content_panel/content_panel.macros.html" import content_panel %}
+
+{% set data = summer_academy %}
+
+{% block page_content %}
+
+{% for year in summer_academy.section_session.years %}
+  {{ content_panel(year) }}
+{% endfor %}
+
+{% endblock %}

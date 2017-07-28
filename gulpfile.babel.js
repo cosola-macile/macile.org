@@ -105,6 +105,31 @@ gulp.task(`images`, () => {
 });
 
 /**
+ * Task to create icon sprite.
+ * This task must run each time a new icon is added
+ */
+gulp.task(`icons`, () => {
+  gulp.src(`./app/assets/icons/*.svg`)
+    .pipe($.plumber())
+    .pipe($.svgSprite({
+      svg: {
+        xmlDeclaration: false,
+        doctypeDeclaration: false
+      },
+      mode: {
+        symbol: true
+      },
+      log: 'debug'
+    }))
+    .on('error', (error) => {
+      console.log(error);
+    })
+    .pipe($.rename('sprite.symbol.svg'))
+    .pipe(gulp.dest('./app/assets/img'))
+});
+
+
+/**
  * Convert PostCSS to CSS
  *
 */
@@ -117,12 +142,14 @@ const postmedia = require(`postcss-custom-media`);
 const postmodular = require(`postcss-modular-scale`);
 const postnested = require(`postcss-nested`);
 const autoprefixer = require(`autoprefixer`);
+const postmixins = require('postcss-sassy-mixins');
 
 const postplugins = [
   postimport,
   postcustom,
   postcalc,
   postmedia,
+  postmixins,
   postmodular,
   postnested,
   autoprefixer
@@ -198,10 +225,8 @@ gulp.task(`html`, () => {
   for (const locale of locales) {
     const localeData = i18n[locale];
 
-    for (const route of routes[locale]) {
       gulp.src([
-        `app/views/${route.view}/[^_]*.html`,
-        `app/views/*.html`,
+        `app/views/*/[^_]*.html`
       ])
       .pipe($.plumber())
       .pipe($.data(function() {
@@ -217,9 +242,20 @@ gulp.task(`html`, () => {
           env: njkEnv,
         }
       ))
-      .pipe(gulp.dest(`.tmp/${localeData.lang}${route.path}`));
+     .pipe($.rename(function (path) {
+        const route = routes[locale]
+        const routePath = route.filter((obj) => {
+
+          return obj.view === path.dirname;
+        });
+
+        const ruta = routePath[0];
+
+        path.dirname = `${locale}${ruta.path}`
+
+      }))
+      .pipe(gulp.dest(`./.tmp`));
     }
-  }
 });
 
 gulp.task(`html:optimize`, () => {

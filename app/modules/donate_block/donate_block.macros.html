@@ -1,8 +1,8 @@
+{% from "icons/icons.macros.html" import icon %}
+
 {% macro donate_block(data) %}
   <div class="donate-block">
-    <span class="icon-block">
-      <img src="{{ data.image }}"  alt="{{ data.image_alt }}"/>
-    </span>
+    {{ icon(data.icon, "large") }}
     <div class="donate-content">
       <h2>{{ data.description }}</h2>
       <p>Este es un parrafo para probar en donate</p>

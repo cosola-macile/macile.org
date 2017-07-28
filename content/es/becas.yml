@@ -4,5 +4,30 @@ es:
     page_description: "Becas en Español"
     meta_social_image:
 
-    headline: Estudia y gana una beca
-    intro: Inicio
+    hero:
+      headline: Becas
+      byline: Estudia y gana una beca
+      image: /assets/img/content-panel-foto.JPG
+
+    overview_section:
+      intro: 100% Merit Based Scholarship provided to allow students to advance their learning at technical and preparatory schools in the Dominican Republic. We provide pre-college and university merit based scholarships to inspires students to advance their learning.
+      facts:
+        -
+          data: 79
+          description: scholarships awarded
+        -
+          data: 79
+          description: scholarships awarded
+        -
+          data: 79
+          description: scholarships awarded
+        -
+          data: 79
+          description: scholarships awarded
+        -
+          data: 79
+          description: scholarships awarded
+        -
+          data: 79
+          description: scholarships awarded
+

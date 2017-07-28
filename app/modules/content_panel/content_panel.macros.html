@@ -1,0 +1,14 @@
+{% macro content_panel(data) %}
+  <div class="content-panel">
+    {% if data.image %}
+      <figure class="panel-figure">
+        <img class="panel-img" src="{{ data.image }}" alt="{{ data.image_alt }}">
+      </figure>
+    {% endif %}
+    <div class="panel-information">
+
+      <h2><a href="{{ data.href_path }}">{{ data.title }}</a></h2>
+      <p>{{ data.description }}</p>
+    </div>
+  </div>
+{% endmacro %}

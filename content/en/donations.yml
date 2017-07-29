@@ -1,0 +1,7 @@
+en:
+  donations:
+    title: "Donate"
+    description: "Donate for admission"
+    icon: icon-donate
+    href_button: "/donate"
+

@@ -1,0 +1,9 @@
+.fact-content {
+  text-align: center;
+}
+
+.fact-title {
+  display: flex;
+  font-size: 30px;
+  flex-direction: column;
+}

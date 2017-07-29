@@ -1,0 +1,20 @@
+.intern-nav {
+  display: flex;
+  justify-content: flex-end;
+  overflow: scroll;
+  padding: 20px;
+}
+
+.intern-nav-link {
+  margin-left: 20px;
+}
+
+.intern-nav-link:first-child {
+  margin-right: auto;
+}
+
+@media only screen and (min-width: 630px) {
+  .content-nav {
+    overflow: hidden;
+  }
+}

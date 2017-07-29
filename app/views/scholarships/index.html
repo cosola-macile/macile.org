@@ -26,11 +26,14 @@
 
   </section>
 
-  {% for scholar in scholars %}
+  <section>
 
-    {{ scholar_block(scholar) }}
+    {% for scholar in scholars %}
 
-  {% endfor %}
-s
+      {{ scholar_block(scholar) }}
+
+    {% endfor %}
+
+  </section>
 {% endblock %}
 

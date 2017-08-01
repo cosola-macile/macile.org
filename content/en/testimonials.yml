@@ -1,0 +1,23 @@
+# Content for site
+# Content appears in the order of page layout
+
+en:
+  testimonials:
+
+    student_role:
+      name: Rigoberta Menchú
+      role: Estudiante
+      photo: /assets/img/testimonial.jpg
+      quote: La paz es hija de la covivencia, de la educación, del diálogo. El respeto a las culturas milenarias hace nacer la paz en el presente.
+
+    parent_role:
+      name: Rigoberta Menchú
+      role: Padre
+      photo: /assets/img/testimonial.jpg
+      quote: La paz no es solamente la ausencia de la guerra; mientra haya pobreza, racismo, discriminación y exclusión dificilmente podremos alcanzar un mundo de paz.
+
+    teacher_role:
+      name: Rigoberta Menchú
+      role: Maestra
+      photo: /assets/img/testimonial.jpg
+      quote: Yo creo firmemente que el respecto a la diversidad es un pilar fundamental en la erradicación del racismo, la xenofobia y la intoloerancia.

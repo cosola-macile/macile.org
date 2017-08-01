@@ -9,6 +9,20 @@ es:
       byline: Estudia y gana una beca
       image: /assets/img/content-panel-foto.JPG
 
+    nav:
+      -
+        name: Scholarships
+        link: "/"
+      -
+        name: Datos
+        link: "#overview-scholars"
+      -
+        name: Current Scholars
+        link: "#current-scholars"
+      -
+        name: Alumnos
+        link: "#past-scholars"
+
     overview_section:
       intro: 100% Merit Based Scholarship provided to allow students to advance their learning at technical and preparatory schools in the Dominican Republic. We provide pre-college and university merit based scholarships to inspires students to advance their learning.
       facts:
@@ -31,16 +45,6 @@ es:
           data: 79
           description: scholarships awarded
 
-    nav:
-      -
-        name: Scholarships
-        link: "/"
-      -
-        name: Overview Scholars
-        link: "#overview-scholars"
-      -
-        name: Current Scholars
-        link: "#current-scholars"
-      -
-        name: Past Scholars
-        link: "#past-scholars"
+
+    current_scholars_section:
+      intro: Conoce a los beneficiarios de la beca MACILE para el 2015-2016.

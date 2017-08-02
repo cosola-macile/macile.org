@@ -14,24 +14,10 @@
   {{ example(member) }}
 {% endfor %}
 
-
+<div class="testimonios-content">
   {{ testimonios(testimonials.student_role) }}
   {{ testimonios(testimonials.parent_role) }}
   {{ testimonios(testimonials.teacher_role) }}
-
-
-
-
-{# <img src="{{ testimonials.student_role.photo }}">
-<p>{{ testimonials.student_role.role }}</p>
-<span>{{ testimonials.student_role.name }}<p>{{ testimonials.student_role.quote }}</p></span>
-
-<img src="{{ testimonials.parent_role.photo }}">
-<p>{{ testimonials.parent_role.role }}</p>
-<span>{{ testimonials.parent_role.name }}<p>{{ testimonials.parent_role.quote }}</p></span>
-
-<img src="{{ testimonials.teacher_role.photo }}">
-<p>{{ testimonials.teacher_role.role }}</p>
-<span>{{ testimonials.teacher_role.name }}<p>{{ testimonials.teacher_role.quote }}</p></span> #}
+</div>
 
 {% endblock %}

@@ -32,7 +32,8 @@ export default {
       `./app/modules`
     ],
     alias: {
-      feature: `feature/index.js`
+      feature: `feature/index.js`,
+      waypoints: `waypoints/lib/noframework.waypoints.min.js`
     },
   },
 };

@@ -1,5 +1,5 @@
 {% macro intern_nav(data) %}
-  <nav class="intern-nav">
+  <nav class="intern-nav is-sticky">
     {% for item in data %}
       <a class="intern-nav-link" href="{{ item.link}}">{{ item.name }}</a>
     {% endfor %}

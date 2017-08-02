@@ -6,6 +6,7 @@
     "start": "gulp",
     "html": "gulp html",
     "styles": "gulp styles",
+    "scripts": "gulp scripts",
     "images": "gulp copy-images",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postversion": "git push && git push --tags"

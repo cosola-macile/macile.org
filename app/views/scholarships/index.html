@@ -25,11 +25,22 @@
     </div>
 
   </section>
+
   <section>
     <h1> {{ scholarships.current_scholars_section.headline }} </h1>
-    {% for  %}
-
+    {% for scholars in scholars_current %}
+      <p>
+        {{ scholars.name }}
+      </p>
+      {% for schools in scholars.pre_college.schools %}
+        <p>
+          {{ schools.year_start }},
+           {{ schools.name }},
+           {{ schools.location }}
+        </p>
+      {% endfor %}
     {% endfor %}
+
   </section>
 
   <section>

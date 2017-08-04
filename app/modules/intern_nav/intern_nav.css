@@ -11,11 +11,16 @@
   left: 0;
   z-index: 1;
   width: 100%;
-  background: pink; /*Es solo por el momento.*/
+  background: #151851; /*Es solo por el momento.*/
+
+  .intern-nav-link {
+    color: #fff;
+  }
 }
 
 .intern-nav-link {
   margin-left: 20px;
+  color: #151851;
 }
 
 .intern-nav-link:first-child {

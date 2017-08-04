@@ -1,14 +1,14 @@
 {% from "icons/icons.macros.html" import icon %}
 
 {% macro donate_block(data) %}
-  <div class="donate-block">
+  <section class="donate-block">
     {{ icon(data.icon, "large") }}
+
     <div class="donate-content">
       <h2>{{ data.description }}</h2>
       <p>Este es un parrafo para probar en donate</p>
     </div>
-    <div class="donate-button">
-      <a href="{{ data.href_button }}">{{ data.title }}</a>
-    </div>
-  </div>
+
+    <a class="donate-button btn" href="{{ data.href_button }}">{{ data.title }}</a>
+  </section>
 {% endmacro %}

@@ -35,5 +35,6 @@
 @import 'views/scholarships/overview.css';
 
  /* Program/Programas */
-@import 'views/programs/programs-overview.css'
+@import 'views/programs/programs-overview.css';
+@import 'views/programs/programs-sessions.css';
 

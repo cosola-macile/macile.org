@@ -11,8 +11,8 @@
 	{% for teaser in news.teasers %}
 	   {{ teaser_item(teaser) }}
 	{% endfor %}
-
-  {{ donate_block(donations) }}
 {% endblock %}
 
-
+{% block page_bottom %}
+  {{ donate_block(donations) }}
+{% endblock %}

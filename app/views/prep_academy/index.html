@@ -10,7 +10,7 @@
 
 {{ intern_nav(prep_academy.nav) }}
 
-<section class="overview-section">
+<section id="overview-section" class="overview-section">
   <h1>{{  summer_academy.overview_section.intro }}</h1>
 
   <div class="overview-section-items">
@@ -20,9 +20,10 @@
   </div>
 </section>
 
-{% for year in prep_academy.section_session.years %}
-  {{ content_panel(year) }}
-{% endfor %}
-
+<section id="session-section" class="session-section">
+  {% for year in prep_academy.section_session.years %}
+    {{ content_panel(year) }}
+  {% endfor %}
+</section>
 
 {% endblock %}

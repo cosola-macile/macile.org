@@ -2,7 +2,7 @@
   display: flex;
   justify-content: flex-end;
   overflow: scroll;
-  padding: 20px;
+  padding: 1em;
 }
 
 .intern-nav-link {

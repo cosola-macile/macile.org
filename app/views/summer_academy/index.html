@@ -1,15 +1,25 @@
 {% extends "layout/_simple_site_layout.html" %}
 
 {% from "content_panel/content_panel.macros.html" import content_panel %}
-
 {% from "curriculum/curriculum.macros.html" import curriculum %}
 {% from "intern_nav/intern_nav.macros.html" import intern_nav %}
+{% from "media_object/media_object.macro.html" import media_object %}
 
 {% set data = summer_academy %}
 
 {% block page_content %}
 
   {{ intern_nav(summer_academy.nav) }}
+
+  <section class="overview-section">
+    <h1>{{  summer_academy.overview_section.intro }}</h1>
+
+    <div class="overview-section-items">
+      {% for items in summer_academy.overview_section.items %}
+       {{ media_object(items) }}
+     {% endfor %}
+    </div>
+  </section>
 
   <section class="curriculum-section">
     <h1>{{ summer_academy.curriculum_section.headline }}</h1>

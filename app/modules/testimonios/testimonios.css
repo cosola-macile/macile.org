@@ -1,3 +1,9 @@
-.testimonios-content{
+.testimonios-content {
   border: 2px black solid;
+/*}
+
+.testimonios-student_role-photo, .testimonios-parent_role-photo, .testimonios-teacher_role-photo {
+  display: flex;
+  flex-direction: column;
 }
+*/

@@ -1,8 +1,8 @@
 {% extends "layout/_simple_site_layout.html" %}
 
 {% from "content_panel/content_panel.macros.html" import content_panel %}
-
 {% from "intern_nav/intern_nav.macros.html" import intern_nav %}
+{% from "media_object/media_object.macro.html" import media_object %}
 
 {% set data = prep_academy %}
 
@@ -10,10 +10,19 @@
 
 {{ intern_nav(prep_academy.nav) }}
 
-<p>{{ prep_academy.intro }}</p>
+<section class="overview-section">
+  <h1>{{  summer_academy.overview_section.intro }}</h1>
+
+  <div class="overview-section-items">
+    {% for object in prep_academy.section_overview.items %}
+      {{ media_object(object) }}
+    {% endfor %}
+  </div>
+</section>
 
 {% for year in prep_academy.section_session.years %}
   {{ content_panel(year) }}
 {% endfor %}
+
 
 {% endblock %}

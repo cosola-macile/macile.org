@@ -1,0 +1,10 @@
+{% macro media_object(data) %}
+  <div class="media-object">
+    <div class="media-object-content">
+      {% if data.image %}
+        <img src="{{ data.image }}"" />
+      {% endif %}
+      <p class="media-object-date">{{ data.description }}</p>
+    </div>
+  </div>
+{% endmacro %}

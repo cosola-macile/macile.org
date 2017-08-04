@@ -1,18 +1,18 @@
-.scholarship-block {
+.scholar-block {
   display: flex;
   flex-direction: column;
 }
 
-.scholarship-figure {
+.scholar-figure {
  flex: 0 0 100px;
 }
 
 @media only screen and (min-width: 500px) {
-  .scholarship-block {
+  .scholar-block {
     flex-direction: row;
   }
 
-  .scholarship-figure {
+  .scholar-figure {
     flex: 0 0 300px;
   }
 }

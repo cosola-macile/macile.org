@@ -1,12 +1,14 @@
 {% extends "layout/_simple_site_layout.html" %}
 
 {% from "content_panel/content_panel.macros.html" import content_panel %}
-
+{% from "intern_nav/intern_nav.macros.html" import intern_nav %}
 {% from "media_object/media_object.macro.html" import media_object %}
 
 {% set data = prep_academy %}
 
 {% block page_content %}
+
+{{ intern_nav(prep_academy.nav) }}
 
 <section class="overview-section">
   <h1>{{  summer_academy.overview_section.intro }}</h1>
@@ -17,11 +19,10 @@
     {% endfor %}
   </div>
 </section>
-  <p>{{ prep_academy.intro }}</p>
 
-  {% for year in prep_academy.section_session.years %}
-    {{ content_panel(year) }}
-  {% endfor %}
+{% for year in prep_academy.section_session.years %}
+  {{ content_panel(year) }}
+{% endfor %}
 
 
 {% endblock %}

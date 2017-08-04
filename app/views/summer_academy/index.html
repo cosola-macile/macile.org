@@ -11,8 +11,10 @@
 
   {{ intern_nav(summer_academy.nav) }}
 
-  <section class="overview-section">
-    <h1>{{  summer_academy.overview_section.intro }}</h1>
+  <section id="overview-section" class="overview-section">
+    <header class="section-header">
+      <h1>{{  summer_academy.overview_section.intro }}</h1>
+    </header>
 
     <div class="overview-section-items">
       {% for items in summer_academy.overview_section.items %}
@@ -21,15 +23,17 @@
     </div>
   </section>
 
-  <section class="curriculum-section">
-    <h1>{{ summer_academy.curriculum_section.headline }}</h1>
-    <p>{{ summer_academy.curriculum_section.byline}}</p>
+  <section id="curriculum-section" class="curriculum-section">
+    <header class="section-header">
+      <h1>{{ summer_academy.curriculum_section.headline }}</h1>
+      <p>{{ summer_academy.curriculum_section.byline}}</p>
+    </header>
 
     {{ curriculum(summer_academy.curriculum_section.subjects) }}
   </section>
 
-  <section>
-    <header>
+  <section id="session-section" class="session-section">
+    <header class="section-header">
       <h1>{{ summer_academy.section_session.headline }}</h1>
       <p>{{ summer_academy.section_session.byline }}</p>
     </header>

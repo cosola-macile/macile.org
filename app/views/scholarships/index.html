@@ -28,6 +28,8 @@
 
   <section>
     <h1> {{ scholarships.current_scholars_section.headline }} </h1>
+    {% from "scholar/scholar.macro.html" import scholar-content %}
+
     {% for scholars in scholars_current %}
       <p>
         {{ scholars.name }}
@@ -40,7 +42,6 @@
         </p>
       {% endfor %}
     {% endfor %}
-
   </section>
 
   <section>

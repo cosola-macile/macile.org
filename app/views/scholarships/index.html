@@ -10,13 +10,13 @@
 
   {{ intern_nav(scholarships.nav) }}
 
-  <section class="overview-section">
+  <section class="overview-section" id="overview-scholars">
 
     <header class="overview-header">
       <p>{{ scholarships.overview_section.intro }}</p>
     </header>
 
-    <div class="overview-facts">
+    <div class="overview-facts" >
 
       {% for dato in scholarships.overview_section.facts %}
         {{ fact(dato) }}
@@ -26,10 +26,8 @@
 
   </section>
 
-  <section>
+  <section id="current-scholars">
     <h1> {{ scholarships.current_scholars_section.headline }} </h1>
-    {% from "scholar/scholar.macro.html" import scholar-content %}
-
     {% for scholars in scholars_current %}
       <p>
         {{ scholars.name }}
@@ -44,7 +42,7 @@
     {% endfor %}
   </section>
 
-  <section>
+  <section id="past-scholars" >
 
     {% for scholar in scholars %}
 

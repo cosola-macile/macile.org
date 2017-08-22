@@ -1,7 +1,7 @@
 {% macro intern_nav(data) %}
-  <nav id="intern-nav" class="intern-nav">
+  <nav class="intern-nav">
     {% for item in data %}
-      <a class="intern-nav-link" >{{ item.name }}</a>
+      <a class="intern-nav-link" href="{{ item.link}}">{{ item.name }}</a>
     {% endfor %}
   </nav>
 {% endmacro %}

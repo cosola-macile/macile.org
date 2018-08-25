@@ -82,6 +82,13 @@ es:
 
       years:
         -
+          title: "2017-2018 Academy"
+          description: "Content panel to contain title and description for the
+          MACILE programs."
+          image: "/assets/img/content-panel-foto.JPG"
+          image_alt: sorry, your picture do can't load!!
+          href_path:
+        -
           title: "2016-2017 Academy"
           description: "Content panel to contain title and description for the
           MACILE programs."
@@ -90,6 +97,13 @@ es:
           href_path:
         -
           title: "2015-2016 Academy"
+          description: "Content panel to contain title and description for the
+          MACILE programs."
+          image: "/assets/img/content-panel-foto.JPG"
+          image_alt: sorry, your picture do can't load!!
+          href_path:
+        -
+          title: "2014-2015 Academy"
           description: "Content panel to contain title and description for the
           MACILE programs."
           image: "/assets/img/content-panel-foto.JPG"

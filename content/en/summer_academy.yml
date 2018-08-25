@@ -79,6 +79,34 @@ en:
       byline: MACILE Summer Academy has operated in Itabo-Nigua for 10 years. We’ve served over 500 students.
       years:
         -
+          title: "2018 Academy"
+          description: "Content panel to contain title and descriptions for the
+          MACILE programs."
+          image: "/assets/img/content-panel-foto.JPG"
+          image_alt: sorry, your picture do can't load!!
+          href_path: 
+        -
+          title: "2017 Academy"
+          description: "Content panel to contain title and descriptions for the
+          MACILE programs."
+          image: "/assets/img/content-panel-foto.JPG"
+          image_alt: sorry, your picture do can't load!!
+          href_path:
+        -
+          title: "2016 Academy"
+          description: "Content panel to contain title and descriptions for the
+          MACILE programs."
+          image: "/assets/img/content-panel-foto.JPG"
+          image_alt: sorry, your picture do can't load!!
+          href_path:
+        -
+          title: "2015 Academy"
+          description: "Content panel to contain title and descriptions for the
+          MACILE programs."
+          image: "/assets/img/content-panel-foto.JPG"
+          image_alt: sorry, your picture do can't load!!
+          href_path:
+        -
           title: "2014 Academy"
           description: "Content panel to contain title and descriptions for the
           MACILE programs."

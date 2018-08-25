@@ -6,8 +6,13 @@
       </figure>
     {% endif %}
     <div class="panel-information">
+    
+      {% if data.href_path %}
+        <h2><a href="{{ data.href_path }}">{{ data.title }}</a></h2>
+      {% else %}
+        <h2>{{ data.title }}</h2>
+      {% endif %}
 
-      <h2><a href="{{ data.href_path }}">{{ data.title }}</a></h2>
       <p>{{ data.description }}</p>
     </div>
   </div>

@@ -10,6 +10,8 @@ es:
     hero:
       headline: Sobre
       image: /assets/img/header-foto.jpg
+  
+    intro: Esta es una introdución a esta página
 
     web_team:
       members:

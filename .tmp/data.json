@@ -1,0 +1,1533 @@
+{
+	"en": {
+		"scholars": [
+			{
+				"name": "Alabania Yamile Martínez",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2008,
+							"year_end": 2011,
+							"name": "Instituto Politécnico Loyola",
+							"location": "San Cristóbal"
+						}
+					]
+				},
+				"college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2011,
+							"year_end": null,
+							"name": "Instituto Tecnológico de Santo Domingo",
+							"location": "Santo Domingo",
+							"majors": "Mechanical Engineering"
+						}
+					]
+				}
+			},
+			{
+				"name": "Luz Blaidy Pinales",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2008,
+							"year_end": null,
+							"name": "Instituto Politécnico Loyola",
+							"location": "San Cristóbal"
+						}
+					]
+				},
+				"college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2014,
+							"year_end": null,
+							"name": "Instituto Tecnológico de Santo Domingo",
+							"location": "Santo Domingo",
+							"majors": "Chemical Engineering"
+						}
+					]
+				}
+			},
+			{
+				"name": "Luís Manuel Alburquerque",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2008,
+							"year_end": 2009,
+							"name": "Centro Técnico Educativo Padre Zegrí",
+							"location": "San Gregorio de Nigua"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Andreina de Jesús Troncoso",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2008,
+							"year_end": 2010,
+							"name": "Centro Técnico Educativo Padre Zegrí",
+							"location": "San Gregorio de Nigua"
+						}
+					]
+				},
+				"college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2012,
+							"year_end": 2013,
+							"name": "Instituto Tecnológico de Santo Domingo",
+							"location": "Santo Domingo",
+							"majors": "Industrial Engineering"
+						},
+						{
+							"year_start": 2013,
+							"year_end": null,
+							"name": "Universidad APEC",
+							"location": "Santo Domingo",
+							"majors": "Software Engineering"
+						}
+					]
+				}
+			},
+			{
+				"name": "Elizabeth Ramírez",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2008,
+							"year_end": 2010,
+							"name": "Centro Técnico Educativo Padre Zegrí",
+							"location": "San Gregorio de Nigua"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Juana Mercedes García Castillo",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2009,
+							"year_end": 2010,
+							"name": "Centro Técnico Educativo Padre Zegrí",
+							"location": "San Gregorio de Nigua"
+						},
+						{
+							"year_start": 2010,
+							"year_end": 2013,
+							"name": "Instituto Politécnico Loyola",
+							"location": "San Cristóbal"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Moisés de Jesús Cuevas",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2009,
+							"year_end": 2010,
+							"name": "Centro Técnico Educativo Padre Zegrí",
+							"location": "San Gregorio de Nigua"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Yulissa Esther de Jesús",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2009,
+							"year_end": 2012,
+							"name": "Centro Técnico Educativo Padre Zegrí",
+							"location": "San Gregorio de Nigua"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Yairin Rodríguez",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2009,
+							"year_end": 2012,
+							"name": "Centro Técnico Educativo Padre Zegrí",
+							"location": "San Gregorio de Nigua"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Dairy Pichardo Soriano",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2009,
+							"year_end": 2010,
+							"name": "Centro Técnico Educativo Padre Zegrí",
+							"location": "San Gregorio de Nigua"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Victoria Aldhair Cruz Silvestre",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2010,
+							"year_end": 2013,
+							"name": "Instituto Politécnico Loyola",
+							"location": "San Cristóbal"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Julio César Nero",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2010,
+							"year_end": 2012,
+							"name": "Instituto Politécnico Loyola",
+							"location": "San Cristóbal"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Albania Yamile Martínez",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2012,
+							"year_end": 2011,
+							"name": "Instituto Politécnico Loyola",
+							"location": "San Cristóbal"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Abel Beltrán Vázquez",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2010,
+							"year_end": 2012,
+							"name": "Instituto Politécnico Loyola",
+							"location": "San Cristóbal"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Graciela Peña Sarante",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2010,
+							"year_end": 2011,
+							"name": "Centro Técnico Educativo Padre Zegrí",
+							"location": "San Gregorio de Nigua"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Carolyn Miosoti Vicente Muñoz",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2010,
+							"year_end": 2012,
+							"name": "Centro Técnico Educativo Padre Zegrí",
+							"location": "San Gregorio de Nigua"
+						}
+					]
+				},
+				"college": 2012
+			},
+			{
+				"name": "Daniel Ignacio Montero",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2010,
+							"year_end": 2011,
+							"name": "Centro Técnico Educativo Padre Zegrí",
+							"location": "San Gregorio de Nigua"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Freidy Esteban Cuevas",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2010,
+							"year_end": 2011,
+							"name": "Centro Técnico Educativo Padre Zegrí",
+							"location": "San Gregorio de Nigua"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Romny Manuel Arias",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2010,
+							"year_end": 2011,
+							"name": "Centro Técnico Educativo Padre Zegrí",
+							"location": "San Gregorio de Nigua"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Mabeladia Pérez",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2010,
+							"year_end": 2011,
+							"name": "Centro Técnico Educativo Padre Zegrí",
+							"location": "San Gregorio de Nigua"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Arnold Nataniel Santana",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2010,
+							"year_end": 2011,
+							"name": "Centro Técnico Educativo Padre Zegrí",
+							"location": "San Gregorio de Nigua"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Leydi Celeste Cuevas Muñoz",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2010,
+							"year_end": 2013,
+							"name": "Instituto Politécnico de Haina",
+							"location": "Km. 18, Bajos de Haina"
+						}
+					]
+				},
+				"college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2015,
+							"year_end": null,
+							"name": "Instituto Tecnológico de Santo Domingo",
+							"location": "Santo Domingo",
+							"majors": "Undeclared"
+						}
+					]
+				}
+			},
+			{
+				"name": "Luz Blaidy Pinales",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2010,
+							"year_end": 2011,
+							"name": "Instituto Politécnico de Haina",
+							"location": "Km. 18, Bajos de Haina"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Jeltssin Aquino",
+				"pre_college": null,
+				"college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2011,
+							"year_end": 2012,
+							"name": "Instituto Tecnológico de Las Américas",
+							"location": "Santo Domingo",
+							"majors": "Sofware Engineering"
+						}
+					]
+				}
+			},
+			{
+				"name": "Moisés Cuevas Muñoz",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2011,
+							"year_end": 2012,
+							"name": "Instituto Politécnico de Haina",
+							"location": "Km. 18, Bajos de Haina"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Claudio Heredia Germán",
+				"pre_college": null,
+				"college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2012,
+							"year_end": 2013,
+							"name": "Instituto Tecnológico de Santo Domingo",
+							"location": "Santo Domingo",
+							"majors": "Mechatronics Engineering"
+						}
+					]
+				}
+			},
+			{
+				"name": "Anthony Hendrich Morrobel",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2012,
+							"year_end": 2013,
+							"name": "Instituto Politécnico Loyola",
+							"location": "San Cristóbal"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Patricia Michel de Jesús Oleo",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2012,
+							"year_end": 2013,
+							"name": "Centro Técnico Educativo Padre Zegrí",
+							"location": "San Gregorio de Nigua"
+						},
+						{
+							"year_start": 2013,
+							"year_end": 2014,
+							"name": "Instituto Politécnico Loyola",
+							"location": "San Cristóbal"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Anthony José Rufino Díaz",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2012,
+							"year_end": 2013,
+							"name": "Centro Técnico Educativo Padre Zegrí",
+							"location": "San Gregorio de Nigua"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Wander Brito",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2013,
+							"year_end": 2014,
+							"name": "Colegio Parroquial San Agustín",
+							"location": "Haina"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Nicol Mari Pinales",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2014,
+							"year_end": 2015,
+							"name": "Instituto Politécnico Loyola",
+							"location": "San Cristóbal"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Yisel Corporán Beltre",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2014,
+							"year_end": 2015,
+							"name": "Centro Técnico Educativo Padre Zegrí",
+							"location": "San Gregorio de Nigua"
+						}
+					]
+				},
+				"college": null
+			},
+			{
+				"name": "Rocio Asencio",
+				"pre_college": {
+					"photo": null,
+					"schools": [
+						{
+							"year_start": 2014,
+							"year_end": 2015,
+							"name": "Colegio San Marcos",
+							"location": "Haina"
+						}
+					]
+				},
+				"college": null
+			}
+		],
+		"about": {
+			"page_title": "About",
+			"page_description": "About page",
+			"meta_social_image": null,
+			"hero": {
+				"headline": "About",
+				"image": "/assets/img/header-foto.jpg"
+			},
+			"intro": "This is an introduction on the about page",
+			"web_team": {
+				"members": [
+					{
+						"name": "YaArias",
+						"image": "/assets/img/team-foto.jpg"
+					},
+					{
+						"name": "Morban15",
+						"image": "/assets/img/team-foto.jpg"
+					},
+					{
+						"name": "Clarissa0512",
+						"image": "/assets/img/team-foto.jpg"
+					},
+					{
+						"name": "Mariaa122",
+						"image": "/assets/img/team-foto.jpg"
+					},
+					{
+						"name": "Kemsen",
+						"image": "/assets/img/team-foto.jpg"
+					},
+					{
+						"name": "misscs",
+						"image": "/assets/img/team-foto.jpg"
+					}
+				]
+			}
+		},
+		"donate": {
+			"page_title": "Donate",
+			"page_description": "Donate en English",
+			"meta_social_image": null,
+			"hero": {
+				"headline": "Donate",
+				"image": "/assets/img/header-foto.jpg"
+			},
+			"intro": "Support our mission of service and education"
+		},
+		"donations": {
+			"title": "Donate",
+			"description": "Donate for admission",
+			"icon": "icon-donate",
+			"href_button": "/donate"
+		},
+		"home": {
+			"page_title": "MACILE",
+			"page_description": "MACILE en Español",
+			"meta_social_image": null,
+			"hero": {
+				"headline": "MACILE",
+				"byline": "Math Science Enginering Langague",
+				"image": "/assets/img/header-foto.jpg",
+				"image_alt": "MACILE students working on programming"
+			}
+		},
+		"news": {
+			"page_title": "News",
+			"page_description": "News en English",
+			"meta_social_image": null,
+			"hero": {
+				"headline": "News :)",
+				"byline": "Keep informed with what happens at MACILE",
+				"image": "/assets/img/content-panel-foto.JPG"
+			},
+			"teasers": [
+				{
+					"title": "Students of MACILE",
+					"image": "/assets/img/news-foto.JPG",
+					"image_alt": "Students",
+					"description": "They are students of MACILE",
+					"href_path": "/news",
+					"date": "14-06-2017"
+				},
+				{
+					"title": "Summer MACILE",
+					"description": "Start 4 of july at 7am",
+					"href_path": "/news",
+					"date": "16-06-2017"
+				},
+				{
+					"title": "Students of MACILE",
+					"image": "/assets/img/news-foto.JPG",
+					"image_alt": "Students",
+					"description": "They are students of MACILE",
+					"href_path": "/news",
+					"date": "14-06-2017"
+				},
+				{
+					"title": "Summer MACILE",
+					"description": "Start 4 of july at 7am",
+					"href_path": "/news",
+					"date": "16-06-2017"
+				}
+			]
+		},
+		"prep_academy": {
+			"page_title": "Prep Academy",
+			"page_description": "MACILE Prop Academy is rigorous and challenging Saturday program to immerse students in a learning environment.",
+			"meta_social_image": null,
+			"hero": {
+				"headline": "Prep Academy",
+				"byline": "A rigorous  and challenging weekend program to immerse students in a learning environment that enlarges their thoughts and stimulates their creativity and imagination.",
+				"image": "/assets/img/header-foto.jpg"
+			},
+			"nav": [
+				{
+					"name": "MACILE Prep Academy",
+					"link": "/"
+				},
+				{
+					"name": "Overview",
+					"link": "#overview-section"
+				},
+				{
+					"name": "Curriculum",
+					"link": "#curriculum-section"
+				},
+				{
+					"name": "Sessions",
+					"link": "#session-section"
+				}
+			],
+			"section_overview": {
+				"items": [
+					{
+						"headline": "Immersive Learning",
+						"description": "Immerse students in a learning environment that enlarges their thoughts and stimulates their creativity and imagination.",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					{
+						"headline": "Develop Reasoning",
+						"description": "Improve analytical and logical reasoning and experimental and communication skills through problem-solving and exercises.",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					{
+						"headline": "Teamwork and Collaboration",
+						"description": "Improve teamwork and peer collaboration, build good work ethics, and promote the virtue of perseverance.",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					{
+						"headline": "Digital Literacy",
+						"description": "Increase the students’ technological literacy",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					{
+						"headline": "Strengthen Skill",
+						"description": "Strengthen and further the students’ skills in mathematics, science, and Spanish",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					{
+						"headline": "STEM",
+						"description": "Advance understanding of the engineering design process and the scientific method, infusing enthusiasm about engineering, mathematics, and science.",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					null
+				]
+			},
+			"curriculum_section": {
+				"headline": "Prep Academy Curriculum",
+				"byline": "The MACILE curriculum development process is research-based. The main goal is to produce curricula that get young people excited about learning and build independent thinkers.",
+				"subjects": [
+					{
+						"name": "Programing",
+						"icon": "icon-computers"
+					},
+					{
+						"name": "Robotics",
+						"icon": "icon-robot"
+					},
+					{
+						"name": "Math",
+						"icon": "icon-pi"
+					},
+					{
+						"name": "Science",
+						"icon": "icon-microscope"
+					},
+					{
+						"name": "Language",
+						"icon": "icon-books"
+					}
+				]
+			},
+			"section_session": {
+				"headline": "An Experimental Success",
+				"byline": "MACILE Prep Academy was devised as an experiment to aim to better students success through school year.",
+				"years": [
+					{
+						"title": "2016-2017 Academy",
+						"description": "Content panel to contain title and description for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2015-2016 Academy",
+						"description": "Content panel to contain title and description for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2014-2015 Academy",
+						"description": "Content panel to contain title and description for the  MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2013-2014 Academy",
+						"description": "Content panel to contain title and description for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture can't load!!",
+						"href_path": null
+					}
+				]
+			}
+		},
+		"programs": {
+			"page_title": "MACILE programs",
+			"page_description": "Here we are going to present the programs of MACILE.",
+			"meta_social_image": null,
+			"hero": {
+				"headline": "Programs",
+				"image": "/assets/img/header-foto.jpg"
+			},
+			"intro": "MACILE offers programs for students.",
+			"items": [
+				{
+					"title": "Summer Academy",
+					"description": "A rigorous  and challenging summer program to immerse students in a learning environment that enlarges their thoughts and stimulates their creativity and imagination.",
+					"image": "/assets/img/content-panel-foto.JPG",
+					"image_alt": "A picture of students in 2014 MACILE Summer Academy",
+					"href_path": "/en/programs/summer-academy"
+				},
+				{
+					"title": "Preparatory School",
+					"description": "A rigorous  and challenging summer program to immerse students in a learning environment that enlarges their thoughts and stimulates their creativity and imagination.",
+					"image": "/assets/img/content-panel-foto.JPG",
+					"image_alt": "Prep School programming class working on the new site",
+					"href_path": "/en/programs/preparatory-academy"
+				}
+			]
+		},
+		"scholarships": {
+			"page_title": "Scholarships",
+			"page_description": "Scholarships en English",
+			"meta_social_image": null,
+			"hero": {
+				"headline": "Scholarships",
+				"image": "/assets/img/content-panel-foto.JPG"
+			},
+			"overview_section": {
+				"intro": "100% Merit Based Scholarship provided to allow students to advance their learning at technical and preparatory schools in the Dominican Republic. We provide pre-college and university merit based scholarships to inspires students to advance their learning.",
+				"facts": [
+					{
+						"result": 79,
+						"description": "scholarships awarded"
+					},
+					{
+						"result": 79,
+						"description": "scholarships awarded"
+					},
+					{
+						"result": 79,
+						"description": "scholarships awarded"
+					},
+					{
+						"result": 79,
+						"description": "scholarships awarded"
+					},
+					{
+						"result": 79,
+						"description": "scholarships awarded"
+					},
+					{
+						"result": 79,
+						"description": "scholarships awarded"
+					}
+				]
+			},
+			"nav": [
+				{
+					"name": "Scholarships",
+					"link": "/"
+				},
+				{
+					"name": "Overview Scholars",
+					"link": "#overview-scholars"
+				},
+				{
+					"name": "Current Scholars",
+					"link": "#current-scholars"
+				},
+				{
+					"name": "Past Scholars",
+					"link": "#past-scholars"
+				}
+			]
+		},
+		"summer_academy": {
+			"page_title": "Summer Academy",
+			"page_description": "MACILE Summer Academy is rigorous and challenging summer program to immerse students in a learning environment.",
+			"meta_social_image": null,
+			"hero": {
+				"headline": "Summer Academy",
+				"byline": "A rigorous  and challenging summer program to immerse students in a learning environment that enlarges their thoughts and stimulates their creativity and imagination",
+				"image": "/assets/img/header-foto.jpg"
+			},
+			"nav": [
+				{
+					"name": "MACILE Summer Academy",
+					"link": " "
+				},
+				{
+					"name": "Overview",
+					"link": "#overview-section"
+				},
+				{
+					"name": "Curriculum",
+					"link": "#curriculum-section"
+				},
+				{
+					"name": "Sessions",
+					"link": "#session-section"
+				}
+			],
+			"overview_section": {
+				"intro": "MACILE Summer Academy provides a friendly and respectful classroom atmosphere where students engage actively, think critically, and learn to work effectively in teams.",
+				"items": [
+					{
+						"headline": "Immersive Learning",
+						"description": "Immerse students in a learning environment that enlarges their thoughts and stimulates their creativity and imagination.",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					{
+						"headline": "Develop Reasoning",
+						"description": "Improve analytical and logical reasoning and experimental and communication skills through problem-solving and exercises.",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					{
+						"headline": "Teamwork and Collaboration",
+						"description": "Improve teamwork and peer collaboration, build good work ethics, and promote the virtue of perseverance.",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					{
+						"headline": "Digital Literacy",
+						"description": "Increase the students’ technological literacy",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					{
+						"headline": "Strengthen Skill",
+						"description": "Strengthen and further the students’ skills in mathematics, science, and Spanish",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					{
+						"headline": "STEM",
+						"description": "Advance understanding of the engineering design process and the scientific method, infusing enthusiasm about engineering, mathematics, and science.",
+						"image": "/assets/img/header-foto.jpg"
+					}
+				]
+			},
+			"curriculum_section": {
+				"headline": "Summer Academy Curriculum",
+				"byline": "The MACILE curriculum development process is research-based. The main goal is to produce curricula that get young people excited about learning and build independent thinkers.",
+				"subjects": [
+					{
+						"name": "Engineering",
+						"icon": "icon-engineering"
+					},
+					{
+						"name": "Robotics",
+						"icon": "icon-robot"
+					},
+					{
+						"name": "Math",
+						"icon": "icon-pi"
+					},
+					{
+						"name": "Science",
+						"icon": "icon-microscope"
+					},
+					{
+						"name": "Language",
+						"icon": "icon-books"
+					}
+				]
+			},
+			"section_session": {
+				"headline": "10 years of developing creative minds",
+				"byline": "MACILE Summer Academy has operated in Itabo-Nigua for 10 years. We’ve served over 500 students.",
+				"years": [
+					{
+						"title": "2018 Academy",
+						"description": "Content panel to contain title and descriptions for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2017 Academy",
+						"description": "Content panel to contain title and descriptions for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2016 Academy",
+						"description": "Content panel to contain title and descriptions for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2015 Academy",
+						"description": "Content panel to contain title and descriptions for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2014 Academy",
+						"description": "Content panel to contain title and descriptions for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2013 Academy",
+						"description": "Content panel to contain title and descriptions for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2012 Academy",
+						"description": "Content panel to contain title and descriptions for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2010 Academy",
+						"description": "Content panel to contain title and descriptions for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2009 Academy",
+						"description": "Content panel to contain title and descriptions for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2008 Academy",
+						"description": "Content panel to contain title and descriptions for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2007 Academy",
+						"description": "Content panel to contain title and descriptions for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					}
+				]
+			}
+		}
+	},
+	"es": {
+		"prep_academy": {
+			"page_title": "Academia Preparatoria",
+			"page_description": "MACILE Prop Academy is rigorous and challenging Saturday program to immerse students in a learning environment.",
+			"meta_social_image": null,
+			"hero": {
+				"headline": "Academia Preparatoria",
+				"byline": "A rigorous  and challenging weekend program to immerse students in a learning environment that enlarges their thoughts and stimulates their creativity and imagination.",
+				"image": "/assets/img/header-foto.jpg"
+			},
+			"nav": [
+				{
+					"name": "MACILE Preparatoria",
+					"link": "/"
+				},
+				{
+					"name": "Overview",
+					"link": "#overview-section"
+				},
+				{
+					"name": "Curriculum",
+					"link": "#curriculum-section"
+				},
+				{
+					"name": "Sessions",
+					"link": "#session-section"
+				}
+			],
+			"section_overview": {
+				"intro": "MACILE Prep Academy provides a friendly and respectful classroom atmosphere where students engage actively in class discussion with peers, think critically, present their work, and learn to work effectively in teams.",
+				"items": [
+					{
+						"headline": "Immersive Learning",
+						"description": "Immerse students in a learning environment that enlarges their thoughts and stimulates their creativity and imagination.",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					{
+						"headline": "Develop Reasoning",
+						"description": "Improve analytical and logical reasoning and experimental and communication skills through problem-solving and exercises.",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					{
+						"headline": "Teamwork and Collaboration",
+						"description": "Improve teamwork and peer collaboration, build good work ethics, and promote the virtue of perseverance.",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					{
+						"headline": "Digital Literacy",
+						"description": "Increase the students’ technological literacy",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					{
+						"headline": "Strengthen Skill",
+						"description": "Strengthen and further the students’ skills in mathematics, science, and Spanish",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					{
+						"headline": "STEM",
+						"description": "Advance understanding of the engineering design process and the scientific method, infusing enthusiasm about engineering, mathematics, and science.",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					null
+				]
+			},
+			"curriculum_section": {
+				"headline": "Prep Academy Curriculum",
+				"byline": "The MACILE curriculum development process is research-based. The main goal is to produce curricula that get young people excited about learning and build independent thinkers.",
+				"subjects": [
+					{
+						"name": "Programing",
+						"icon": "icon-computers"
+					},
+					{
+						"name": "Robotics",
+						"icon": "icon-robot"
+					},
+					{
+						"name": "Math",
+						"icon": "icon-pi"
+					},
+					{
+						"name": "Science",
+						"icon": "icon-microscope"
+					},
+					{
+						"name": "Language",
+						"icon": "icon-books"
+					}
+				]
+			},
+			"section_session": {
+				"headline": "An Experimental Success",
+				"byline": "MACILE Prep Academy was devised as an experiment to aim to better students success through school year.",
+				"years": [
+					{
+						"title": "2017-2018 Academy",
+						"description": "Content panel to contain title and description for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2016-2017 Academy",
+						"description": "Content panel to contain title and description for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2015-2016 Academy",
+						"description": "Content panel to contain title and description for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2014-2015 Academy",
+						"description": "Content panel to contain title and description for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					}
+				]
+			}
+		},
+		"summer_academy": {
+			"page_title": "Academia de Verano",
+			"page_description": "MACILE Summer Academy is rigorous and challenging summer program to immerse students in a learning environment.",
+			"meta_social_image": null,
+			"hero": {
+				"headline": "Academia de Verano",
+				"byline": "A rigorous  and challenging summer program to immerse students in a learning environment that enlarges their thoughts and stimulates their creativity and imagination",
+				"image": "/assets/img/header-foto.jpg"
+			},
+			"nav": [
+				{
+					"name": "MACILE Academia de Verano",
+					"link": "/"
+				},
+				{
+					"name": "Overview",
+					"link": "#overview-section"
+				},
+				{
+					"name": "Curriculum",
+					"link": "#curriculum-section"
+				},
+				{
+					"name": "Sessions",
+					"link": "#session-section"
+				}
+			],
+			"section_overview": {
+				"intro": "MACILE Summer Academy provides a friendly and respectful classroom atmosphere where students engage actively in class discussion with peers, think critically, present their work, and learn to work effectively in teams.",
+				"items": [
+					{
+						"headline": "Immersive Learning",
+						"description": "Immerse students in a learning environment that enlarges their thoughts and stimulates their creativity and imagination.",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					{
+						"headline": "Develop Reasoning",
+						"description": "Improve analytical and logical reasoning and experimental and communication skills through problem-solving and exercises.",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					{
+						"headline": "Teamwork and Collaboration",
+						"description": "Improve teamwork and peer collaboration, build good work ethics, and promote the virtue of perseverance.",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					{
+						"headline": "Digital Literacy",
+						"description": "Increase the students’ technological literacy",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					{
+						"headline": "Strengthen Skill",
+						"description": "Strengthen and further the students’ skills in mathematics, science, and Spanish",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					{
+						"headline": "STEM",
+						"description": "Advance understanding of the engineering design process and the scientific method, infusing enthusiasm about engineering, mathematics, and science.",
+						"image": "/assets/img/header-foto.jpg"
+					},
+					null
+				]
+			},
+			"curriculum_section": {
+				"headline": "Summer Academy Curriculum",
+				"byline": "The MACILE curriculum development process is research-based. The main goal is to produce curricula that get young people excited about learning and build independent thinkers.",
+				"subjects": [
+					{
+						"name": "Engineering",
+						"icon": "icon-engineering"
+					},
+					{
+						"name": "Robotics",
+						"icon": "icon-robot"
+					},
+					{
+						"name": "Math",
+						"icon": "icon-pi"
+					},
+					{
+						"name": "Science",
+						"icon": "icon-microscope"
+					},
+					{
+						"name": "Lanague",
+						"icon": "icon-books"
+					}
+				]
+			},
+			"section_session": {
+				"headline": "10 years of developing creative minds",
+				"byline": "MACILE Summer Academy has operated in Itabo-Nigua for 10 years. We’ve served over 500 students.",
+				"years": [
+					{
+						"title": "2017 Academy",
+						"description": "Content panel to contain title and descrptions for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2016 Academy",
+						"description": "Content panel to contain title and descrptions for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2015 Academy",
+						"description": "Content panel to contain title and descrptions for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2014 Academy",
+						"description": "Content panel to contain title and descrptions for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2013 Academy",
+						"description": "Content panel to contain title and descrptions for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2012 Academy",
+						"description": "Content panel to contain title and descrptions for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2010 Academy",
+						"description": "Content panel to contain title and descrptions for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2009 Academy",
+						"description": "Content panel to contain title and descrptions for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2008 Academy",
+						"description": "Content panel to contain title and descrptions for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					},
+					{
+						"title": "2007 Academy",
+						"description": "Content panel to contain title and descrptions for the MACILE programs.",
+						"image": "/assets/img/content-panel-foto.JPG",
+						"image_alt": "sorry, your picture do can't load!!",
+						"href_path": null
+					}
+				]
+			}
+		},
+		"scholarships": {
+			"page_title": "Becas",
+			"page_description": "Becas en Español",
+			"meta_social_image": null,
+			"hero": {
+				"headline": "Becas",
+				"byline": "Estudia y gana una beca",
+				"image": "/assets/img/content-panel-foto.JPG"
+			},
+			"overview_section": {
+				"intro": "100% Merit Based Scholarship provided to allow students to advance their learning at technical and preparatory schools in the Dominican Republic. We provide pre-college and university merit based scholarships to inspires students to advance their learning.",
+				"facts": [
+					{
+						"data": 79,
+						"description": "scholarships awarded"
+					},
+					{
+						"data": 79,
+						"description": "scholarships awarded"
+					},
+					{
+						"data": 79,
+						"description": "scholarships awarded"
+					},
+					{
+						"data": 79,
+						"description": "scholarships awarded"
+					},
+					{
+						"data": 79,
+						"description": "scholarships awarded"
+					},
+					{
+						"data": 79,
+						"description": "scholarships awarded"
+					}
+				]
+			},
+			"nav": [
+				{
+					"name": "Scholarships",
+					"link": "/"
+				},
+				{
+					"name": "Overview Scholars",
+					"link": "#overview-scholars"
+				},
+				{
+					"name": "Current Scholars",
+					"link": "#current-scholars"
+				},
+				{
+					"name": "Past Scholars",
+					"link": "#past-scholars"
+				}
+			]
+		},
+		"donations": {
+			"title": "Donar",
+			"description": "Donar para admision",
+			"icon": "icon-donate",
+			"href_button": "/donate"
+		},
+		"donate": {
+			"page_title": "Donar",
+			"page_description": "Donar en Español",
+			"meta_social_image": null,
+			"hero": {
+				"headline": "Donar"
+			}
+		},
+		"hero": {
+			"page_title": "MACILE",
+			"page_description": "Academia de verano",
+			"meta_social_image": "assets/img/header-foto.jpg",
+			"headline": "Sobre"
+		},
+		"home": {
+			"page_title": "MACILE",
+			"page_description": "MACILE en Español",
+			"meta_social_image": null,
+			"hero": {
+				"headline": "MACILE",
+				"byline": "Matematias Ciencias Ingeneria Lengua",
+				"image": "/assets/img/header-foto.jpg",
+				"image_alt": "MACILE students working on programming"
+			}
+		},
+		"news": {
+			"page_title": "Noticias",
+			"page_description": "Noticias en español",
+			"meta_social_image": null,
+			"hero": {
+				"headline": "Noticias",
+				"byline": "Manténgase informado con lo que sucede en MACILE",
+				"image": "/assets/img/content-panel-foto.JPG"
+			}
+		},
+		"teasers": [
+			{
+				"title": "Estudiantes de MACILE",
+				"image": "/assets/img/news-foto.JPG",
+				"image_alt": "Estudiantes",
+				"description": "Son estudiantes de MACILE",
+				"href_path": "/news",
+				"date": "14-06-2017"
+			},
+			{
+				"title": "Verano MACILE",
+				"description": "Inicia el 4 de julio, a las 7am",
+				"href_path": "/news",
+				"date": "16-06-2017"
+			},
+			{
+				"title": "Estudiantes de MACILE",
+				"image": "/assets/img/news-foto.JPG",
+				"image_alt": "Estudiantes",
+				"description": "Son estudiantes de MACILE",
+				"href_path": "/news",
+				"date": "14-06-2017"
+			},
+			{
+				"title": "Verano MACILE",
+				"description": "Inicia el 4 de julio, a las 7am",
+				"href_path": "/news",
+				"date": "16-06-2017"
+			}
+		],
+		"programs": {
+			"page_title": "Programas de MACILE",
+			"page_description": "Aquí vamos a presentar los programas de MACILE.",
+			"meta_social_image": null,
+			"hero": {
+				"headline": "Programas",
+				"byline": "Programas de becas y verano",
+				"image": "/assets/img/header-foto.jpg"
+			},
+			"intro": "MACILE offers programs for students.",
+			"items": [
+				{
+					"title": "Verano",
+					"description": "A rigorous  and challenging summer program to immerse students in a learning environment that enlarges their thoughts and stimulates their creativity and imagination.",
+					"image": "/assets/img/content-panel-foto.JPG",
+					"image_alt": "A picture of students in 2014 MACILE Summer Academy",
+					"href_path": "/es/programas/academia-verano"
+				},
+				{
+					"title": "Prep",
+					"description": "A rigorous  and challenging program to immerse students in a learning environment that enlarges their thoughts and stimulates their creativity and imagination.",
+					"image": "/assets/img/content-panel-foto.JPG",
+					"image_alt": "Prep School programming class working on the new site",
+					"href_path": "/es/programas/academia-preparatoria"
+				}
+			]
+		},
+		"about": {
+			"page_title": "Sobre",
+			"page_description": "Sobre en Español",
+			"meta_social_image": null,
+			"hero": {
+				"headline": "Sobre",
+				"image": "/assets/img/header-foto.jpg"
+			},
+			"intro": "Esta es una introdución a esta página",
+			"web_team": {
+				"members": [
+					{
+						"name": "YaArias",
+						"image": "/assets/img/team-foto.jpg"
+					},
+					{
+						"name": "Morban15",
+						"image": "/assets/img/team-foto.jpg"
+					},
+					{
+						"name": "Clarissa0512",
+						"image": "/assets/img/team-foto.jpg"
+					},
+					{
+						"name": "Mariaa122",
+						"image": "/assets/img/team-foto.jpg"
+					},
+					{
+						"name": "Kemsen",
+						"image": "/assets/img/team-foto.jpg"
+					},
+					{
+						"name": "misscs",
+						"image": "/assets/img/team-foto.jpg"
+					}
+				]
+			}
+		}
+	}
+}

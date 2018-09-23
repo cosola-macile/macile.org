@@ -14,19 +14,19 @@ es:
 
     nav:
       -
-        name: MACILE Academia de Verano
-        link: "/"
+        name: Academia de Verano MACILE
+        link: " "
       -
-        name: Overview
+        name: Sinopsis
         link: "#overview-section"
       -
-        name: Curriculum
+        name: Currículo
         link: "#curriculum-section"
       -
-        name: Sessions
+        name: Sesiones
         link: "#session-section"
 
-    section_overview:
+    overview_section:
       intro: MACILE Summer Academy provides a friendly and respectful classroom atmosphere where students engage actively in class discussion with peers, think critically, present their work, and learn to work effectively in teams.
       items:
         -
@@ -82,70 +82,77 @@ es:
 
       years:
         -
-          title: "2017 Academy"
+          title: "Academia 2018"
           description: "Content panel to contain title and descrptions for the
           MACILE programs."
           image: "/assets/img/content-panel-foto.JPG"
           image_alt: sorry, your picture do can't load!!
           href_path:
         -
-          title: "2016 Academy"
+          title: "Academia 2017"
           description: "Content panel to contain title and descrptions for the
           MACILE programs."
           image: "/assets/img/content-panel-foto.JPG"
           image_alt: sorry, your picture do can't load!!
           href_path:
         -
-          title: "2015 Academy"
+          title: "Academia 2016"
           description: "Content panel to contain title and descrptions for the
           MACILE programs."
           image: "/assets/img/content-panel-foto.JPG"
           image_alt: sorry, your picture do can't load!!
           href_path:
         -
-          title: "2014 Academy"
+          title: "Academia 2015"
           description: "Content panel to contain title and descrptions for the
           MACILE programs."
           image: "/assets/img/content-panel-foto.JPG"
           image_alt: sorry, your picture do can't load!!
           href_path:
         -
-          title: "2013 Academy"
+          title: "Academia 2014"
           description: "Content panel to contain title and descrptions for the
           MACILE programs."
           image: "/assets/img/content-panel-foto.JPG"
           image_alt: sorry, your picture do can't load!!
           href_path:
         -
-          title: "2012 Academy"
+          title: "Academia 2013"
           description: "Content panel to contain title and descrptions for the
           MACILE programs."
           image: "/assets/img/content-panel-foto.JPG"
           image_alt: sorry, your picture do can't load!!
           href_path:
         -
-          title: "2010 Academy"
+          title: "Acdemia 2012"
           description: "Content panel to contain title and descrptions for the
           MACILE programs."
           image: "/assets/img/content-panel-foto.JPG"
           image_alt: sorry, your picture do can't load!!
           href_path:
         -
-          title: "2009 Academy"
+          title: "Academia 2010"
           description: "Content panel to contain title and descrptions for the
           MACILE programs."
           image: "/assets/img/content-panel-foto.JPG"
           image_alt: sorry, your picture do can't load!!
           href_path:
         -
-          title: "2008 Academy"
+          title: "Academia 2009"
           description: "Content panel to contain title and descrptions for the
           MACILE programs."
           image: "/assets/img/content-panel-foto.JPG"
           image_alt: sorry, your picture do can't load!!
           href_path:
         -
-          title: "2007 Academy"
+          title: "Academia 2008"
+          description: "Content panel to contain title and descrptions for the
+          MACILE programs."
+          image: "/assets/img/content-panel-foto.JPG"
+          image_alt: sorry, your picture do can't load!!
+          href_path:
+        -
+          title: "Academia 2007"
           description: "Content panel to contain title and descrptions for the
           MACILE programs."
           image: "/assets/img/content-panel-foto.JPG"

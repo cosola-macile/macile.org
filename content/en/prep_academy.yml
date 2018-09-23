@@ -1,21 +1,21 @@
-  # Content for site
+# Content for site
 # Content appears in the order of page layout
 
 en:
   prep_academy:
-    page_title: "Prep Academy"
+    page_title: "Preparatory Academy"
     page_description: MACILE Prop Academy is rigorous and challenging Saturday program to immerse students in a learning environment.
     meta_social_image:
 
     hero:
-      headline: Prep Academy
+      headline: Preparatory Academy
       byline: A rigorous  and challenging weekend program to immerse students in a learning environment that enlarges their thoughts and stimulates their creativity and imagination.
       image: /assets/img/header-foto.jpg
 
     nav:
       -
-        name: MACILE Prep Academy
-        link: "/"
+        name: MACILE Preparatory Academy
+        link: " "
       -
         name: Overview
         link: "#overview-section"
@@ -27,6 +27,7 @@ en:
         link: "#session-section"
 
     section_overview:
+      intro: MACILE Preparatory Academy provides a friendly and respectful classroom atmosphere where students engage actively in class discussion with peers, think critically, present their work, and learn to work effectively in teams.
       items:
         -
           headline: Immersive Learning
@@ -52,16 +53,14 @@ en:
           headline: STEM
           description: Advance understanding of the engineering design process and the scientific method, infusing enthusiasm about engineering, mathematics, and science.
           image: /assets/img/header-foto.jpg
-        -
 
-    curriculum_section:
-      headline: Prep Academy Curriculum
+    section_curriculum:
+      headline: Preparatory Academy Curriculum
       byline: The MACILE curriculum development process is research-based. The main goal is to produce curricula that get young people excited about learning and build independent thinkers.
-
       subjects:
         -
-          name: Programing
-          icon: icon-computers
+          name: Computer Programming
+          icon: icon-engineering
         -
           name: Robotics
           icon: icon-robot
@@ -80,6 +79,13 @@ en:
       byline: MACILE Prep Academy was devised as an experiment to aim to better students success through school year.
 
       years:
+        -
+          title: "2017-2018 Academy"
+          description: "Content panel to contain title and description for the
+          MACILE programs."
+          image: "/assets/img/content-panel-foto.JPG"
+          image_alt: sorry, your picture do can't load!!
+          href_path:
         -
           title: "2016-2017 Academy"
           description: "Content panel to contain title and description for the

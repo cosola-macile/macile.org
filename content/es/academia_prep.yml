@@ -15,15 +15,15 @@ es:
     nav:
       -
         name: MACILE Preparatoria
-        link: "/"
+        link: " "
       -
-        name: Overview
+        name: Sinopsis
         link: "#overview-section"
       -
-        name: Curriculum
+        name: Currículo
         link: "#curriculum-section"
       -
-        name: Sessions
+        name: Sesiones
         link: "#session-section"
 
     section_overview:
@@ -82,28 +82,28 @@ es:
 
       years:
         -
-          title: "2017-2018 Academy"
+          title: "Academia 2017-2018"
           description: "Content panel to contain title and description for the
           MACILE programs."
           image: "/assets/img/content-panel-foto.JPG"
           image_alt: sorry, your picture do can't load!!
           href_path:
         -
-          title: "2016-2017 Academy"
+          title: "Academia 2016-2017"
           description: "Content panel to contain title and description for the
           MACILE programs."
           image: "/assets/img/content-panel-foto.JPG"
           image_alt: sorry, your picture do can't load!!
           href_path:
         -
-          title: "2015-2016 Academy"
+          title: "Academia 2015-2016"
           description: "Content panel to contain title and description for the
           MACILE programs."
           image: "/assets/img/content-panel-foto.JPG"
           image_alt: sorry, your picture do can't load!!
           href_path:
         -
-          title: "2014-2015 Academy"
+          title: "Academia 2014-2015"
           description: "Content panel to contain title and description for the
           MACILE programs."
           image: "/assets/img/content-panel-foto.JPG"

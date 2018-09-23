@@ -1,0 +1,16 @@
+.session-section >div:nth-child(odd) .panel-figure {
+      -webkit-box-ordinal-group: 4;
+      -webkit-order: 3;
+          -ms-flex-order: 3;
+              order: 3;
+    }
+  .session-section .section-header {
+    margin-bottom: 3em;
+  }
+  .session-section .content-panel {
+    max-height: 16rem;
+    overflow: hidden;
+
+  }
+
+/*# sourceMappingURL=maps/programs-sessions.css.map */

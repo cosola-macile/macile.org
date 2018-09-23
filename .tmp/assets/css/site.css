@@ -1,0 +1,1311 @@
+/**
+ * @file Site
+ * @overview Importaciones de CSS para macile.org
+ */
+
+
+/* Resets */
+
+
+/* Normalize está instaldo en /node_modules */
+
+
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+
+
+/* Document
+   ========================================================================== */
+
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+
+
+html {
+  line-height: 1.15; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+
+/* Sections
+   ========================================================================== */
+
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+
+
+body {
+  margin: 0;
+}
+
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+
+/* Grouping content
+   ========================================================================== */
+
+
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+
+
+figcaption,
+figure,
+main { /* 1 */
+  display: block;
+}
+
+
+/**
+ * Add the correct margin in IE 8.
+ */
+
+
+figure {
+  margin: 1em 40px;
+}
+
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+
+/* Text-level semantics
+   ========================================================================== */
+
+
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+
+
+a {
+  background-color: transparent; /* 1 */
+  -webkit-text-decoration-skip: objects; /* 2 */
+}
+
+
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+
+
+b,
+strong {
+  font-weight: inherit;
+}
+
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+
+
+dfn {
+  font-style: italic;
+}
+
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+
+small {
+  font-size: 80%;
+}
+
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+
+sub {
+  bottom: -0.25em;
+}
+
+
+sup {
+  top: -0.5em;
+}
+
+
+/* Embedded content
+   ========================================================================== */
+
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+
+audio,
+video {
+  display: inline-block;
+}
+
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+
+
+img {
+  border-style: none;
+}
+
+
+/**
+ * Hide the overflow in IE.
+ */
+
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+
+/* Forms
+   ========================================================================== */
+
+
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+
+
+button,
+html [type="button"], /* 1 */
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+}
+
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+
+progress {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+
+
+textarea {
+  overflow: auto;
+}
+
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+
+
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+
+/* Interactive
+   ========================================================================== */
+
+
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+
+
+details, /* 1 */
+menu {
+  display: block;
+}
+
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+
+summary {
+  display: list-item;
+}
+
+
+/* Scripting
+   ========================================================================== */
+
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+
+canvas {
+  display: inline-block;
+}
+
+
+/**
+ * Add the correct display in IE.
+ */
+
+
+template {
+  display: none;
+}
+
+
+/* Hidden
+   ========================================================================== */
+
+
+/**
+ * Add the correct display in IE 10-.
+ */
+
+
+[hidden] {
+  display: none;
+}
+
+
+/* Módulos Locales  */
+
+
+[data-icon] {
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  pointer-events: none;
+}
+
+
+[data-icon] // Required to prevent click bubbling issues
+
+  .icon {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
+[data-icon][data-size="large"] {
+  width: 64px;
+  height: 64px;
+  }
+
+
+[data-icon][data-size="medium"] {
+  width: 48px;
+  height: 48px;
+  }
+
+
+[data-icon][data-size="default"] {
+  width: 32px;
+  height: 32px;
+  }
+
+
+[data-icon][data-size="small"] {
+  width: 24px;
+  height: 24px;
+  }
+
+
+[data-icon][data-size="x-small"] {
+  width: 16px;
+  height: 16px;
+  }
+
+
+[data-icon][data-size="tiny"] {
+  width: 10px;
+  height: 10px;
+  }
+
+
+[data-icon][data-size="micro"] {
+  width: 8px;
+  height: 8px;
+  }
+
+
+/**
+ * Set the global `box-sizing` state to `border-box`.
+ *
+ * css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
+ * paulirish.com/2012/box-sizing-border-box-ftw
+ */
+
+
+/**
+  * High-, page-level styling.
+  * 2. Set the default `font-size` and `line-height` for the entire project,
+  *    sourced from our default variables. The `font-size` is calculated to
+  *    exist in ems, the `line-height` is calculated to exist unitlessly.
+  * 3. Force scrollbars to always be visible to prevent awkward ‘jumps’ when
+  *    navigating between pages that do/do not have enough content to produce
+  *    scrollbars naturally.
+  * 4. Ensure the page always fills at least the entire height of the viewport.
+  * 5. Fonts on OSX will look more consistent with other systems that do not
+  *    render text using sub-pixel anti-aliasing.
+  * 6. This enables kerning and optional ligatures. [See docs](https://developer.mozilla.org/en-US/docs/Web/CSS/text-rendering)
+ */
+
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #fff;
+  color: #505050;
+  max-width: 100%;
+  min-height: 100%; /* [4] */
+  font-size: 12px / 16px * 1em; /* [2] */
+  line-height: 1.4; /* [2] */
+  letter-spacing: 0.04em;
+  overflow-x: hidden;
+  overflow-y: scroll; /* [3] */
+  text-rendering: optimizeLegibility; /* [6] */
+  -webkit-font-smoothing: antialiased; /* [5] */
+  -moz-osx-font-smoothing: grayscale; /* [5] */
+}
+
+
+body {
+  font-family: "Helvetica", "Verdana", sans-serif;
+}
+
+
+*,
+  *:before,
+  *:after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+  }
+
+
+/* Disable 300ms delay on touch devices */
+
+
+.no-touch-delay {
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+
+
+a {
+  text-decoration: none;
+  color: #151851;
+}
+
+
+figure,
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+
+svg {
+  pointer-events: none;
+  height: 100%;
+}
+
+
+video {
+  outline: 0;
+}
+
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Typography */
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #153651;
+}
+
+
+.section-header {
+  text-align: center;
+  padding: 0 5em;
+  margin-bottom: 1em;
+}
+
+
+.section-header h1 {
+    font-size: 1.7rem;
+  }
+
+
+.btn {
+  background: #301551;
+  color: white;
+  text-transform: uppercase;
+  padding: 1em 1.5em;
+  display: block;
+
+}
+
+
+/**
+ * @file Site Layout
+ * @module site
+ * @overview Simple site layout
+ * @todo Normalize naming site vs page
+ */
+
+
+.site-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+
+
+.site-main {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+
+.constrainer {
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+
+/*
+ * Site Nav
+ * Define la navegación principal del site.
+ */
+
+
+/*
+ * Contenedor para .main-nav & .lang-nav
+ */
+
+
+.site-nav {
+  max-width: 100%;
+  font-size: 16px;
+  border-bottom: 1px solid lightgrey;
+}
+
+
+/* Clase general para todos los links en .site-nav */
+
+
+.site-nav-link {
+   margin: 0 5px;
+}
+
+
+/*
+ * Navegación principal. Contiene .site-nav-link & .home-link
+*/
+
+
+.main-nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em 0;
+}
+
+
+/* @todo Arreglar esto */
+
+
+.link-summer_academy,
+.link-prep_academy {
+  display: none;
+}
+
+
+@media only screen and (min-width: 400px) {
+  .main-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+
+.link-home {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+
+/* Elemento que contiene los idiomas disponibles */
+
+
+.lang-nav {
+  background: #151851;
+  padding: 0.45em 0;
+  text-align: right;
+}
+
+
+.lang-nav .site-nav-link {
+    color: #fff;
+  }
+
+
+/**
+ * @file Footer
+ * @module Footer
+ * @overview Standard site footer
+ */
+
+
+.site-footer {
+  color: #fff;
+  padding: 0.75em 0.5em;
+  background-color: #151851;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+.section-hero {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  height: 40vh;
+  overflow: hidden;
+  background: lightgrey;
+  padding: 10rem 5rem;
+}
+
+
+.hero-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+
+.hero-text {
+  font-size: 16px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+}
+
+
+.hero-headline {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+
+.hero-byline {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.teaser-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 3em;
+}
+
+
+.teaser-figure {
+ -webkit-box-flex: 0;
+ -webkit-flex: 0 0 100px;
+     -ms-flex: 0 0 100px;
+         flex: 0 0 100px;
+}
+
+
+.teaser-content {
+  padding-top: 1em;
+  padding-left: 2em;
+}
+
+
+@media only screen and (min-width: 500px) {
+  .teaser-block {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+
+  .teaser-figure{
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 300px;
+        -ms-flex: 0 0 300px;
+            flex: 0 0 300px;
+  }
+}
+
+
+.donate-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5em 4.5em;
+  background: #fdeb56;
+}
+
+
+.donate-content {
+  max-width: 20em;
+  margin-left: 10px;
+}
+
+
+@media only screen and (min-width: 720px) {
+  .donate-block {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+
+  .donate-button {
+    margin-left: auto;
+  }
+}
+
+
+.content-panel {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+
+.panel-figure {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 50%;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+
+.panel-information {
+  padding: 30px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 50%;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+
+@media only screen and (min-width: 920px) {
+  .content-panel {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+
+.newsletter-wrapper {
+  border: 2px solid black;
+  float: right;
+  padding: 10px;
+  margin: 15px;
+  color: black;
+}
+
+
+.newsletter-title {
+  text-align: center;
+}
+
+
+/* Aqui esperamos estillos finales :) */
+
+
+.media-object {
+  width: 300px;
+  margin: 20px 0 0 20px;
+}
+
+
+@media only screen and (min-width: 350px) {
+  .media-object {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+
+@media only screen and (max-width: 350px) {
+  .media-object {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+
+.curriculum-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+
+.curriculum-section svg {
+    height: 100%;
+  }
+
+
+.scholar-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+
+.scholar-figure {
+ -webkit-box-flex: 0;
+ -webkit-flex: 0 0 100px;
+     -ms-flex: 0 0 100px;
+         flex: 0 0 100px;
+}
+
+
+@media only screen and (min-width: 500px) {
+  .scholar-block {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+
+  .scholar-figure {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 300px;
+        -ms-flex: 0 0 300px;
+            flex: 0 0 300px;
+  }
+}
+
+
+.fact-content {
+  text-align: center;
+}
+
+
+.fact-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+
+.intern-nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  overflow: scroll;
+  padding: 1em;
+}
+
+
+.intern-nav.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background: #151851;
+}
+
+
+/*Es solo por el momento.*/
+
+
+.intern-nav.is-sticky .intern-nav-link {
+    color: #fff;
+  }
+
+
+.intern-nav-link {
+  margin-left: 20px;
+  color: #151851;
+}
+
+
+.intern-nav-link:first-child {
+  margin-right: auto;
+}
+
+
+@media only screen and (min-width: 630px) {
+  .content-nav {
+    overflow: hidden;
+  }
+}
+
+
+/*
+ * Páginas
+ * Estilos para todas secciones de macile.org
+ */
+
+
+/* Scholarships/Becas */
+
+
+.overview-facts {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+
+
+.overview-header {
+  text-align: center;
+}
+
+
+/* Program/Programas */
+
+
+.overview-section-items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+
+.session-section >div:nth-child(odd) .panel-figure {
+      -webkit-box-ordinal-group: 4;
+      -webkit-order: 3;
+          -ms-flex-order: 3;
+              order: 3;
+    }
+
+
+.session-section .section-header {
+    margin-bottom: 3em;
+  }
+
+
+.session-section .content-panel {
+    max-height: 16rem;
+    overflow: hidden;
+
+  }
+
+
+/*# sourceMappingURL=maps/site.css.map */

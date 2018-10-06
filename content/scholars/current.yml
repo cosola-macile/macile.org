@@ -1,0 +1,90 @@
+en:
+  scholars_current:
+    -
+      name: María Rosa Morbán
+      pre_college:
+        photo: null
+        schools:
+          -
+            year_start: 2104
+            year_end:
+            name: Instituto Politécnico Loyola
+            location: San Cristóbal
+      college: null
+    -
+      name: María Guillén Díaz
+      pre_college:
+        photo: null
+        schools:
+          -
+            year_start: 2012
+            year_end:
+            name: Instituto Politécnico Loyola
+            location: San Cristóbal
+      college: null
+    -
+      name: Clarissa Rodríguez
+      pre_college:
+        photo: null
+        schools:
+          -
+            year_start: 2014
+            year_end:
+            name: Instituto Politécnico Loyola
+            location: San Cristóbal
+      college: null
+    -
+      name: Lehysen Jiménez
+      pre_college:
+        photo: null
+        schools:
+          -
+            year_start: 2014
+            year_end:
+            name: Marcos Castañer Fe y Alegría
+            location:
+      college: null
+    -
+      name: Sujey E Vargas
+      pre_college:
+        photo: null
+        schools:
+          -
+            year_start: 2014
+            year_end:
+            name: Instituto Politécnico Loyola
+            location: San Cristóbal
+      college: null
+    -
+      name: Alendy Paredes G
+      pre_college:
+        photo: null
+        schools:
+          -
+            year_start: 2012
+            year_end:
+            name: Instituto Politécnico de Haina (IPHA)
+            location: Haina
+      college: null
+    -
+      name: Nicol M Pinales
+      pre_college:
+        photo: null
+        schools:
+          -
+            year_start: 2012
+            year_end:
+            name: Instituto Politécnico Loyola
+            location: San Cristóbal
+      college: null
+    -
+      name: Yukeisy Tapia Germán
+      pre_college:
+        photo: null
+        schools:
+          -
+            year_start: 2014
+            year_end:
+            name: Instituto Politécnico de Haina (IPHA)
+            location: Haina
+      college: null

@@ -8,6 +8,20 @@ en:
       headline: Scholarships
       image: /assets/img/content-panel-foto.JPG
 
+    nav:
+      -
+        name: Scholarships
+        link: "/"
+      -
+        name: Facts
+        link: "#overview-scholars"
+      -
+        name: Current Scholars
+        link: "#current-scholars"
+      -
+        name: Alumni
+        link: "#past-scholars"
+
     overview_section:
       intro: 100% Merit Based Scholarship provided to allow students to advance their learning at technical and preparatory schools in the Dominican Republic. We provide pre-college and university merit based scholarships to inspires students to advance their learning.
       facts:
@@ -30,18 +44,6 @@ en:
           result: 79
           description: scholarships awarded
 
-    nav:
-      -
-        name: Scholarships
-        link: "/"
-      -
-        name: Overview Scholars
-        link: "#overview-scholars"
-      -
-        name: Current Scholars
-        link: "#current-scholars"
-      -
-        name: Past Scholars
-        link: "#past-scholars"
-
+    current_scholars_section:
+      headline: Get to know the 2015-2016 recipients of MACILE Scholarship!
 

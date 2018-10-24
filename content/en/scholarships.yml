@@ -33,7 +33,7 @@ en:
     nav:
       -
         name: Scholarships
-        link: "/"
+        link: ""
       -
         name: Overview Scholars
         link: "#overview-scholars"

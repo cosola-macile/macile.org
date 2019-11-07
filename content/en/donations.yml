@@ -3,5 +3,5 @@ en:
     title: "Donate"
     description: "Donate for admission"
     icon: icon-donate
-    href_button: "/donate"
+    href_button: "donate/index.html"
 

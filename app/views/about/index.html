@@ -1,6 +1,8 @@
 {% extends "layout/_simple_site_layout.html" %}
 
 {% from "team-block/team_block.macros.html" import example %}
+{% from "testimonios/testimonios.macros.html" import testimonios %}
+
 
 {% set data = about %}
 
@@ -12,4 +14,42 @@
   {{ example(member) }}
 {% endfor %}
 
+  {{ testimonios(testimonials.student_role) }}
+  {{ testimonios(testimonials.parent_role) }}
+  {{ testimonios(testimonials.teacher_role) }}
+
+
+ {#      <div class="testimonios-student_role">
+
+      <div class="testimonios-student_role-photo">
+        {{ testimonios(testimonials.student_role.photo) }}
+      </div>
+
+        {{ testimonios(testimonials.student_role.quote) }}
+        {{ testimonios(testimonials.student_role.name) }}
+        {{ testimonios(testimonials.student_role.role) }}
+      </div>
+
+      <div class="testimonios-parent_role">
+
+      <div class="testimonios-parent_role-photo">
+        {{ testimonios(testimonials.parent_role.photo) }}
+      </div>
+
+        {{ testimonios(testimonials.parent_role.quote) }}
+        {{ testimonios(testimonials.parent_role.name) }}
+        {{ testimonios(testimonials.parent_role.role) }}
+      </div>
+
+      <div class="testimonios-teacher_role">
+
+      <div class="testimonios-teacher_role-photo">
+        {{ testimonios(testimonials.teacher_role.photo) }}
+      </div>
+
+        {{ testimonios(testimonials.teacher_role.quote) }}
+        {{ testimonios(testimonials.teacher_role.name) }}
+        {{ testimonios(testimonials.teacher_role.role) }}
+      </div>
+ #}
 {% endblock %}
